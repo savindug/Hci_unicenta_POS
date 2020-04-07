@@ -283,6 +283,7 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
 
         jInternalFrame1.setVisible(true);
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(500, 500));
 
         jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

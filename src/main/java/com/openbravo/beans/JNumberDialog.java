@@ -150,11 +150,14 @@ public class JNumberDialog extends javax.swing.JDialog {
             }
         });
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        jcmdCancel.setBackground(new java.awt.Color(28, 35, 49));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(m_resources.getString("button.cancel")); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,9 +166,11 @@ public class JNumberDialog extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(28, 35, 49));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(m_resources.getString("button.ok")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,14 +181,17 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.SOUTH);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
         jPanelGrid.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelGrid.setPreferredSize(new java.awt.Dimension(300, 300));
 
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
+        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         m_jKeys.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -192,9 +200,12 @@ public class JNumberDialog extends javax.swing.JDialog {
         });
         jPanel3.add(m_jKeys);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
+        m_jnumber.setBackground(new java.awt.Color(28, 35, 49));
+        m_jnumber.setForeground(new java.awt.Color(255, 255, 255));
         m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel4.add(m_jnumber, java.awt.BorderLayout.CENTER);
 
@@ -208,7 +219,9 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
+        m_lblMessage.setBackground(new java.awt.Color(28, 35, 49));
         m_lblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_lblMessage.setForeground(new java.awt.Color(255, 255, 255));
         m_lblMessage.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, java.awt.Color.darkGray), javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5)));
         m_jPanelTitle.add(m_lblMessage, java.awt.BorderLayout.CENTER);
 

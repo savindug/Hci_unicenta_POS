@@ -151,10 +151,13 @@ public class JPasswordDialog extends javax.swing.JDialog {
             }
         });
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        jcmdCancel.setBackground(new java.awt.Color(28, 35, 49));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdCancel.setPreferredSize(new java.awt.Dimension(80, 45));
         jcmdCancel.addActionListener(new java.awt.event.ActionListener() {
@@ -164,8 +167,10 @@ public class JPasswordDialog extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(28, 35, 49));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setPreferredSize(new java.awt.Dimension(80, 45));
         jcmdOK.addActionListener(new java.awt.event.ActionListener() {
@@ -177,10 +182,12 @@ public class JPasswordDialog extends javax.swing.JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.SOUTH);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel2.setPreferredSize(new java.awt.Dimension(320, 390));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
         jPanelGrid.setPreferredSize(new java.awt.Dimension(310, 380));
 
         jPanel3.setPreferredSize(new java.awt.Dimension(300, 350));
@@ -193,10 +200,12 @@ public class JPasswordDialog extends javax.swing.JDialog {
         });
         jPanel3.add(m_jKeys);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setPreferredSize(new java.awt.Dimension(120, 30));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
+        m_jpassword.setBackground(new java.awt.Color(28, 35, 49));
         m_jpassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jpassword.setPreferredSize(new java.awt.Dimension(110, 30));
         jPanel4.add(m_jpassword, java.awt.BorderLayout.CENTER);

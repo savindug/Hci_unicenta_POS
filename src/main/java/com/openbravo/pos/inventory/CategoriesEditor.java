@@ -296,7 +296,10 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
             }
         });
 
+        m_jName.setBackground(new java.awt.Color(28, 35, 49));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
+        m_jName.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 1, true));
         m_jName.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jLblCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

@@ -233,7 +233,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDBPort1 = new javax.swing.JLabel();
         jtxtDbPort1 = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(900, 500));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

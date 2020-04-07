@@ -506,7 +506,8 @@ public void resetTranxTable() {
         customer[25] = Formats.CURRENCY.parseValue(txtDiscount.getText(), 0.0);
         customer[26] = Formats.TIMESTAMP.parseValue(m_jdate.getText());
         customer[27] = (Object)getAppView();
-        
+        System.out.println("texting");
+        System.out.println("texting");
         return customer;
     }
     

@@ -126,11 +126,15 @@ public class DinerNumber extends javax.swing.JDialog {
             }
         });
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
+
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
+        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jKeysActionPerformed(evt);
@@ -138,11 +142,14 @@ public class DinerNumber extends javax.swing.JDialog {
         });
         jPanel3.add(m_jKeys);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
+        m_jnumber.setForeground(new java.awt.Color(255, 255, 255));
         m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -164,8 +171,10 @@ public class DinerNumber extends javax.swing.JDialog {
 
         jPanel4.add(jPanel1, java.awt.BorderLayout.LINE_START);
 
+        jcmdOK.setBackground(new java.awt.Color(28, 35, 49));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setPreferredSize(new java.awt.Dimension(80, 45));
         jcmdOK.addActionListener(new java.awt.event.ActionListener() {
@@ -173,7 +182,7 @@ public class DinerNumber extends javax.swing.JDialog {
                 jcmdOKActionPerformed(evt);
             }
         });
-        jPanel4.add(jcmdOK, java.awt.BorderLayout.CENTER);
+        jPanel4.add(jcmdOK, java.awt.BorderLayout.LINE_END);
 
         jPanel3.add(jPanel4);
 
@@ -190,7 +199,7 @@ public class DinerNumber extends javax.swing.JDialog {
 
         getContentPane().add(m_jPanelTitle, java.awt.BorderLayout.NORTH);
 
-        setSize(new java.awt.Dimension(328, 409));
+        setSize(new java.awt.Dimension(328, 425));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

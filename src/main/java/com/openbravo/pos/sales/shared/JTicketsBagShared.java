@@ -246,12 +246,17 @@ public class JTicketsBagShared extends JTicketsBag {
         m_jReprintTickets = new javax.swing.JButton();
         m_jHold = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+
+        m_jNewTicket.setBackground(new java.awt.Color(28, 35, 49));
         m_jNewTicket.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_new.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         m_jNewTicket.setToolTipText(bundle.getString("tooltip.addnewticket")); // NOI18N
+        m_jNewTicket.setBorder(null);
         m_jNewTicket.setFocusPainted(false);
         m_jNewTicket.setFocusable(false);
         m_jNewTicket.setMargin(new java.awt.Insets(0, 4, 0, 4));
@@ -266,8 +271,10 @@ public class JTicketsBagShared extends JTicketsBag {
         });
         jPanel1.add(m_jNewTicket);
 
+        m_jDelTicket.setBackground(new java.awt.Color(28, 35, 49));
         m_jDelTicket.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         m_jDelTicket.setToolTipText(bundle.getString("tooltip.delete")); // NOI18N
+        m_jDelTicket.setBorder(null);
         m_jDelTicket.setFocusPainted(false);
         m_jDelTicket.setFocusable(false);
         m_jDelTicket.setMargin(new java.awt.Insets(0, 4, 0, 4));
@@ -282,10 +289,12 @@ public class JTicketsBagShared extends JTicketsBag {
         });
         jPanel1.add(m_jDelTicket);
 
-        m_jListTickets.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jListTickets.setBackground(new java.awt.Color(28, 35, 49));
+        m_jListTickets.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         m_jListTickets.setForeground(new java.awt.Color(255, 0, 153));
         m_jListTickets.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_pending.png"))); // NOI18N
         m_jListTickets.setToolTipText(bundle.getString("tooltip.layaway")); // NOI18N
+        m_jListTickets.setBorder(null);
         m_jListTickets.setFocusPainted(false);
         m_jListTickets.setFocusable(false);
         m_jListTickets.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -304,10 +313,12 @@ public class JTicketsBagShared extends JTicketsBag {
         });
         jPanel1.add(m_jListTickets);
 
+        m_jReprintTickets.setBackground(new java.awt.Color(28, 35, 49));
         m_jReprintTickets.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         m_jReprintTickets.setForeground(new java.awt.Color(255, 0, 153));
         m_jReprintTickets.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reprint24.png"))); // NOI18N
         m_jReprintTickets.setToolTipText(bundle.getString("tooltip.reprint")); // NOI18N
+        m_jReprintTickets.setBorder(null);
         m_jReprintTickets.setFocusPainted(false);
         m_jReprintTickets.setFocusable(false);
         m_jReprintTickets.setIconTextGap(1);
@@ -324,9 +335,11 @@ public class JTicketsBagShared extends JTicketsBag {
         });
         jPanel1.add(m_jReprintTickets);
 
+        m_jHold.setBackground(new java.awt.Color(28, 35, 49));
         m_jHold.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jHold.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/logout.png"))); // NOI18N
         m_jHold.setToolTipText(bundle.getString("tooltip.quicklogoff")); // NOI18N
+        m_jHold.setBorder(null);
         m_jHold.setFocusPainted(false);
         m_jHold.setFocusable(false);
         m_jHold.setMargin(new java.awt.Insets(0, 4, 0, 4));

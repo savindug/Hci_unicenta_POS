@@ -143,7 +143,9 @@ public class JMessageDialog extends javax.swing.JDialog {
             }
         });
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
@@ -168,10 +170,12 @@ public class JMessageDialog extends javax.swing.JDialog {
 
         getContentPane().add(jPanel4, java.awt.BorderLayout.CENTER);
 
+        jlblIcon.setBackground(new java.awt.Color(28, 35, 49));
         jlblIcon.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jlblIcon.setBorder(javax.swing.BorderFactory.createEmptyBorder(10, 10, 10, 10));
         getContentPane().add(jlblIcon, java.awt.BorderLayout.LINE_START);
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

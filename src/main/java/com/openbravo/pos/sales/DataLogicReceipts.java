@@ -39,7 +39,7 @@ import java.util.List;
 public class DataLogicReceipts extends BeanFactoryDataSingle {
     
     private Session s;
-    
+    private int amasha;
     /** Creates a new instance of DataLogicReceipts */
     public DataLogicReceipts() {
     }

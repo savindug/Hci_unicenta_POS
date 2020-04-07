@@ -1,0 +1,47 @@
+14 July 2015
+Release: v3.91 
+
+This version is for new installations or those UPGRADING from uniCenta oPOS v3.81 or v3.90 only
+
+Versions earlier than v3.81 are not yet supported at this time.
+
+1.  Bug: Auxiliaries not working
+    Fix: Auxiliary Products now shows pops into new panel
+
+2.  Bug: Product Sales:Product rpt:closedproduct Unit Price showing sum of   Unit PriceSell + Tax
+    Fix: Replaced with PRODUCTS.PRICESELL+(PRODUCTS.PRICESELL*TAXES.RATE) AS PRICE from closedproducts.bs
+
+3.  Bug: Sales screen Barcode input does not allow "02" construct
+    Fix: Changed to allow 02 lead - intend for use to set Price net of tax
+    Note Keyboard users: Behaviour is changed - Enter key looks up Barcode.  
+	  BARCODE Series tested: 01; 20; 21;22;23;24;25
+	  Correct WEIGHT/pRICE; PRICE CONSTRUCT tested
+
+Enhancements:
+1.  New posApps Plugin Manager now includes:
+        posApps Digital Receipt
+        posApps Handpoint Card Payments
+    Plugin Manager configuration button added to main Toolbar
+
+2.  Create new Customer from Finder + Assign new Customer to sale
+
+3.  Quick Logout on toolbar
+
+4.  Ticket Layaway auto pop-up reminder
+
+5.  Products: Assign Barcode CodeType - for EAN's, UPC's and CODE128 - for use with  reports
+
+6.  All reports with Barcodes include amended to use Barcode Type function
+        Barcodesheet
+        ProductLabels
+        SaleCatalogue
+        Shelfedgelabels - PriceSell inc' TAX was PRICESELL (without Tax)
+
+7.  CAS-PDII Weighing Scale option added
+
+8.  uniCenta oPOS project is now Mavenised
+
+9.  Automated uniCenta oPOS binaries build to Sourceforge
+
+10. Automated uniCenta oPOS source code to Sourceforge/Github 
+

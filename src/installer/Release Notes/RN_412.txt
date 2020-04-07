@@ -1,0 +1,202 @@
+Date:		Mar 2016
+Author:		Jack Gerrard
+Version:	4.1.2
+
+
+This latest update resolves notified forums issues and other un-reported updates.
+The change list is shown below.
+
+The zip file contains:
+	Updated and recompiled unicentaopos.4.1.jar
+	Revised \lib folder content.
+
+Please ensure you make a backup of your uniCenta oPOS folder before installing.
+And, remember, always test new versions thoroughly before implementing into production.
+
+TO INSTALL:
+Unzip the unicentaopos4.1.2.zip contents to your uniCenta oPOS 4.1 folder
+Start uniCenta oPOS
+
+*************************************************************
+
+1. When 1000+ Products per Category + using uniCenta Skin causes recurring 
+AWTEventMulticaster - EventListener remove() Workaround - Use other Skins
+Issue doesn’t occur with other Skins
+
+DONE 
+*************************************************************
+
+REFACTOR:
+Extend compatibility to Linux and/or Mac OS X hosted MySQL databases
+Refactor all database.tablenames and other entities to lower-case
+
+JPANELTICKET:
+Comment out un-necessary system Beep event when ticketlines <=0 
+Fix UPC-A Price/Weight Barcode
+EAN-13 Barcode starting 28 - price includes tax so removed
+CashDrawer open whilst Printer OFF option in use
+
+LANGUAGES:
+Consolas intro'd in v4.1 but causes issue in RightToLeft languages i.e.: Arabic
+Revert to Monospaced font in following classes:
+DeviceDisplayPanel
+BasicTicketForPrinter
+BasicTicketForScreen
+
+LOCALES:
+All language locales changed tab.paper to tab.voucher
+Printer.PrintLastTicket
+Printer.ReprintTicket
+Printer.Ticket
+Printer.TicketPreview
+
+TICKET.BUTTONS:
+Line and Total discount button images are same - Change line discount image to img_discount_b
+Replace incorrect TicketPreview printer image to img.printer
+
+VOUCHER:
+Refactored PaperIn & PaperOut calls to VoucherIn & VoucherOut
+This allows Vouchers + an additional Payment option;
+
+ROLES:
+Change existing: 
+	<class name=“payment.paperin”/>
+	<class name=“refund.paperout”/>
+To:
+Roles: Admin + Manager changed
+    	<class name=“payment.voucher”/>
+    	<class name="refund.voucher”/>
+Rolls: Employee changed
+    	<class name=“payment.voucher”/>
+
+CUSTOMERS:
+Address2 and PostalCode changes not saving
+CustomersPanel - getSaveProvider missing elements in tcustomers
+Changes to CustomerInfo; CustomerInfoExt; DataLogicSales
+Also resolves Customer Debt value not updating immediately 
+
+TAXES:
+Customer Tax Category not applied when Customer assigned to ticket
+Changes to TaxesLogic class
+Refactor tax.TaxCustCategoryID
+
+DISCOUNTS:
+SubTotal; Tax and Total values not updating correctly when script.linediscount or script.totaldiscount applied 
+Revert JPanelTicket changes to evalScriptAndRefresh method
+
+PAYMENT OPTION - New:
+JPaymentSlip
+SLIP added to Payment panel - to be used as an alternative payment method to Voucher/Coupon where tracking is not required
+Changes JPaymentSelect; JPaymentSelectCustomer;JPaymentSelectReceipt; PaymentInfoTicket; Roles and all Locales
+
+Requires update to ROLES
+Administrator role is auto-updated during an Upgrade
+Add lines below to Manager; Employee roles when upgrading for Slip option to appear on Payment panel:
+   <class name="payment.slip"/>
+   <class name=“refund.slip"/>
+
+REPORTS:
+JasperReports libraries updated to jasperreports-6.2.0
+Change to JRViewer300 (rename to JRViewer400) use 6.2.0 libraries
+Apache poi libraries replaced with 3.10
+start.bat jasper class path change to jasperReports 6.2.0
+
+
+LANGUAGES AVAILABLE:
+English UK - Full
+English US - Full
+French - Full
+
+NEW MODULES:
+New - Vouchers/Coupons - assign to Customer
+New - Products Units Of Measure (UOM)
+New - CloseCash reprint
+New - Wordpress integrated Web Reporting
+New - Multi-Database
+New - Stock Maintenance
+New - Suppliers
+
+CUSTOMER:
+Improved - Customer record load times from Menu – tested with 3,000+ Member list (x10 times quicker than before)
+Improved - Added Customer Tranx table option
+New - Customer photo in CustomerFinder
+New - Flag as VIP
+New - Set Default Discount
+New - Create Customer popup from within Sales screen
+New - Add new Create Customer to current ticket
+
+PRODUCT:
+Improved - Product load times from Menu – tested with 11,000 (a lot lot quicker than before)
+Improved - Product Load times from Finder
+New - Product Tranx table option - Stock Movements
+New - Product Image in Product Finder
+New - Location Stock holding table
+Improved - EAN-8/EAN-13/UPC-A/UPC-E/Code128 Barcode assignment now possible
+New - Individual Product/Attribute/Auxiliary  assignment to Printer 1 through to 6 per Product
+Improved - HTML button display editor added i.e.; with Colour dropper
+Improved - Button Text helper format buttons
+Improved - Include http: imagesrc in button text
+New - Units Of Measure (UOM)
+New - Add New Supplier 
+New - Assign Supplier
+
+INVENTORY:
+New - Stock Management
+
+TICKET:
+Improved - Faster Sharedticket load time
+Improved - SharedticketBag UI
+Improved - Product load time
+Improved - Customer load time
+Improved - Remote Printer replaces Kitchen Print - both Standard and Restaurant
+New - Lock same ticket open across terminals
+Improved - Remote print only allowed on ticket change
+Improved - Permissions allow/disallow change/delete ticket
+Improved - Print/Re-Print - Permissions
+Improved - Multiple item Remote Printer Print
+Improved - Remote print only allowed on ticket/ticketline change
+New - Send Product to assigned Printer per Ticket/Product & per Attribute
+Improved - Split only enabled if >1 article
+Improved - SharedTickets in stack + counter
+New - Create New Customer on the fly
+New - Reprint Last Ticket
+New - Get Product Check Stock
+New - Get Product Stock Status
+New - Get Customer status
+New - Open ticket on two terminals disallowed - "Locked"
+New - Cannot refund a refund
+New - Cannot REFUND a ticket more than one time
+Improved - Barcode scanning recognition
+New - 6 x personalisable Remote Printer Ticket formats
+
+RESTAURANT:
+New - Lock same ticket open across terminals
+Improved - Remote print only allowed on ticket/ticketline change
+New - Permissions allow/disallow change/delete ticket
+New - Print/Re-Print remote print based on Permission
+New - Assign Diners to table
+New - Send Product to assigned Printer per Ticket/Product & per Attribute
+Improved - Restaurant booking form layout
+New - multi-Kitchen Printer Order print
+
+PAYMENT:
+Deprecated - https:// Payment engines removed per PCI compliance except;
+New - One-time Pay with tracked Voucher/Coupon
+Due Soon - Loyalty
+
+CLOSE CASH:
+New - Preview print/re-print before CloseCash action
+New - Reprint a previous CloseCash
+Due Soon - Write to fiscal device (depends on Country)
+
+REPORTS:
+Improved - Timeseries works - per product + date
+Improved - CloseCash ticket - now includes Partial Cash
+New - User Sales
+New - User No Sales
+New - Products I added
+New - Products II added
+Improved - TimeSeries per product/period revised
+Improved - Barcode Labels - auto-recognition EAN-13/EAN-8/UPC-A/Code128
+Improved - Inventory report
+New - Supplier reports

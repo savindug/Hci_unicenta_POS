@@ -1,0 +1,17 @@
+8 September 2015
+Release: v3.91.2
+
+This version is for new installations or those UPGRADING from uniCenta oPOS v3.81 or v3.90 only
+
+Versions earlier than v3.81 are not yet supported at this time.
+
+1.  Bug: UPC Barcodes failing - being interpreted as weight/price
+    Fix: Separate UPC into new clode block
+
+2.  Bug: Language locale not showing when set in Config nor when language locale files placed in locale folder
+    Fix: Include all language properties files into locale folder. Reports properties files in reports folder
+
+3.  Bug: rpt:closedproducts generate PRODUCTS.PRICESELL ERROR 
+    Fix: Replaced GROUP BY statement in closedproducts.bs
+
+

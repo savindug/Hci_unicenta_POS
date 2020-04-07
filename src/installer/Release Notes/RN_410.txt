@@ -1,0 +1,137 @@
+DEVELOPMENT:
+Netbeans 8.0.2
+
+LIBRARIES:
+New - Java 8.0 JDK + JRE
+New - uniCenta Look & Feel
+Improved - JasperReports - v6.0.2 Library upgrade
+Update - Apache Commons
+New - Joda-Time.jar in place of java.date
+New - Weblaf 1.29
+
+OVERALL:
+Improved - Overall app’ performance achieved
+New - DB schema changes (fields + a few indeces)
+Improved - Category/Product load times from Main Login
+Improved - Product Load times from Category/sub-Categories
+Improved - Product Load times from Finder
+Improved - Customer Load time from Customer Finder
+New - Service Charge Option Added
+New - JVM RAM Widget in Footer
+Improved - Start.bat JVM -Xms to 256M and -Xmx to 512M
+Improved - Topbar Date/Time Clock set to DefaultLocale
+New - FXKeyboard included (if required)
+New - CAS-PDII Weigh Scale support
+New - Metler weigh scale support
+New - Remote Server KeepAlive
+New - iButton
+New - multi-database local/remote option
+
+CONFIGURATION:
+New - Multi-Database option (Primary/Secondary)
+
+DEPRECATED:
+Look and Feel - Substance + PushingPixels
+Databases - DB's Derby, Oracle, PostgreSQL(temp will re-instate EOY)
+Inventory - Stock Diary 
+Inventory - Stock Maintenance
+Jasper Reports - legacy JR 4.7/5.0
+
+LANGUAGES AVAILABLE:
+English UK - Full
+English US - Full
+French - Full
+
+NEW MODULES:
+New - Vouchers/Coupons - assign to Customer
+New - Products Units Of Measure (UOM)
+New - CloseCash reprint
+New - Wordpress integrated Web Reporting
+New - Multi-Database
+New - Stock Maintenance
+New - Suppliers
+
+CUSTOMER:
+Improved - Customer record load times from Menu – tested with 3,000+ Member list (x10 times quicker than before)
+Improved - Added Customer Tranx table option
+New - Customer photo in CustomerFinder
+New - Flag as VIP
+New - Set Default Discount
+New - Create Customer popup from within Sales screen
+New - Add new Create Customer to current ticket
+
+PRODUCT:
+Improved - Product load times from Menu – tested with 11,000 (a lot lot quicker than before)
+Improved - Product Load times from Finder
+New - Product Tranx table option - Stock Movements
+New - Product Image in Product Finder
+New - Location Stock holding table
+Improved - EAN-8/EAN-13/UPC-A/UPC-E/Code128 Barcode assignment now possible
+New - Individual Product/Attribute/Auxiliary  assignment to Printer 1 through to 6 per Product
+Improved - HTML button display editor added i.e.; with Colour dropper
+Improved - Button Text helper format buttons
+Improved - Include http: imagesrc in button text
+New - Units Of Measure (UOM)
+New - Add New Supplier 
+New - Assign Supplier
+
+INVENTORY:
+New - Stock Management
+
+TICKET:
+Improved - Faster Sharedticket load time
+Improved - SharedticketBag UI
+Improved - Product load time
+Improved - Customer load time
+Improved - Remote Printer replaces Kitchen Print - both Standard and Restaurant
+New - Lock same ticket open across terminals
+Improved - Remote print only allowed on ticket change
+Improved - Permissions allow/disallow change/delete ticket
+Improved - Print/Re-Print - Permissions
+Improved - Multiple item Remote Printer Print
+Improved - Remote print only allowed on ticket/ticketline change
+New - Send Product to assigned Printer per Ticket/Product & per Attribute
+Improved - Split only enabled if >1 article
+Improved - SharedTickets in stack + counter
+New - Create New Customer on the fly
+New - Reprint Last Ticket
+New - Get Product Check Stock
+New - Get Product Stock Status
+New - Get Customer status
+New - Open ticket on two terminals disallowed - "Locked"
+New - Cannot refund a refund
+New - Cannot REFUND a ticket more than one time
+Improved - Barcode scanning recognition
+New - 6 x personalisable Remote Printer Ticket formats
+
+RESTAURANT:
+New - Lock same ticket open across terminals
+Improved - Remote print only allowed on ticket/ticketline change
+New - Permissions allow/disallow change/delete ticket
+New - Print/Re-Print remote print based on Permission
+New - Assign Diners to table
+New - Send Product to assigned Printer per Ticket/Product & per Attribute
+Improved - Restaurant booking form layout
+New - multi-Kitchen Printer Order print
+
+PAYMENT:
+Deprecated - https:// Payment engines removed per PCI compliance except;
+New - One-time Pay with tracked Voucher/Coupon
+Due Soon - Loyalty
+
+CLOSE CASH:
+New - Preview print/re-print before CloseCash action
+New - Reprint a previous CloseCash
+Due Soon - Write to fiscal device (depends on Country)
+
+REPORTS:
+Improved - Timeseries works - per product + date
+Improved - CloseCash ticket - now includes Partial Cash
+New - User Sales
+New - User No Sales
+New - Products I added
+New - Products II added
+Improved - TimeSeries per product/period revised
+Improved - Barcode Labels - auto-recognition EAN-13/EAN-8/UPC-A/Code128
+Improved - Inventory report
+New - Supplier reports

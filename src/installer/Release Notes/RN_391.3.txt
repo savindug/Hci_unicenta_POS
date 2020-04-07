@@ -1,0 +1,13 @@
+28 October 2015 
+Release: v3.91.3 
+
+This version is a patch + bug fixes to 3.91.2
+
+
+1. Enhancement: Relaxed strictness for Barcode construct to allow for non-compliant GS - User own barcode.
+2. Bug: Language locale not showing when set in Config nor when language locale files placed in locale folder Fix: Include all language properties files into locale folder. Reports properties files in reports folder 
+3. Bug: rpt:closedproducts generate PRODUCTS.PRICESELL ERROR Fix: Replaced GROUP BY statement in closedproducts.bs 
+4. Bug: Maven build error - missing depedencies Fix: pom.xml updated to remove redundant dependencies 
+5. Bug: Maven build warning - missing version on plugins Fix: pom.xml updated to include version numbers
+
+

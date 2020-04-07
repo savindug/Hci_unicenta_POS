@@ -1,0 +1,16 @@
+Date:		Dec 2016
+Author:		Jack Gerrard
+Version:	4.3.0
+
+
+This latest update resolves notified forums issues and other un-reported updates.
+The change list is shown below.
+
+The zip file contains:
+	Updated and recompiled unicentaopos.4.1.jar
+	Revised \lib folder content.
+
+Please ensure you make a backup of your uniCenta oPOS folder before installing.
+And, remember, always test new versions thoroughly before implementing into production.
+
+TO INSTALL:

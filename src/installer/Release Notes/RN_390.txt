@@ -1,0 +1,18 @@
+24 November 2014
+Release: v3.90
+
+uniCenta oPOS v3.90 includes support for posApps Digital Receipt.
+
+This version is for new installations UPGRADING from uniCenta oPOS v3.81 only
+
+Earlier versions - than v3.81 - are not supported.
+
+Please refer to www.posapps.io/install for the latest Manual Install instructions.
+
+uniCenta & posApps
+
+
+
+
+
+

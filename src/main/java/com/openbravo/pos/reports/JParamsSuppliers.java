@@ -143,7 +143,7 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
         btnSupplier.setBackground(new java.awt.Color(55, 71, 79));
         btnSupplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnSupplier.setToolTipText("Get Suppliers");
-        btnSupplier.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        btnSupplier.setBorder(null);
         btnSupplier.setPreferredSize(new java.awt.Dimension(80, 45));
         btnSupplier.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,7 +151,7 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.supplier")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));

@@ -206,14 +206,17 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(AppLocal.getIntString("form.usertitle")); // NOI18N
+        setBackground(new java.awt.Color(28, 35, 49));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setPreferredSize(new java.awt.Dimension(650, 300));
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.setPreferredSize(new java.awt.Dimension(450, 231));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
         jPanel5.setLayout(new java.awt.BorderLayout());
 
+        jPanel7.setBackground(new java.awt.Color(28, 35, 49));
         jPanel7.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -222,6 +225,7 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
         jLblName.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblName.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jtxtName.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 
@@ -251,10 +255,13 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
 
         jPanel3.add(jPanel5, java.awt.BorderLayout.PAGE_START);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
+        jListPeople.setBackground(new java.awt.Color(55, 71, 79));
         jListPeople.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jListPeople.setForeground(new java.awt.Color(204, 204, 204));
         jListPeople.setFocusable(false);
         jListPeople.setRequestFocusEnabled(false);
         jListPeople.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -271,6 +278,9 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
 
         jPanel4.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
+        jPanel6.setBackground(new java.awt.Color(28, 35, 49));
+
+        jButton1.setBackground(new java.awt.Color(75, 81, 93));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
@@ -287,6 +297,7 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
         jPanel6.add(jButton1);
         jButton1.getAccessibleContext().setAccessibleDescription("");
 
+        jButton3.setBackground(new java.awt.Color(75, 81, 93));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jButton3.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
@@ -307,12 +318,19 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
 
         getContentPane().add(jPanel3, java.awt.BorderLayout.CENTER);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new java.awt.BorderLayout());
+
+        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.add(m_jKeys, java.awt.BorderLayout.NORTH);
 
+        jPanel8.setBackground(new java.awt.Color(28, 35, 49));
         jPanel8.setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+
+        jcmdCancel.setBackground(new java.awt.Color(75, 81, 93));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.Cancel")); // NOI18N
@@ -328,6 +346,7 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
         });
         jPanel1.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(75, 81, 93));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         jcmdOK.setEnabled(false);

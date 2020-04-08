@@ -244,10 +244,12 @@ public class PeopleView extends JPanel implements EditorRecord {
         webCBSecurity = new com.alee.laf.combobox.WebComboBox();
         jLabel6 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(500, 500));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.peoplenamem")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
@@ -257,20 +259,25 @@ public class PeopleView extends JPanel implements EditorRecord {
             }
         });
 
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setBorder(null);
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
         m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jVisible.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(204, 204, 204));
         jLabel3.setText(AppLocal.getIntString("label.peoplevisible")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(204, 204, 204));
         jLabel4.setText(AppLocal.getIntString("label.peopleimage")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jImage.setBackground(new java.awt.Color(55, 71, 79));
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
@@ -285,20 +292,26 @@ public class PeopleView extends JPanel implements EditorRecord {
             }
         });
 
+        m_jRole.setBackground(new java.awt.Color(55, 71, 79));
         m_jRole.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jRole.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(204, 204, 204));
         jLabel2.setText(AppLocal.getIntString("label.rolem")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jcard.setBackground(new java.awt.Color(75, 81, 93));
         m_jcard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jcard.setBorder(null);
         m_jcard.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLblCardID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCardID.setForeground(new java.awt.Color(204, 204, 204));
         jLblCardID.setText(AppLocal.getIntString("label.card")); // NOI18N
         jLblCardID.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        webCBSecurity.setBackground(new java.awt.Color(75, 81, 93));
         webCBSecurity.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Generate new key", "Delete exisitng key", "Use iButton ID" }));
         webCBSecurity.setSelectedIndex(0);
         webCBSecurity.setToolTipText(AppLocal.getIntString("tooltip.peoplesecurity")); // NOI18N
@@ -311,6 +324,7 @@ public class PeopleView extends JPanel implements EditorRecord {
         });
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(204, 204, 204));
         jLabel6.setText(AppLocal.getIntString("label.Password")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(110, 30));
 

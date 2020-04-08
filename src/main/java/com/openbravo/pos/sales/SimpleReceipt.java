@@ -286,12 +286,16 @@ public class SimpleReceipt extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        m_jPanTotals.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanTotals.setLayout(new java.awt.GridBagLayout());
 
+        m_jTotalEuros.setBackground(new java.awt.Color(55, 71, 79));
         m_jTotalEuros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTotalEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTotalEuros.setOpaque(true);
@@ -307,7 +311,9 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 0);
         m_jPanTotals.add(m_jTotalEuros, gridBagConstraints);
 
+        m_jLblTotalEuros1.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTotalEuros1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLblTotalEuros1.setForeground(new java.awt.Color(255, 255, 255));
         m_jLblTotalEuros1.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         m_jLblTotalEuros1.setPreferredSize(new java.awt.Dimension(110, 30));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -317,7 +323,9 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         m_jPanTotals.add(m_jLblTotalEuros1, gridBagConstraints);
 
+        m_jSubtotalEuros.setBackground(new java.awt.Color(55, 71, 79));
         m_jSubtotalEuros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSubtotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jSubtotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jSubtotalEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jSubtotalEuros.setOpaque(true);
@@ -333,7 +341,9 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
         m_jPanTotals.add(m_jSubtotalEuros, gridBagConstraints);
 
+        m_jTaxesEuros.setBackground(new java.awt.Color(55, 71, 79));
         m_jTaxesEuros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxesEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxesEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTaxesEuros.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTaxesEuros.setOpaque(true);
@@ -349,7 +359,9 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(5, 5, 0, 0);
         m_jPanTotals.add(m_jTaxesEuros, gridBagConstraints);
 
+        m_jLblTotalEuros2.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTotalEuros2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLblTotalEuros2.setForeground(new java.awt.Color(255, 255, 255));
         m_jLblTotalEuros2.setText(AppLocal.getIntString("label.taxcash")); // NOI18N
         m_jLblTotalEuros2.setPreferredSize(new java.awt.Dimension(110, 30));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -359,7 +371,9 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         m_jPanTotals.add(m_jLblTotalEuros2, gridBagConstraints);
 
+        m_jLblTotalEuros3.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTotalEuros3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLblTotalEuros3.setForeground(new java.awt.Color(255, 255, 255));
         m_jLblTotalEuros3.setText(AppLocal.getIntString("label.subtotalcash")); // NOI18N
         m_jLblTotalEuros3.setPreferredSize(new java.awt.Dimension(110, 30));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -372,8 +386,10 @@ public class SimpleReceipt extends javax.swing.JPanel {
 
         add(jPanel1, java.awt.BorderLayout.SOUTH);
 
+        m_jButtons.setBackground(new java.awt.Color(28, 35, 49));
         m_jButtons.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
+        m_jTicketId.setBackground(new java.awt.Color(55, 71, 79));
         m_jTicketId.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jTicketId.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTicketId.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
@@ -382,8 +398,10 @@ public class SimpleReceipt extends javax.swing.JPanel {
         m_jTicketId.setRequestFocusEnabled(false);
         m_jButtons.add(m_jTicketId);
 
+        btnCustomer.setBackground(new java.awt.Color(55, 71, 79));
         btnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnCustomer.setToolTipText("Show Customers");
+        btnCustomer.setBorder(null);
         btnCustomer.setFocusPainted(false);
         btnCustomer.setFocusable(false);
         btnCustomer.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -400,6 +418,7 @@ public class SimpleReceipt extends javax.swing.JPanel {
 
         add(m_jButtons, java.awt.BorderLayout.NORTH);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jPanel2.setLayout(new java.awt.BorderLayout());

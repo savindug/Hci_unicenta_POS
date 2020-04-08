@@ -73,12 +73,16 @@ public class JTicketsBagTicketBag extends javax.swing.JPanel {
 
         setLayout(new java.awt.CardLayout());
 
+        jPanEdit.setBackground(new java.awt.Color(28, 35, 49));
         jPanEdit.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
+        m_jBtnDelete.setBackground(new java.awt.Color(55, 71, 79));
         m_jBtnDelete.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnDelete.setForeground(new java.awt.Color(255, 255, 255));
         m_jBtnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         m_jBtnDelete.setText(AppLocal.getIntString("button.deleteticket")); // NOI18N
         m_jBtnDelete.setToolTipText("Delete current Ticket");
+        m_jBtnDelete.setBorder(null);
         m_jBtnDelete.setFocusPainted(false);
         m_jBtnDelete.setFocusable(false);
         m_jBtnDelete.setMargin(new java.awt.Insets(0, 4, 0, 4));
@@ -93,10 +97,13 @@ public class JTicketsBagTicketBag extends javax.swing.JPanel {
         });
         jPanEdit.add(m_jBtnDelete);
 
+        m_jBtnCancel.setBackground(new java.awt.Color(55, 71, 79));
         m_jBtnCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnCancel.setForeground(new java.awt.Color(255, 255, 255));
         m_jBtnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jBtnCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
         m_jBtnCancel.setToolTipText("Cancel Action");
+        m_jBtnCancel.setBorder(null);
         m_jBtnCancel.setFocusPainted(false);
         m_jBtnCancel.setFocusable(false);
         m_jBtnCancel.setMargin(new java.awt.Insets(0, 4, 0, 4));

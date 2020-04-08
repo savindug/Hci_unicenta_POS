@@ -148,11 +148,15 @@ public class ReceiptSplit extends javax.swing.JDialog {
         setTitle(AppLocal.getIntString("caption.split")); // NOI18N
         setResizable(false);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        m_jButtonCancel.setBackground(new java.awt.Color(55, 71, 79));
         m_jButtonCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jButtonCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jButtonCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
+        m_jButtonCancel.setBorder(null);
         m_jButtonCancel.setFocusPainted(false);
         m_jButtonCancel.setFocusable(false);
         m_jButtonCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -165,9 +169,11 @@ public class ReceiptSplit extends javax.swing.JDialog {
         });
         jPanel2.add(m_jButtonCancel);
 
+        m_jButtonOK.setBackground(new java.awt.Color(55, 71, 79));
         m_jButtonOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jButtonOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jButtonOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
+        m_jButtonOK.setBorder(null);
         m_jButtonOK.setFocusPainted(false);
         m_jButtonOK.setFocusable(false);
         m_jButtonOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -184,15 +190,21 @@ public class ReceiptSplit extends javax.swing.JDialog {
 
         jPanel1.setLayout(new javax.swing.BoxLayout(jPanel1, javax.swing.BoxLayout.LINE_AXIS));
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel5.setForeground(new java.awt.Color(255, 255, 255));
         jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel5.setLayout(new java.awt.BorderLayout());
         jPanel1.add(jPanel5);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setLayout(new java.awt.GridBagLayout());
 
+        jBtnToRightAll.setBackground(new java.awt.Color(55, 71, 79));
         jBtnToRightAll.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2rightarrow.png"))); // NOI18N
         jBtnToRightAll.setToolTipText("Split All Line Items");
+        jBtnToRightAll.setBorder(null);
         jBtnToRightAll.setFocusPainted(false);
         jBtnToRightAll.setFocusable(false);
         jBtnToRightAll.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -207,8 +219,10 @@ public class ReceiptSplit extends javax.swing.JDialog {
         gridBagConstraints.gridy = 0;
         jPanel4.add(jBtnToRightAll, gridBagConstraints);
 
+        jBtnToRightOne.setBackground(new java.awt.Color(55, 71, 79));
         jBtnToRightOne.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1rightarrow.png"))); // NOI18N
         jBtnToRightOne.setToolTipText("Split only one of the Line Items");
+        jBtnToRightOne.setBorder(null);
         jBtnToRightOne.setFocusPainted(false);
         jBtnToRightOne.setFocusable(false);
         jBtnToRightOne.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -224,8 +238,10 @@ public class ReceiptSplit extends javax.swing.JDialog {
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         jPanel4.add(jBtnToRightOne, gridBagConstraints);
 
+        jBtnToLeftOne.setBackground(new java.awt.Color(55, 71, 79));
         jBtnToLeftOne.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1leftarrow.png"))); // NOI18N
         jBtnToLeftOne.setToolTipText("Un-Split only one of the Line Items");
+        jBtnToLeftOne.setBorder(null);
         jBtnToLeftOne.setFocusPainted(false);
         jBtnToLeftOne.setFocusable(false);
         jBtnToLeftOne.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -241,8 +257,10 @@ public class ReceiptSplit extends javax.swing.JDialog {
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         jPanel4.add(jBtnToLeftOne, gridBagConstraints);
 
+        jBtnToLeftAll.setBackground(new java.awt.Color(55, 71, 79));
         jBtnToLeftAll.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2leftarrow.png"))); // NOI18N
         jBtnToLeftAll.setToolTipText("Un-Split All Line Items");
+        jBtnToLeftAll.setBorder(null);
         jBtnToLeftAll.setFocusPainted(false);
         jBtnToLeftAll.setFocusable(false);
         jBtnToLeftAll.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -260,6 +278,8 @@ public class ReceiptSplit extends javax.swing.JDialog {
 
         jPanel1.add(jPanel4);
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel3.setLayout(new java.awt.BorderLayout());
         jPanel1.add(jPanel3);

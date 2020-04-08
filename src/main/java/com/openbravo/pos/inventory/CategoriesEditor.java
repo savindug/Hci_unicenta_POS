@@ -281,6 +281,7 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
         jLblInCat = new javax.swing.JLabel();
         webSwtch_InCatalog = new com.alee.extended.button.WebSwitch();
 
+        jInternalFrame1.setBackground(new java.awt.Color(28, 35, 49));
         jInternalFrame1.setVisible(true);
 
         setBackground(new java.awt.Color(28, 35, 49));

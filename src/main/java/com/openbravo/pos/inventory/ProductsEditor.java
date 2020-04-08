@@ -1186,6 +1186,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jLabel34 = new javax.swing.JLabel();
         m_jImage = new com.openbravo.data.gui.JImageEditor();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setLayout(null);
 
         m_jTitle.setBackground(new java.awt.Color(255, 255, 255));
@@ -1200,9 +1201,11 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         add(m_jTitle);
         m_jTitle.setBounds(365, 5, 260, 25);
 
+        jTabbedPane1.setBackground(new java.awt.Color(28, 35, 49));
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(680, 420));
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setPreferredSize(new java.awt.Dimension(0, 0));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -1496,6 +1499,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.prodgeneral"), jPanel1); // NOI18N
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setPreferredSize(new java.awt.Dimension(0, 0));
 
         jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -1803,6 +1807,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.prodstock"), jPanel2); // NOI18N
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(0, 0));
 
@@ -2003,6 +2008,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.button"), jPanel4); // NOI18N
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel3.setPreferredSize(new java.awt.Dimension(0, 0));
         jPanel3.setLayout(new java.awt.BorderLayout());
@@ -2017,6 +2023,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jPanel3.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
+        jBtnXml.setBackground(new java.awt.Color(28, 35, 49));
         jBtnXml.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jBtnXml.setText(bundle.getString("button.injectxml")); // NOI18N
         jBtnXml.setToolTipText(bundle.getString("tooltip.xmlheader")); // NOI18N
@@ -2029,6 +2036,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.properties"), jPanel3); // NOI18N
 
+        jPanel6.setBackground(new java.awt.Color(28, 35, 49));
         jPanel6.setPreferredSize(new java.awt.Dimension(0, 0));
 
         jLabel34.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

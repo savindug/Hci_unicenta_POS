@@ -321,8 +321,6 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new java.awt.BorderLayout());
-
-        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.add(m_jKeys, java.awt.BorderLayout.NORTH);
 
         jPanel8.setBackground(new java.awt.Color(28, 35, 49));

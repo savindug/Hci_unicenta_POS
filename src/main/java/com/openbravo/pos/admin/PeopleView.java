@@ -260,11 +260,14 @@ public class PeopleView extends JPanel implements EditorRecord {
         });
 
         m_jName.setBackground(new java.awt.Color(75, 81, 93));
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setBorder(null);
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        m_jVisible.setBackground(new java.awt.Color(28, 35, 49));
         m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jVisible.setBorder(null);
         m_jVisible.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -281,6 +284,7 @@ public class PeopleView extends JPanel implements EditorRecord {
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
+        jButton1.setBackground(new java.awt.Color(75, 81, 93));
         jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/password.png"))); // NOI18N
         jButton1.setText(AppLocal.getIntString("button.peoplepassword")); // NOI18N
@@ -294,6 +298,7 @@ public class PeopleView extends JPanel implements EditorRecord {
 
         m_jRole.setBackground(new java.awt.Color(55, 71, 79));
         m_jRole.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jRole.setForeground(new java.awt.Color(255, 255, 255));
         m_jRole.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -302,7 +307,8 @@ public class PeopleView extends JPanel implements EditorRecord {
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
         m_jcard.setBackground(new java.awt.Color(75, 81, 93));
-        m_jcard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jcard.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        m_jcard.setForeground(new java.awt.Color(255, 255, 255));
         m_jcard.setBorder(null);
         m_jcard.setPreferredSize(new java.awt.Dimension(0, 30));
 

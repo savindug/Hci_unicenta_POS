@@ -287,7 +287,8 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
         setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(500, 500));
 
-        jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblName.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblName.setForeground(new java.awt.Color(244, 244, 244));
         jLblName.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLblName.setText(AppLocal.getIntString("label.namem")); // NOI18N
         jLblName.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -297,55 +298,82 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
             }
         });
 
-        m_jName.setBackground(new java.awt.Color(28, 35, 49));
-        m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jName.setForeground(new java.awt.Color(255, 255, 255));
+        m_jName.setBackground(new java.awt.Color(55, 71, 79));
+        m_jName.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(244, 244, 244));
         m_jName.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 1, true));
+        m_jName.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         m_jName.setPreferredSize(new java.awt.Dimension(250, 30));
+        m_jName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m_jNameActionPerformed(evt);
+            }
+        });
 
-        jLblCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCategory.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblCategory.setForeground(new java.awt.Color(244, 244, 244));
         jLblCategory.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLblCategory.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setBackground(new java.awt.Color(55, 71, 79));
+        m_jCategory.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jCategory.setForeground(new java.awt.Color(244, 244, 244));
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblTextTip.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblTextTip.setForeground(new java.awt.Color(244, 244, 244));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLblTextTip.setText(bundle.getString("label.texttip")); // NOI18N
         jLblTextTip.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jTextTip.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTextTip.setBackground(new java.awt.Color(55, 71, 79));
+        m_jTextTip.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jTextTip.setForeground(new java.awt.Color(244, 244, 244));
         m_jTextTip.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        jLblCatShowName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblCatShowName.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblCatShowName.setForeground(new java.awt.Color(244, 244, 244));
         jLblCatShowName.setText(bundle.getString("label.subcategorytitle")); // NOI18N
         jLblCatShowName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jCatNameShow.setBackground(new java.awt.Color(55, 71, 79));
         m_jCatNameShow.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jCatNameShow.setForeground(new java.awt.Color(244, 244, 244));
         m_jCatNameShow.setSelected(true);
         m_jCatNameShow.setPreferredSize(new java.awt.Dimension(30, 30));
+        m_jCatNameShow.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m_jCatNameShowActionPerformed(evt);
+            }
+        });
 
         jLblCatOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLblCatOrder.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblCatOrder.setText(bundle.getString("label.ccatorder")); // NOI18N
         jLblCatOrder.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        m_jCatOrder.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jCatOrder.setBackground(new java.awt.Color(55, 71, 79));
+        m_jCatOrder.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jCatOrder.setForeground(new java.awt.Color(244, 244, 244));
         m_jCatOrder.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        jLblImage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblImage.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblImage.setForeground(new java.awt.Color(244, 244, 244));
         jLblImage.setText(AppLocal.getIntString("label.image")); // NOI18N
         jLblImage.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jImage.setBackground(new java.awt.Color(55, 71, 79));
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
-        jLblInCat.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblInCat.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblInCat.setForeground(new java.awt.Color(244, 244, 244));
         jLblInCat.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLblInCat.setText(bundle.getString("label.CatalogueStatusYes")); // NOI18N
         jLblInCat.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jLblInCat.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        webSwtch_InCatalog.setBackground(new java.awt.Color(55, 71, 79));
+        webSwtch_InCatalog.setForeground(new java.awt.Color(244, 244, 244));
         webSwtch_InCatalog.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webSwtch_InCatalog.setPreferredSize(new java.awt.Dimension(80, 30));
         webSwtch_InCatalog.addActionListener(new java.awt.event.ActionListener() {
@@ -375,19 +403,19 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
                                 .addComponent(jLblName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(jLblCatShowName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jLblCatShowName, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(m_jName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(m_jTextTip, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(m_jCategory, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(webSwtch_InCatalog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(m_jCatNameShow, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLblCatOrder, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(m_jCatOrder, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(webSwtch_InCatalog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(m_jCatOrder, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(31, 31, 31))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap()
@@ -469,6 +497,14 @@ public final class CategoriesEditor extends JPanel implements EditorRecord {
                 AppLocal.getIntString("message.uuidcopy"));
         }
     }//GEN-LAST:event_jLblNameMouseClicked
+
+    private void m_jCatNameShowActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jCatNameShowActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_m_jCatNameShowActionPerformed
+
+    private void m_jNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_m_jNameActionPerformed
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

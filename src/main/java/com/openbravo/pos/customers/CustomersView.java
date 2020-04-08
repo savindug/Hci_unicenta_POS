@@ -750,8 +750,10 @@ public void resetTranxTable() {
         jcard.setForeground(new java.awt.Color(255, 255, 255));
         jcard.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jBtnCreateCard.setBackground(new java.awt.Color(55, 71, 79));
         jBtnCreateCard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/encrypted.png"))); // NOI18N
         jBtnCreateCard.setToolTipText("Create Key");
+        jBtnCreateCard.setBorder(null);
         jBtnCreateCard.setMaximumSize(new java.awt.Dimension(64, 32));
         jBtnCreateCard.setMinimumSize(new java.awt.Dimension(64, 32));
         jBtnCreateCard.setPreferredSize(new java.awt.Dimension(40, 35));
@@ -761,8 +763,10 @@ public void resetTranxTable() {
             }
         });
 
+        jBtnClearCard.setBackground(new java.awt.Color(55, 71, 79));
         jBtnClearCard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileclose.png"))); // NOI18N
         jBtnClearCard.setToolTipText("Clear Key");
+        jBtnClearCard.setBorder(null);
         jBtnClearCard.setMaximumSize(new java.awt.Dimension(64, 32));
         jBtnClearCard.setMinimumSize(new java.awt.Dimension(64, 32));
         jBtnClearCard.setPreferredSize(new java.awt.Dimension(40, 35));
@@ -841,6 +845,8 @@ public void resetTranxTable() {
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        jTabbedPane1.setBackground(new java.awt.Color(55, 71, 79));
+        jTabbedPane1.setForeground(new java.awt.Color(255, 255, 255));
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(650, 300));
 
@@ -951,8 +957,8 @@ public void resetTranxTable() {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(txtFirstName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(webBtnMail, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(76, Short.MAX_VALUE))
+                .addComponent(webBtnMail, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(120, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -987,46 +993,66 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.contact"), jPanel1); // NOI18N
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+
         jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText(AppLocal.getIntString("label.address")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtAddress.setBackground(new java.awt.Color(28, 35, 49));
         txtAddress.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtAddress.setForeground(new java.awt.Color(255, 255, 255));
         txtAddress.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel20.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText(AppLocal.getIntString("label.country")); // NOI18N
         jLabel20.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtCountry.setBackground(new java.awt.Color(28, 35, 49));
         txtCountry.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCountry.setForeground(new java.awt.Color(255, 255, 255));
         txtCountry.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel21.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText(AppLocal.getIntString("label.address2")); // NOI18N
         jLabel21.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtAddress2.setBackground(new java.awt.Color(28, 35, 49));
         txtAddress2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtAddress2.setForeground(new java.awt.Color(255, 255, 255));
         txtAddress2.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel22.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText(AppLocal.getIntString("label.postal")); // NOI18N
         jLabel22.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtPostal.setBackground(new java.awt.Color(28, 35, 49));
         txtPostal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPostal.setForeground(new java.awt.Color(255, 255, 255));
         txtPostal.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel23.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText(AppLocal.getIntString("label.city")); // NOI18N
         jLabel23.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtCity.setBackground(new java.awt.Color(28, 35, 49));
         txtCity.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCity.setForeground(new java.awt.Color(255, 255, 255));
         txtCity.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel24.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText(AppLocal.getIntString("label.region")); // NOI18N
         jLabel24.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtRegion.setBackground(new java.awt.Color(28, 35, 49));
         txtRegion.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtRegion.setForeground(new java.awt.Color(255, 255, 255));
         txtRegion.setPreferredSize(new java.awt.Dimension(300, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -1088,9 +1114,12 @@ public void resetTranxTable() {
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(535, 0));
 
+        jBtnShowTrans.setBackground(new java.awt.Color(28, 35, 49));
         jBtnShowTrans.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jBtnShowTrans.setForeground(new java.awt.Color(255, 255, 255));
         jBtnShowTrans.setText(bundle.getString("button.CustomerTrans")); // NOI18N
         jBtnShowTrans.setToolTipText("");
+        jBtnShowTrans.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jBtnShowTrans.setPreferredSize(new java.awt.Dimension(140, 30));
         jBtnShowTrans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1098,6 +1127,10 @@ public void resetTranxTable() {
             }
         });
 
+        jScrollPane3.setBackground(new java.awt.Color(55, 71, 79));
+        jScrollPane3.setForeground(new java.awt.Color(255, 255, 255));
+
+        jTableCustomerTransactions.setBackground(new java.awt.Color(55, 71, 79));
         jTableCustomerTransactions.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jTableCustomerTransactions.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1128,14 +1161,14 @@ public void resetTranxTable() {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(492, 492, 492)
-                        .addComponent(jBtnShowTrans, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 622, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(23, 23, 23))
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 622, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(23, 23, 23))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                        .addComponent(jBtnShowTrans, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1150,6 +1183,8 @@ public void resetTranxTable() {
 
         jPanel5.setBackground(new java.awt.Color(28, 35, 49));
 
+        m_jImage.setBackground(new java.awt.Color(55, 71, 79));
+        m_jImage.setForeground(new java.awt.Color(255, 255, 255));
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
@@ -1186,7 +1221,9 @@ public void resetTranxTable() {
 
         jPanel3.setBackground(new java.awt.Color(28, 35, 49));
 
+        m_jNotes.setBackground(new java.awt.Color(55, 71, 79));
         m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jNotes.setForeground(new java.awt.Color(255, 255, 255));
         m_jNotes.setPreferredSize(new java.awt.Dimension(0, 0));
         jScrollPane1.setViewportView(m_jNotes);
 
@@ -1246,8 +1283,10 @@ public void resetTranxTable() {
         jLblDiscountpercent.setText("%");
         jLblDiscountpercent.setPreferredSize(new java.awt.Dimension(15, 30));
 
+        m_jbtndate.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtndate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         m_jbtndate.setToolTipText("Open Calendar");
+        m_jbtndate.setBorder(null);
         m_jbtndate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jbtndateActionPerformed(evt);

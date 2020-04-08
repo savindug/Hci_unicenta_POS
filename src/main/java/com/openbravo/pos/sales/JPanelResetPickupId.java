@@ -196,11 +196,15 @@ public class JPanelResetPickupId extends JPanel implements JPanelView {
         jbtnUpdate = new javax.swing.JButton();
         jbtnExit = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 34, 63));
         setPreferredSize(new java.awt.Dimension(200, 100));
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setPreferredSize(new java.awt.Dimension(342, 80));
 
+        jbtnUpdate.setBackground(new java.awt.Color(55, 71, 79));
         jbtnUpdate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         jbtnUpdate.setText(AppLocal.getIntString("label.resetpickup")); // NOI18N
         jbtnUpdate.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnUpdate.setMinimumSize(new java.awt.Dimension(70, 33));
@@ -211,8 +215,10 @@ public class JPanelResetPickupId extends JPanel implements JPanelView {
             }
         });
 
+        jbtnExit.setBackground(new java.awt.Color(55, 71, 79));
         jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jbtnExit.setText(AppLocal.getIntString("button.exit")); // NOI18N
+        jbtnExit.setForeground(new java.awt.Color(255, 255, 255));
+        jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setPreferredSize(new java.awt.Dimension(70, 33));

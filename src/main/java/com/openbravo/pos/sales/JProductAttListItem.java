@@ -100,12 +100,17 @@ public class JProductAttListItem extends javax.swing.JPanel implements JProductA
         jLabel1 = new javax.swing.JLabel();
         jValues = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("jLabel1");
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jValues.setBackground(new java.awt.Color(55, 71, 79));
         jValues.setEditable(true);
         jValues.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jValues.setForeground(new java.awt.Color(255, 255, 255));
         jValues.setPreferredSize(new java.awt.Dimension(200, 30));
         jValues.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

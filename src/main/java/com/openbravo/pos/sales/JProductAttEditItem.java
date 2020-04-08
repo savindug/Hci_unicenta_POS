@@ -92,10 +92,15 @@ public class JProductAttEditItem extends javax.swing.JPanel implements JProductA
         jLabel1 = new javax.swing.JLabel();
         jValue = new com.openbravo.editor.JEditorString();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("jLabel1");
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jValue.setBackground(new java.awt.Color(55, 71, 79));
         jValue.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jValue.setPreferredSize(new java.awt.Dimension(0, 30));
 

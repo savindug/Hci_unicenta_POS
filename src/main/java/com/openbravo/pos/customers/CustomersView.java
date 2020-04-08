@@ -506,8 +506,7 @@ public void resetTranxTable() {
         customer[25] = Formats.CURRENCY.parseValue(txtDiscount.getText(), 0.0);
         customer[26] = Formats.TIMESTAMP.parseValue(m_jdate.getText());
         customer[27] = (Object)getAppView();
-        System.out.println("texting");
-        System.out.println("texting");
+      
         return customer;
     }
     
@@ -694,10 +693,12 @@ public void resetTranxTable() {
         m_jdate = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(1000, 600));
 
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel7.setText(AppLocal.getIntString("label.taxid")); // NOI18N
         jLabel7.setMaximumSize(new java.awt.Dimension(150, 30));
@@ -709,31 +710,39 @@ public void resetTranxTable() {
             }
         });
 
+        m_jTaxID.setBackground(new java.awt.Color(28, 35, 49));
         m_jTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxID.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.searchkeym")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jSearchkey.setBackground(new java.awt.Color(28, 35, 49));
         m_jSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jSearchkey.setPreferredSize(new java.awt.Dimension(140, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.namem")); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel3.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jName.setBackground(new java.awt.Color(28, 35, 49));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(410, 30));
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.card")); // NOI18N
         jLabel5.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel5.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcard.setBackground(new java.awt.Color(28, 35, 49));
         jcard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jcard.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -760,15 +769,18 @@ public void resetTranxTable() {
         });
 
         jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText(AppLocal.getIntString("label.custtaxcategory")); // NOI18N
         jLabel9.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel9.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jCategory.setBackground(new java.awt.Color(28, 35, 49));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setPreferredSize(new java.awt.Dimension(180, 30));
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.visible")); // NOI18N
         jLabel4.setMaximumSize(new java.awt.Dimension(140, 25));
         jLabel4.setMinimumSize(new java.awt.Dimension(140, 25));
@@ -779,6 +791,7 @@ public void resetTranxTable() {
         m_jVisible.setPreferredSize(new java.awt.Dimension(30, 30));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText(AppLocal.getIntString("label.maxdebt")); // NOI18N
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
@@ -786,11 +799,13 @@ public void resetTranxTable() {
         jLabel1.setMinimumSize(new java.awt.Dimension(120, 25));
         jLabel1.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        txtMaxdebt.setBackground(new java.awt.Color(28, 35, 49));
         txtMaxdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtMaxdebt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtMaxdebt.setPreferredSize(new java.awt.Dimension(130, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText(AppLocal.getIntString("label.curdebt")); // NOI18N
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
@@ -799,17 +814,20 @@ public void resetTranxTable() {
         jLabel2.setPreferredSize(new java.awt.Dimension(130, 30));
 
         txtCurdebt.setEditable(false);
+        txtCurdebt.setBackground(new java.awt.Color(28, 35, 49));
         txtCurdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCurdebt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdebt.setPreferredSize(new java.awt.Dimension(130, 30));
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText(AppLocal.getIntString("label.curdate")); // NOI18N
         jLabel6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         jLabel6.setPreferredSize(new java.awt.Dimension(130, 30));
 
         txtCurdate.setEditable(false);
+        txtCurdate.setBackground(new java.awt.Color(28, 35, 49));
         txtCurdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setPreferredSize(new java.awt.Dimension(130, 30));
@@ -817,51 +835,65 @@ public void resetTranxTable() {
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(650, 300));
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText(AppLocal.getIntString("label.firstname")); // NOI18N
         jLabel19.setAlignmentX(0.5F);
         jLabel19.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtFirstName.setBackground(new java.awt.Color(28, 35, 49));
         txtFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtFirstName.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel15.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText(AppLocal.getIntString("label.lastname")); // NOI18N
         jLabel15.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtLastName.setBackground(new java.awt.Color(28, 35, 49));
         txtLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtLastName.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel16.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText(AppLocal.getIntString("label.email")); // NOI18N
         jLabel16.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtEmail.setBackground(new java.awt.Color(28, 35, 49));
         txtEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtEmail.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel17.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText(AppLocal.getIntString("label.phone")); // NOI18N
         jLabel17.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtPhone.setBackground(new java.awt.Color(28, 35, 49));
         txtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtPhone.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText(AppLocal.getIntString("label.phone2")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtPhone2.setBackground(new java.awt.Color(28, 35, 49));
         txtPhone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtPhone2.setPreferredSize(new java.awt.Dimension(300, 30));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText(AppLocal.getIntString("label.fax")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtFax.setBackground(new java.awt.Color(28, 35, 49));
         txtFax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtFax.setPreferredSize(new java.awt.Dimension(300, 30));
 
+        webBtnMail.setBackground(new java.awt.Color(28, 35, 49));
         webBtnMail.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/mail24.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         webBtnMail.setText(bundle.getString("button.email")); // NOI18N
@@ -1036,6 +1068,7 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(AppLocal.getIntString("label.location"), jPanel2); // NOI18N
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(535, 0));
 
@@ -1099,10 +1132,13 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(bundle.getString("label.Transactions"), jPanel4); // NOI18N
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
+
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
         jLabel34.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setText(bundle.getString("label.imagesize")); // NOI18N
         jLabel34.setPreferredSize(new java.awt.Dimension(500, 30));
 
@@ -1132,6 +1168,8 @@ public void resetTranxTable() {
 
         jTabbedPane1.addTab(bundle.getString("label.photo"), jPanel5); // NOI18N
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+
         m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jNotes.setPreferredSize(new java.awt.Dimension(0, 0));
         jScrollPane1.setViewportView(m_jNotes);
@@ -1156,6 +1194,7 @@ public void resetTranxTable() {
         jTabbedPane1.addTab(AppLocal.getIntString("label.notes"), jPanel3); // NOI18N
 
         jLblVIP.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblVIP.setForeground(new java.awt.Color(255, 255, 255));
         jLblVIP.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblVIP.setText(AppLocal.getIntString("label.vip")); // NOI18N
         jLblVIP.setPreferredSize(new java.awt.Dimension(50, 30));
@@ -1175,15 +1214,18 @@ public void resetTranxTable() {
         });
 
         jLblDiscount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDiscount.setForeground(new java.awt.Color(255, 255, 255));
         jLblDiscount.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLblDiscount.setText(AppLocal.getIntString("label.discount")); // NOI18N
         jLblDiscount.setPreferredSize(new java.awt.Dimension(70, 30));
 
+        txtDiscount.setBackground(new java.awt.Color(28, 35, 49));
         txtDiscount.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDiscount.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtDiscount.setPreferredSize(new java.awt.Dimension(50, 30));
 
         jLblDiscountpercent.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDiscountpercent.setForeground(new java.awt.Color(255, 255, 255));
         jLblDiscountpercent.setText("%");
         jLblDiscountpercent.setPreferredSize(new java.awt.Dimension(15, 30));
 
@@ -1195,10 +1237,12 @@ public void resetTranxTable() {
             }
         });
 
+        m_jdate.setBackground(new java.awt.Color(28, 35, 49));
         m_jdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jdate.setPreferredSize(new java.awt.Dimension(130, 30));
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText(bundle.getString("label.customerdate")); // NOI18N
         jLabel10.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);

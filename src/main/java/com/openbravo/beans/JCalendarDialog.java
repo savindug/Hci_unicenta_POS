@@ -221,6 +221,8 @@ public class JCalendarDialog extends javax.swing.JDialog {
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelGrid.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(55, 71, 79), 3));
+        jPanelGrid.setForeground(new java.awt.Color(255, 255, 255));
         jPanelGrid.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelGrid.setLayout(new java.awt.GridLayout(1, 0, 5, 0));
         jPanel2.add(jPanelGrid, java.awt.BorderLayout.CENTER);

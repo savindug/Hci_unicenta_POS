@@ -242,7 +242,10 @@ public class JClockPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        setBackground(new java.awt.Color(28, 35, 49));
+        setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(55, 71, 79), 3));
+        setForeground(new java.awt.Color(255, 255, 255));
+        setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
     }// </editor-fold>//GEN-END:initComponents
     
     

@@ -128,6 +128,7 @@ public class DinerNumber extends javax.swing.JDialog {
 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));

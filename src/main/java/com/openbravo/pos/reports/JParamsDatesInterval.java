@@ -125,25 +125,34 @@ public class JParamsDatesInterval extends javax.swing.JPanel implements ReportEd
         btnDateStart = new javax.swing.JButton();
         btnDateEnd = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(55, 71, 79), 3));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(750, 67));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.StartDate")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jTxtStartDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTxtStartDate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTxtStartDate.setPreferredSize(new java.awt.Dimension(160, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.EndDate")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jTxtEndDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTxtEndDate.setBorder(null);
         jTxtEndDate.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        btnDateStart.setBackground(new java.awt.Color(55, 71, 79));
         btnDateStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         btnDateStart.setToolTipText("Open Calendar");
+        btnDateStart.setBorder(null);
         btnDateStart.setMaximumSize(new java.awt.Dimension(40, 33));
         btnDateStart.setMinimumSize(new java.awt.Dimension(40, 33));
         btnDateStart.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -153,8 +162,10 @@ public class JParamsDatesInterval extends javax.swing.JPanel implements ReportEd
             }
         });
 
+        btnDateEnd.setBackground(new java.awt.Color(55, 71, 79));
         btnDateEnd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         btnDateEnd.setToolTipText("Open Calendar");
+        btnDateEnd.setBorder(null);
         btnDateEnd.setMaximumSize(new java.awt.Dimension(40, 33));
         btnDateEnd.setMinimumSize(new java.awt.Dimension(40, 33));
         btnDateEnd.setPreferredSize(new java.awt.Dimension(80, 45));

@@ -49,7 +49,7 @@ public class DateUtils {
      */
     public static Date getToday(Date d) { 
         // el dia de hoy sin horas ni nada. 
-        private int q;
+        
         GregorianCalendar ddate = new GregorianCalendar();
         ddate.setTime(d);    
         GregorianCalendar ddateday = new GregorianCalendar(ddate.get(GregorianCalendar.YEAR), ddate.get(GregorianCalendar.MONTH), ddate.get(GregorianCalendar.DAY_OF_MONTH));

@@ -1,9 +1,0 @@
-import uk.co.pos_apps.PosApps;
-import uk.co.pos_apps.domain.Customer;
-
-Customer myCustomer = new Customer();
-myCustomer.setFirstName(customerInfo.getFirstName());
-myCustomer.setLastName(customerInfo.getLastName());
-myCustomer.setUserName(customerInfo.getEmail());
-myCustomer.setEmailAddress(customerInfo.getEmail());
-new PosApps().saveCustomer(myCustomer);

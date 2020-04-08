@@ -943,6 +943,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         poweredby.setPreferredSize(new java.awt.Dimension(180, 34));
         m_jPanelTitle.add(poweredby, java.awt.BorderLayout.LINE_END);
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
         jLabel2.setPreferredSize(new java.awt.Dimension(180, 34));
@@ -956,6 +957,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/unicenta.png"))); // NOI18N

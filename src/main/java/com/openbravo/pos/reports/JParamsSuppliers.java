@@ -132,14 +132,18 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
         btnSupplier = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 50));
 
         jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTextField1.setPreferredSize(new java.awt.Dimension(300, 30));
 
+        btnSupplier.setBackground(new java.awt.Color(55, 71, 79));
         btnSupplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnSupplier.setToolTipText("Get Suppliers");
+        btnSupplier.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSupplier.setPreferredSize(new java.awt.Dimension(80, 45));
         btnSupplier.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,6 +152,7 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
         });
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.supplier")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 

@@ -210,16 +210,19 @@ public final class JParamsText extends javax.swing.JPanel implements ReportEdito
         lblField = new javax.swing.JLabel();
         txtField = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(0, 30));
         setLayout(null);
 
         lblField.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        lblField.setForeground(new java.awt.Color(255, 255, 255));
         lblField.setText("***");
         lblField.setPreferredSize(new java.awt.Dimension(0, 30));
         add(lblField);
         lblField.setBounds(20, 10, 120, 30);
 
         txtField.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtField.setPreferredSize(new java.awt.Dimension(0, 30));
         add(txtField);
         txtField.setBounds(140, 10, 200, 30);

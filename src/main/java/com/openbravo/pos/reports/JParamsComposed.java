@@ -131,6 +131,7 @@ public class JParamsComposed extends javax.swing.JPanel implements ReportEditorC
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setLayout(new javax.swing.BoxLayout(this, javax.swing.BoxLayout.Y_AXIS));
     }// </editor-fold>//GEN-END:initComponents

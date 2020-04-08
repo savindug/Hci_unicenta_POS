@@ -442,6 +442,8 @@ public class JTicketLines extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
+        m_jScrollTableTicket.setBackground(new java.awt.Color(28, 35, 49));
+        m_jScrollTableTicket.setForeground(new java.awt.Color(255, 255, 255));
         m_jScrollTableTicket.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         m_jScrollTableTicket.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         m_jScrollTableTicket.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

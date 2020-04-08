@@ -267,38 +267,52 @@ public class JProductLineEdit extends javax.swing.JDialog {
 
         jPanel5.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setPreferredSize(new java.awt.Dimension(400, 230));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.price")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.units")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.pricetax")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.item")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jName.setBackground(new java.awt.Color(55, 71, 79));
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(132, 30));
 
+        m_jUnits.setBackground(new java.awt.Color(55, 71, 79));
+        m_jUnits.setForeground(new java.awt.Color(255, 255, 255));
         m_jUnits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jUnits.setPreferredSize(new java.awt.Dimension(132, 30));
 
+        m_jPrice.setBackground(new java.awt.Color(55, 71, 79));
+        m_jPrice.setForeground(new java.awt.Color(255, 255, 255));
         m_jPrice.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPrice.setPreferredSize(new java.awt.Dimension(132, 30));
 
+        m_jPriceTax.setBackground(new java.awt.Color(55, 71, 79));
+        m_jPriceTax.setForeground(new java.awt.Color(255, 255, 255));
         m_jPriceTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceTax.setPreferredSize(new java.awt.Dimension(132, 30));
 
-        m_jTaxrate.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.disabledBackground"));
+        m_jTaxrate.setBackground(new java.awt.Color(55, 71, 79));
         m_jTaxrate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jTaxrate.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxrate.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTaxrate.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTaxrate.setOpaque(true);
@@ -306,15 +320,18 @@ public class JProductLineEdit extends javax.swing.JDialog {
         m_jTaxrate.setRequestFocusEnabled(false);
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.tax")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jTotal.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.disabledBackground"));
+        m_jTotal.setBackground(new java.awt.Color(55, 71, 79));
         m_jTotal.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jTotal.setForeground(new java.awt.Color(255, 255, 255));
         m_jTotal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTotal.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jTotal.setOpaque(true);
@@ -322,21 +339,26 @@ public class JProductLineEdit extends javax.swing.JDialog {
         m_jTotal.setRequestFocusEnabled(false);
 
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.subtotalcash")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jSubtotal.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.disabledBackground"));
+        m_jSubtotal.setBackground(new java.awt.Color(55, 71, 79));
         m_jSubtotal.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jSubtotal.setForeground(new java.awt.Color(255, 255, 255));
         m_jSubtotal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jSubtotal.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jSubtotal.setOpaque(true);
         m_jSubtotal.setPreferredSize(new java.awt.Dimension(150, 25));
         m_jSubtotal.setRequestFocusEnabled(false);
 
+        m_jBtnPriceUpdate.setBackground(new java.awt.Color(55, 71, 79));
         m_jBtnPriceUpdate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jBtnPriceUpdate.setForeground(new java.awt.Color(255, 255, 255));
         m_jBtnPriceUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         m_jBtnPriceUpdate.setText(bundle.getString("button.priceupdate")); // NOI18N
+        m_jBtnPriceUpdate.setBorder(null);
         m_jBtnPriceUpdate.setFocusPainted(false);
         m_jBtnPriceUpdate.setFocusable(false);
         m_jBtnPriceUpdate.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -439,6 +461,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
 
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
+        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jKeysActionPerformed(evt);
@@ -448,11 +471,15 @@ public class JProductLineEdit extends javax.swing.JDialog {
 
         jPanel3.add(jPanel4, java.awt.BorderLayout.NORTH);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        m_jButtonCancel.setBackground(new java.awt.Color(55, 71, 79));
         m_jButtonCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jButtonCancel.setForeground(new java.awt.Color(255, 255, 255));
         m_jButtonCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jButtonCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
+        m_jButtonCancel.setBorder(null);
         m_jButtonCancel.setFocusPainted(false);
         m_jButtonCancel.setFocusable(false);
         m_jButtonCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -465,9 +492,12 @@ public class JProductLineEdit extends javax.swing.JDialog {
         });
         jPanel1.add(m_jButtonCancel);
 
+        m_jButtonOK.setBackground(new java.awt.Color(55, 71, 79));
         m_jButtonOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jButtonOK.setForeground(new java.awt.Color(255, 255, 255));
         m_jButtonOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jButtonOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
+        m_jButtonOK.setBorder(null);
         m_jButtonOK.setFocusPainted(false);
         m_jButtonOK.setFocusable(false);
         m_jButtonOK.setMargin(new java.awt.Insets(8, 16, 8, 16));

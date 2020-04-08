@@ -2166,7 +2166,6 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         jCheckStock = new javax.swing.JButton();
         m_jPanelCentral = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
-        filler2 = new javax.swing.Box.Filler(new java.awt.Dimension(5, 0), new java.awt.Dimension(5, 0), new java.awt.Dimension(5, 32767));
         m_jTicketId = new javax.swing.JLabel();
         m_jPanTotals = new javax.swing.JPanel();
         m_jLblTotalEuros3 = new javax.swing.JLabel();
@@ -2195,12 +2194,15 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jOptions.setLayout(new java.awt.BorderLayout());
 
+        m_jPanelBag.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanelBag.setAutoscrolls(true);
         m_jPanelBag.setMaximumSize(new java.awt.Dimension(10, 10));
         m_jPanelBag.setPreferredSize(new java.awt.Dimension(0, 60));
 
+        jTBtnShow.setBackground(new java.awt.Color(55, 71, 79));
         jTBtnShow.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTBtnShow.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/resources.png"))); // NOI18N
+        jTBtnShow.setBorder(null);
         jTBtnShow.setBorderPainted(false);
         jTBtnShow.setPreferredSize(new java.awt.Dimension(80, 45));
         jTBtnShow.addActionListener(new java.awt.event.ActionListener() {
@@ -2210,11 +2212,13 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         m_jPanelBag.add(jTBtnShow);
 
+        m_jbtnScale.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnScale.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jbtnScale.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/scale.png"))); // NOI18N
         m_jbtnScale.setText(AppLocal.getIntString("button.scale")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         m_jbtnScale.setToolTipText(bundle.getString("tooltip.scale")); // NOI18N
+        m_jbtnScale.setBorder(null);
         m_jbtnScale.setFocusPainted(false);
         m_jbtnScale.setFocusable(false);
         m_jbtnScale.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -2242,10 +2246,13 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         m_jPanelBag.add(jbtnMooring);
 
+        m_jButtons.setBackground(new java.awt.Color(28, 35, 49));
         m_jButtons.setPreferredSize(new java.awt.Dimension(350, 55));
 
+        btnSplit.setBackground(new java.awt.Color(55, 71, 79));
         btnSplit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_split_sml.png"))); // NOI18N
         btnSplit.setToolTipText(bundle.getString("tooltip.salesplit")); // NOI18N
+        btnSplit.setBorder(null);
         btnSplit.setEnabled(false);
         btnSplit.setFocusPainted(false);
         btnSplit.setFocusable(false);
@@ -2260,9 +2267,11 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
+        btnReprint1.setBackground(new java.awt.Color(55, 71, 79));
         btnReprint1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         btnReprint1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reprint24.png"))); // NOI18N
         btnReprint1.setToolTipText(bundle.getString("tooltip.reprintLastTicket")); // NOI18N
+        btnReprint1.setBorder(null);
         btnReprint1.setFocusPainted(false);
         btnReprint1.setFocusable(false);
         btnReprint1.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -2303,10 +2312,12 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
+        j_btnRemotePrt.setBackground(new java.awt.Color(55, 71, 79));
         j_btnRemotePrt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         j_btnRemotePrt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/remote_print.png"))); // NOI18N
         j_btnRemotePrt.setText(bundle.getString("button.sendorder")); // NOI18N
         j_btnRemotePrt.setToolTipText(bundle.getString("tooltip.printtoremote")); // NOI18N
+        j_btnRemotePrt.setBorder(null);
         j_btnRemotePrt.setMargin(new java.awt.Insets(0, 4, 0, 4));
         j_btnRemotePrt.setMaximumSize(new java.awt.Dimension(50, 40));
         j_btnRemotePrt.setMinimumSize(new java.awt.Dimension(50, 40));
@@ -2351,8 +2362,10 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jPanelScripts.setPreferredSize(new java.awt.Dimension(200, 60));
         m_jPanelScripts.setLayout(new java.awt.BorderLayout());
 
+        m_jButtonsExt.setBackground(new java.awt.Color(28, 35, 49));
         m_jButtonsExt.setPreferredSize(new java.awt.Dimension(20, 60));
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setMinimumSize(new java.awt.Dimension(235, 50));
         jPanel1.setPreferredSize(new java.awt.Dimension(10, 55));
         m_jButtonsExt.add(jPanel1);
@@ -2364,19 +2377,24 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jPanContainer.add(m_jOptions, java.awt.BorderLayout.NORTH);
 
+        m_jPanTicket.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanTicket.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         m_jPanTicket.setLayout(new java.awt.BorderLayout());
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
         jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel5.setPreferredSize(new java.awt.Dimension(75, 270));
         jPanel5.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
         jPanel2.setPreferredSize(new java.awt.Dimension(70, 250));
         jPanel2.setLayout(new java.awt.GridLayout(0, 1, 5, 5));
 
+        m_jDelete.setBackground(new java.awt.Color(55, 71, 79));
         m_jDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/editdelete.png"))); // NOI18N
         m_jDelete.setToolTipText(bundle.getString("tooltip.saleremoveline")); // NOI18N
+        m_jDelete.setBorder(null);
         m_jDelete.setFocusPainted(false);
         m_jDelete.setFocusable(false);
         m_jDelete.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -2391,8 +2409,10 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         jPanel2.add(m_jDelete);
 
+        m_jList.setBackground(new java.awt.Color(55, 71, 79));
         m_jList.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/search32.png"))); // NOI18N
         m_jList.setToolTipText(bundle.getString("tooltip.saleproductfind")); // NOI18N
+        m_jList.setBorder(null);
         m_jList.setFocusPainted(false);
         m_jList.setFocusable(false);
         m_jList.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -2407,8 +2427,10 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         jPanel2.add(m_jList);
 
+        m_jEditLine.setBackground(new java.awt.Color(55, 71, 79));
         m_jEditLine.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_editline.png"))); // NOI18N
         m_jEditLine.setToolTipText(bundle.getString("tooltip.saleeditline")); // NOI18N
+        m_jEditLine.setBorder(null);
         m_jEditLine.setFocusPainted(false);
         m_jEditLine.setFocusable(false);
         m_jEditLine.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -2423,8 +2445,10 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         jPanel2.add(m_jEditLine);
 
+        jEditAttributes.setBackground(new java.awt.Color(55, 71, 79));
         jEditAttributes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/attributes.png"))); // NOI18N
         jEditAttributes.setToolTipText(bundle.getString("tooltip.saleattributes")); // NOI18N
+        jEditAttributes.setBorder(null);
         jEditAttributes.setFocusPainted(false);
         jEditAttributes.setFocusable(false);
         jEditAttributes.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -2439,10 +2463,12 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         jPanel2.add(jEditAttributes);
 
+        jCheckStock.setBackground(new java.awt.Color(55, 71, 79));
         jCheckStock.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jCheckStock.setForeground(new java.awt.Color(76, 197, 237));
         jCheckStock.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jCheckStock.setToolTipText(bundle.getString("tooltip.salecheckstock")); // NOI18N
+        jCheckStock.setBorder(null);
         jCheckStock.setFocusPainted(false);
         jCheckStock.setFocusable(false);
         jCheckStock.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -2469,15 +2495,18 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jPanTicket.add(jPanel5, java.awt.BorderLayout.LINE_START);
 
+        m_jPanelCentral.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelCentral.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelCentral.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelCentral.setPreferredSize(new java.awt.Dimension(450, 240));
         m_jPanelCentral.setLayout(new java.awt.BorderLayout());
 
         jPanel4.setLayout(new java.awt.BorderLayout());
-        jPanel4.add(filler2, java.awt.BorderLayout.LINE_START);
 
-        m_jTicketId.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        m_jTicketId.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        m_jTicketId.setBackground(new java.awt.Color(28, 35, 49));
+        m_jTicketId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTicketId.setForeground(new java.awt.Color(255, 255, 255));
+        m_jTicketId.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTicketId.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         m_jTicketId.setOpaque(true);
         m_jTicketId.setPreferredSize(new java.awt.Dimension(300, 40));
@@ -2485,22 +2514,29 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jTicketId.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
         jPanel4.add(m_jTicketId, java.awt.BorderLayout.CENTER);
 
+        m_jPanTotals.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanTotals.setPreferredSize(new java.awt.Dimension(375, 60));
         m_jPanTotals.setLayout(new java.awt.GridLayout(2, 3, 4, 0));
 
+        m_jLblTotalEuros3.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTotalEuros3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jLblTotalEuros3.setForeground(new java.awt.Color(255, 255, 255));
         m_jLblTotalEuros3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTotalEuros3.setLabelFor(m_jSubtotalEuros);
         m_jLblTotalEuros3.setText(AppLocal.getIntString("label.subtotalcash")); // NOI18N
         m_jPanTotals.add(m_jLblTotalEuros3);
 
+        m_jLblTotalEuros2.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTotalEuros2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jLblTotalEuros2.setForeground(new java.awt.Color(255, 255, 255));
         m_jLblTotalEuros2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTotalEuros2.setLabelFor(m_jSubtotalEuros);
         m_jLblTotalEuros2.setText(AppLocal.getIntString("label.taxcash")); // NOI18N
         m_jPanTotals.add(m_jLblTotalEuros2);
 
+        m_jLblTotalEuros1.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTotalEuros1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jLblTotalEuros1.setForeground(new java.awt.Color(255, 255, 255));
         m_jLblTotalEuros1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTotalEuros1.setLabelFor(m_jTotalEuros);
         m_jLblTotalEuros1.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
@@ -2508,7 +2544,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jSubtotalEuros.setBackground(m_jEditLine.getBackground());
         m_jSubtotalEuros.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        m_jSubtotalEuros.setForeground(m_jEditLine.getForeground());
+        m_jSubtotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jSubtotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jSubtotalEuros.setLabelFor(m_jSubtotalEuros);
         m_jSubtotalEuros.setToolTipText(bundle.getString("tooltip.salesubtotal")); // NOI18N
@@ -2521,7 +2557,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jTaxesEuros.setBackground(m_jEditLine.getBackground());
         m_jTaxesEuros.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        m_jTaxesEuros.setForeground(m_jEditLine.getForeground());
+        m_jTaxesEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxesEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTaxesEuros.setLabelFor(m_jTaxesEuros);
         m_jTaxesEuros.setToolTipText(bundle.getString("tooltip.saletax")); // NOI18N
@@ -2534,7 +2570,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jTotalEuros.setBackground(m_jEditLine.getBackground());
         m_jTotalEuros.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        m_jTotalEuros.setForeground(m_jEditLine.getForeground());
+        m_jTotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTotalEuros.setLabelFor(m_jTotalEuros);
         m_jTotalEuros.setToolTipText(bundle.getString("tooltip.saletotal")); // NOI18N
@@ -2553,10 +2589,12 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jPanContainer.add(m_jPanTicket, java.awt.BorderLayout.CENTER);
 
+        m_jContEntries.setBackground(new java.awt.Color(28, 35, 49));
         m_jContEntries.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jContEntries.setMinimumSize(new java.awt.Dimension(300, 350));
         m_jContEntries.setLayout(new java.awt.BorderLayout());
 
+        m_jPanEntries.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanEntries.setPreferredSize(new java.awt.Dimension(300, 350));
         m_jPanEntries.setLayout(new javax.swing.BoxLayout(m_jPanEntries, javax.swing.BoxLayout.Y_AXIS));
 
@@ -2569,8 +2607,10 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         m_jPanEntries.add(m_jNumberKeys);
 
+        jPanel9.setBackground(new java.awt.Color(28, 35, 49));
         jPanel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
 
+        m_jaddtax.setBackground(new java.awt.Color(0, 153, 204));
         m_jaddtax.setBorder(null);
         m_jaddtax.setToolTipText(bundle.getString("tooltip.switchtax")); // NOI18N
         m_jaddtax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -2581,23 +2621,28 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
+        m_jPrice.setBackground(new java.awt.Color(28, 35, 49));
         m_jPrice.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
-        m_jPrice.setForeground(new java.awt.Color(76, 197, 237));
+        m_jPrice.setForeground(new java.awt.Color(255, 255, 255));
         m_jPrice.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         m_jPrice.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(76, 197, 237)), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jPrice.setOpaque(true);
         m_jPrice.setPreferredSize(new java.awt.Dimension(100, 25));
         m_jPrice.setRequestFocusEnabled(false);
 
+        m_jPor.setBackground(new java.awt.Color(28, 35, 49));
         m_jPor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jPor.setForeground(new java.awt.Color(255, 255, 255));
         m_jPor.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jPor.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jPor.setOpaque(true);
         m_jPor.setPreferredSize(new java.awt.Dimension(22, 25));
         m_jPor.setRequestFocusEnabled(false);
 
+        m_jEnter.setBackground(new java.awt.Color(55, 71, 79));
         m_jEnter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/barcode.png"))); // NOI18N
         m_jEnter.setToolTipText(bundle.getString("tooltip.salebarcode")); // NOI18N
+        m_jEnter.setBorder(null);
         m_jEnter.setFocusPainted(false);
         m_jEnter.setFocusable(false);
         m_jEnter.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -2608,7 +2653,9 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
-        m_jTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTax.setBackground(new java.awt.Color(28, 35, 49));
+        m_jTax.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        m_jTax.setForeground(new java.awt.Color(255, 255, 255));
         m_jTax.setToolTipText(bundle.getString("tooltip.salestaxswitch")); // NOI18N
         m_jTax.setFocusable(false);
         m_jTax.setPreferredSize(new java.awt.Dimension(28, 25));
@@ -2667,7 +2714,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addComponent(m_jEnter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(m_jPor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addComponent(m_jPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2686,6 +2733,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
 
         m_jPanContainer.add(m_jContEntries, java.awt.BorderLayout.LINE_END);
 
+        catcontainer.setBackground(new java.awt.Color(28, 35, 49));
         catcontainer.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         catcontainer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         catcontainer.setLayout(new java.awt.BorderLayout());
@@ -3164,7 +3212,6 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
     private javax.swing.JButton btnReprint1;
     private javax.swing.JButton btnSplit;
     private javax.swing.JPanel catcontainer;
-    private javax.swing.Box.Filler filler2;
     private javax.swing.JButton jCheckStock;
     private javax.swing.JButton jEditAttributes;
     private javax.swing.JPanel jPanel1;

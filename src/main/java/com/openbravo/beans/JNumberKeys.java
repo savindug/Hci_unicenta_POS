@@ -215,7 +215,7 @@ public class JNumberKeys extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(193, 200));
         setLayout(new java.awt.GridBagLayout());
 
-        m_jCE.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCE.setBackground(new java.awt.Color(55, 71, 79));
         m_jCE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/number-clear.png"))); // NOI18N
         m_jCE.setBorder(null);
         m_jCE.setFocusPainted(false);

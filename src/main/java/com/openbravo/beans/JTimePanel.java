@@ -362,6 +362,7 @@ public class JTimePanel extends javax.swing.JPanel {
 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel2.setLayout(new java.awt.BorderLayout());
 

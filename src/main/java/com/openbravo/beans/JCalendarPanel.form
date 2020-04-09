@@ -60,7 +60,7 @@
             <Container class="javax.swing.JPanel" name="m_jDates">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e6" green="d8" red="ad" type="rgb"/>
+                  <Color blue="31" green="23" red="1c" type="rgb"/>
                 </Property>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">

@@ -103,9 +103,13 @@ public class JListData extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        m_jOK.setBackground(new java.awt.Color(55, 71, 79));
+        m_jOK.setForeground(new java.awt.Color(255, 255, 255));
         m_jOK.setText("Accept");
+        m_jOK.setBorder(null);
         m_jOK.setMaximumSize(new java.awt.Dimension(65, 33));
         m_jOK.setMinimumSize(new java.awt.Dimension(65, 33));
         m_jOK.setPreferredSize(new java.awt.Dimension(65, 33));
@@ -116,7 +120,10 @@ public class JListData extends javax.swing.JDialog {
         });
         jPanel1.add(m_jOK);
 
+        m_jCancel.setBackground(new java.awt.Color(55, 71, 79));
+        m_jCancel.setForeground(new java.awt.Color(255, 255, 255));
         m_jCancel.setText("Cancel");
+        m_jCancel.setBorder(null);
         m_jCancel.setMaximumSize(new java.awt.Dimension(65, 33));
         m_jCancel.setMinimumSize(new java.awt.Dimension(65, 33));
         m_jCancel.setPreferredSize(new java.awt.Dimension(65, 33));
@@ -129,17 +136,24 @@ public class JListData extends javax.swing.JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.SOUTH);
 
+        m_jData.setBackground(new java.awt.Color(28, 35, 49));
         m_jData.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jData.setForeground(new java.awt.Color(255, 255, 255));
         m_jData.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(m_jData);
 
         getContentPane().add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
+        jToolBar1.setBackground(new java.awt.Color(28, 35, 49));
         jToolBar1.setFloatable(false);
 
+        jButton1.setBackground(new java.awt.Color(28, 35, 49));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("jButton1");
         jToolBar1.add(jButton1);
 
+        jButton2.setBackground(new java.awt.Color(28, 35, 49));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("jButton2");
         jToolBar1.add(jButton2);
 

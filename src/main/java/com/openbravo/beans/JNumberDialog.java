@@ -153,7 +153,7 @@ public class JNumberDialog extends javax.swing.JDialog {
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
-        jcmdCancel.setBackground(new java.awt.Color(28, 35, 49));
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(m_resources.getString("button.cancel")); // NOI18N
@@ -166,7 +166,7 @@ public class JNumberDialog extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setBackground(new java.awt.Color(28, 35, 49));
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(m_resources.getString("button.ok")); // NOI18N
@@ -191,7 +191,6 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
-        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         m_jKeys.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -204,7 +203,7 @@ public class JNumberDialog extends javax.swing.JDialog {
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_jnumber.setBackground(new java.awt.Color(28, 35, 49));
+        m_jnumber.setBackground(new java.awt.Color(55, 71, 79));
         m_jnumber.setForeground(new java.awt.Color(255, 255, 255));
         m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel4.add(m_jnumber, java.awt.BorderLayout.CENTER);

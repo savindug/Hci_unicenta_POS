@@ -135,7 +135,6 @@ public class DinerNumber extends javax.swing.JDialog {
 
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
-        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jKeysActionPerformed(evt);
@@ -150,7 +149,7 @@ public class DinerNumber extends javax.swing.JDialog {
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
-        m_jnumber.setForeground(new java.awt.Color(255, 255, 255));
+        m_jnumber.setBackground(new java.awt.Color(55, 71, 79));
         m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

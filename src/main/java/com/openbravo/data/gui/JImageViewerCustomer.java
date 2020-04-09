@@ -325,6 +325,7 @@ public class JImageViewerCustomer extends javax.swing.JPanel {
 
         setLayout(new java.awt.BorderLayout());
 
+        m_jImage.setBackground(new java.awt.Color(55, 71, 79));
         m_jImage.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/no_photo.png"))); // NOI18N
         m_jImage.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -332,14 +333,18 @@ public class JImageViewerCustomer extends javax.swing.JPanel {
 
         add(m_jScr, java.awt.BorderLayout.CENTER);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel2.setLayout(new java.awt.GridLayout(0, 1, 0, 2));
 
+        m_jbtnzoomin.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnzoomin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag+.png"))); // NOI18N
         m_jbtnzoomin.setToolTipText("Zoom In");
+        m_jbtnzoomin.setBorder(null);
         m_jbtnzoomin.setPreferredSize(new java.awt.Dimension(50, 45));
         m_jbtnzoomin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -348,14 +353,18 @@ public class JImageViewerCustomer extends javax.swing.JPanel {
         });
         jPanel2.add(m_jbtnzoomin);
 
+        m_jPercent.setBackground(new java.awt.Color(55, 71, 79));
+        m_jPercent.setForeground(new java.awt.Color(255, 255, 255));
         m_jPercent.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jPercent.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         m_jPercent.setOpaque(true);
         m_jPercent.setPreferredSize(new java.awt.Dimension(10, 30));
         jPanel2.add(m_jPercent);
 
+        m_jbtnzoomout.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnzoomout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag-.png"))); // NOI18N
         m_jbtnzoomout.setToolTipText("Zoom Out");
+        m_jbtnzoomout.setBorder(null);
         m_jbtnzoomout.setPreferredSize(new java.awt.Dimension(50, 45));
         m_jbtnzoomout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

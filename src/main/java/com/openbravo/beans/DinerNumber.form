@@ -70,11 +70,6 @@
               </Layout>
               <SubComponents>
                 <Component class="com.openbravo.editor.JEditorKeys" name="m_jKeys">
-                  <Properties>
-                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="31" green="23" red="1c" type="rgb"/>
-                    </Property>
-                  </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="m_jKeysActionPerformed"/>
                   </Events>
@@ -131,8 +126,8 @@
                       <SubComponents>
                         <Component class="com.openbravo.editor.JEditorDoublePositive" name="m_jnumber">
                           <Properties>
-                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="4f" green="47" red="37" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="14" style="0"/>

@@ -922,19 +922,27 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         serverMonitor = new com.alee.laf.progressbar.WebProgressBar();
         jPanel3 = new javax.swing.JPanel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setEnabled(false);
         setPreferredSize(new java.awt.Dimension(1024, 768));
         setLayout(new java.awt.BorderLayout());
 
-        m_jPanelTitle.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")));
+        m_jPanelTitle.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelTitle.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jPanelTitle.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelTitle.setPreferredSize(new java.awt.Dimension(449, 40));
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
+        m_jLblTitle.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblTitle.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
+        m_jLblTitle.setForeground(new java.awt.Color(204, 204, 204));
         m_jLblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLblTitle.setText("Window.Title");
         m_jPanelTitle.add(m_jLblTitle, java.awt.BorderLayout.CENTER);
 
+        poweredby.setBackground(new java.awt.Color(28, 35, 49));
+        poweredby.setForeground(new java.awt.Color(204, 204, 204));
         poweredby.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         poweredby.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/poweredby_uni.png"))); // NOI18N
         poweredby.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
@@ -951,14 +959,21 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         add(m_jPanelTitle, java.awt.BorderLayout.NORTH);
 
+        m_jPanelContainer.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelContainer.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelContainer.setLayout(new java.awt.CardLayout());
 
+        m_jPanelLogin.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelLogin.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelLogin.setLayout(new java.awt.BorderLayout());
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
         jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/unicenta.png"))); // NOI18N
         jLabel1.setText("<html><center>uniCenta oPOS - Touch Friendly Point of Sale<br>" +
@@ -980,23 +995,36 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         m_jPanelLogin.add(jPanel4, java.awt.BorderLayout.CENTER);
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel5.setForeground(new java.awt.Color(255, 255, 255));
         jPanel5.setPreferredSize(new java.awt.Dimension(300, 400));
 
+        m_jLogonName.setBackground(new java.awt.Color(28, 35, 49));
         m_jLogonName.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        m_jLogonName.setForeground(new java.awt.Color(255, 255, 255));
         m_jLogonName.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(100, 100));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jPanel8.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel8.setForeground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.GridLayout(0, 1, 5, 5));
         jPanel2.add(jPanel8, java.awt.BorderLayout.NORTH);
 
         m_jLogonName.add(jPanel2, java.awt.BorderLayout.LINE_END);
 
+        jScrollPane1.setBackground(new java.awt.Color(28, 35, 49));
         jScrollPane1.setBorder(null);
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         m_txtKeys.setPreferredSize(new java.awt.Dimension(0, 0));
         m_txtKeys.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -1005,9 +1033,12 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
             }
         });
 
+        m_jClose.setBackground(new java.awt.Color(28, 35, 49));
         m_jClose.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jClose.setForeground(new java.awt.Color(255, 255, 255));
         m_jClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/exit.png"))); // NOI18N
         m_jClose.setText(AppLocal.getIntString("button.close")); // NOI18N
+        m_jClose.setBorder(null);
         m_jClose.setFocusPainted(false);
         m_jClose.setFocusable(false);
         m_jClose.setPreferredSize(new java.awt.Dimension(100, 50));
@@ -1074,18 +1105,28 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
 
         add(m_jPanelContainer, java.awt.BorderLayout.CENTER);
 
+        m_jPanelDown.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanelDown.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 0, 0, 0, javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")));
         m_jPanelDown.setLayout(new java.awt.BorderLayout());
 
+        panelTask.setBackground(new java.awt.Color(28, 35, 49));
+        panelTask.setForeground(new java.awt.Color(255, 255, 255));
+
+        m_jHost.setBackground(new java.awt.Color(28, 35, 49));
         m_jHost.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        m_jHost.setForeground(new java.awt.Color(255, 255, 255));
         m_jHost.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/display.png"))); // NOI18N
         m_jHost.setText("*Hostname");
         panelTask.add(m_jHost);
 
+        webMemoryBar1.setBackground(new java.awt.Color(28, 35, 49));
+        webMemoryBar1.setForeground(new java.awt.Color(204, 204, 204));
         webMemoryBar1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         webMemoryBar1.setPreferredSize(new java.awt.Dimension(150, 30));
         panelTask.add(webMemoryBar1);
 
+        serverMonitor.setBackground(new java.awt.Color(75, 81, 93));
+        serverMonitor.setForeground(new java.awt.Color(204, 204, 204));
         serverMonitor.setToolTipText("");
         serverMonitor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         serverMonitor.setMaximumSize(new java.awt.Dimension(50, 18));
@@ -1097,6 +1138,9 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         panelTask.add(serverMonitor);
 
         m_jPanelDown.add(panelTask, java.awt.BorderLayout.LINE_START);
+
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelDown.add(jPanel3, java.awt.BorderLayout.LINE_END);
 
         add(m_jPanelDown, java.awt.BorderLayout.SOUTH);

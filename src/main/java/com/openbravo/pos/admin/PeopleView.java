@@ -230,6 +230,7 @@ public class PeopleView extends JPanel implements EditorRecord {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jToolBar1 = new javax.swing.JToolBar();
         jLabel1 = new javax.swing.JLabel();
         m_jName = new javax.swing.JTextField();
         m_jVisible = new javax.swing.JCheckBox();
@@ -243,6 +244,8 @@ public class PeopleView extends JPanel implements EditorRecord {
         jLblCardID = new javax.swing.JLabel();
         webCBSecurity = new com.alee.laf.combobox.WebComboBox();
         jLabel6 = new javax.swing.JLabel();
+
+        jToolBar1.setRollover(true);
 
         setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -262,7 +265,7 @@ public class PeopleView extends JPanel implements EditorRecord {
         m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jName.setForeground(new java.awt.Color(255, 255, 255));
-        m_jName.setBorder(null);
+        m_jName.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
         m_jVisible.setBackground(new java.awt.Color(28, 35, 49));
@@ -281,14 +284,18 @@ public class PeopleView extends JPanel implements EditorRecord {
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
         m_jImage.setBackground(new java.awt.Color(55, 71, 79));
+        m_jImage.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 
         jButton1.setBackground(new java.awt.Color(75, 81, 93));
         jButton1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(204, 204, 204));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/password.png"))); // NOI18N
         jButton1.setText(AppLocal.getIntString("button.peoplepassword")); // NOI18N
         jButton1.setToolTipText("");
+        jButton1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jButton1.setBorderPainted(false);
         jButton1.setPreferredSize(new java.awt.Dimension(80, 45));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -299,6 +306,7 @@ public class PeopleView extends JPanel implements EditorRecord {
         m_jRole.setBackground(new java.awt.Color(55, 71, 79));
         m_jRole.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jRole.setForeground(new java.awt.Color(255, 255, 255));
+        m_jRole.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         m_jRole.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -309,7 +317,7 @@ public class PeopleView extends JPanel implements EditorRecord {
         m_jcard.setBackground(new java.awt.Color(75, 81, 93));
         m_jcard.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jcard.setForeground(new java.awt.Color(255, 255, 255));
-        m_jcard.setBorder(null);
+        m_jcard.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         m_jcard.setPreferredSize(new java.awt.Dimension(0, 30));
 
         jLblCardID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -476,6 +484,7 @@ public class PeopleView extends JPanel implements EditorRecord {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLblCardID;
+    private javax.swing.JToolBar jToolBar1;
     private com.openbravo.data.gui.JImageEditor m_jImage;
     private javax.swing.JTextField m_jName;
     private javax.swing.JComboBox m_jRole;

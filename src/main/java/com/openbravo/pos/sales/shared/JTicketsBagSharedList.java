@@ -175,12 +175,17 @@ public class JTicketsBagSharedList extends javax.swing.JDialog {
         setTitle(AppLocal.getIntString("caption.tickets")); // NOI18N
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        m_jtickets.setBackground(new java.awt.Color(28, 35, 49));
         m_jtickets.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         m_jtickets.setLayout(new java.awt.GridLayout(0, 1, 5, 5));
         jPanel2.add(m_jtickets, java.awt.BorderLayout.NORTH);
@@ -191,12 +196,18 @@ public class JTicketsBagSharedList extends javax.swing.JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
+
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.add(jPanel4);
 
+        m_jButtonCancel.setBackground(new java.awt.Color(55, 71, 79));
         m_jButtonCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jButtonCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jButtonCancel.setText(AppLocal.getIntString("button.close")); // NOI18N
+        m_jButtonCancel.setBorder(null);
         m_jButtonCancel.setFocusPainted(false);
         m_jButtonCancel.setFocusable(false);
         m_jButtonCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));

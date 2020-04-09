@@ -290,8 +290,8 @@ public class JTicketsBagShared extends JTicketsBag {
         jPanel1.add(m_jDelTicket);
 
         m_jListTickets.setBackground(new java.awt.Color(28, 35, 49));
-        m_jListTickets.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        m_jListTickets.setForeground(new java.awt.Color(255, 0, 153));
+        m_jListTickets.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        m_jListTickets.setForeground(new java.awt.Color(255, 208, 7));
         m_jListTickets.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_pending.png"))); // NOI18N
         m_jListTickets.setToolTipText(bundle.getString("tooltip.layaway")); // NOI18N
         m_jListTickets.setBorder(null);

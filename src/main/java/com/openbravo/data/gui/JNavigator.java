@@ -27,6 +27,7 @@ import com.openbravo.data.loader.Vectorer;
 import com.openbravo.data.user.BrowseListener;
 import com.openbravo.data.user.BrowsableEditableData;
 import com.openbravo.data.user.StateListener;
+import java.awt.Color;
 
 /**
  *
@@ -85,6 +86,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnFirst.setFocusPainted(false);
             jbtnFirst.setFocusable(false);
             jbtnFirst.setRequestFocusEnabled(false);
+            jbtnFirst.setBackground(new Color(55,71,79));
             jbtnFirst.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
                     jbtnFirstActionPerformed(evt);
@@ -101,6 +103,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnPrev.setFocusPainted(false);
             jbtnPrev.setFocusable(false);
             jbtnPrev.setRequestFocusEnabled(false);
+            jbtnPrev.setBackground(new Color(55,71,79));
             jbtnPrev.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
                     jbtnPrevActionPerformed(evt);
@@ -116,6 +119,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
         jbtnRefresh.setFocusPainted(false);
         jbtnRefresh.setFocusable(false);
         jbtnRefresh.setRequestFocusEnabled(false);
+        jbtnRefresh.setBackground(new Color(55,71,79));
         jbtnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnRefreshActionPerformed(evt);
@@ -131,6 +135,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnNext.setFocusPainted(false);
             jbtnNext.setFocusable(false);
             jbtnNext.setRequestFocusEnabled(false);
+            jbtnNext.setBackground(new Color(55,71,79));
             jbtnNext.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
                     jbtnNextActionPerformed(evt);
@@ -147,6 +152,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnLast.setFocusPainted(false);
             jbtnLast.setFocusable(false);
             jbtnLast.setRequestFocusEnabled(false);
+            jbtnLast.setBackground(new Color(55,71,79));
             jbtnLast.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
                     jbtnLastActionPerformed(evt);
@@ -165,6 +171,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnReload.setFocusPainted(false);
             jbtnReload.setFocusable(false);
             jbtnReload.setRequestFocusEnabled(false);
+            jbtnReload.setBackground(new Color(55,71,79));
             jbtnReload.addActionListener(new java.awt.event.ActionListener() {
                 @Override
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,6 +194,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnFind.setFocusPainted(false);
             jbtnFind.setFocusable(false);
             jbtnFind.setRequestFocusEnabled(false);
+            jbtnFind.setBackground(new Color(55,71,79));
             jbtnFind.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
                     jbtnFindActionPerformed(evt);
@@ -204,6 +212,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             jbtnSort.setFocusPainted(false);
             jbtnSort.setFocusable(false);
             jbtnSort.setRequestFocusEnabled(false);
+            jbtnSort.setBackground(new Color(55,71,79));
             jbtnSort.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent evt) {
                     jbtnSortActionPerformed(evt);
@@ -363,6 +372,8 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(55, 71, 79));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
     }// </editor-fold>//GEN-END:initComponents
    

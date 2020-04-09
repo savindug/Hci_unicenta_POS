@@ -1189,7 +1189,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         setBackground(new java.awt.Color(28, 35, 49));
         setLayout(null);
 
-        m_jTitle.setBackground(new java.awt.Color(255, 255, 255));
+        m_jTitle.setBackground(new java.awt.Color(28, 35, 49));
         m_jTitle.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTitle.setForeground(new java.awt.Color(102, 102, 102));
         m_jTitle.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -1201,14 +1201,16 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         add(m_jTitle);
         m_jTitle.setBounds(365, 5, 260, 25);
 
-        jTabbedPane1.setBackground(new java.awt.Color(28, 35, 49));
-        jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTabbedPane1.setBackground(new java.awt.Color(55, 71, 79));
+        jTabbedPane1.setForeground(new java.awt.Color(28, 35, 49));
+        jTabbedPane1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(680, 420));
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(244, 244, 244));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/info.png"))); // NOI18N
         jLabel1.setText(AppLocal.getIntString("label.prodrefm")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
@@ -1218,7 +1220,9 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
+        m_jRef.setBackground(new java.awt.Color(55, 71, 79));
         m_jRef.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jRef.setForeground(new java.awt.Color(244, 244, 244));
         m_jRef.setToolTipText("");
         m_jRef.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jRef.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -1227,22 +1231,28 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(244, 244, 244));
         jLabel6.setText(AppLocal.getIntString("label.prodbarcodem")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jCode.setBackground(new java.awt.Color(55, 71, 79));
         m_jCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCode.setForeground(new java.awt.Color(244, 244, 244));
         m_jCode.setPreferredSize(new java.awt.Dimension(125, 30));
 
         m_jCodetype.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCodetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "EAN-13", "EAN-8", "CODE128", "Upc-A", "Upc-E" }));
         m_jCodetype.setPreferredSize(new java.awt.Dimension(80, 30));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(244, 244, 244));
         jLabel2.setText(AppLocal.getIntString("label.prodnamem")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jName.setBackground(new java.awt.Color(55, 71, 79));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(244, 244, 244));
         m_jName.setPreferredSize(new java.awt.Dimension(450, 30));
         m_jName.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
@@ -1250,66 +1260,88 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(244, 244, 244));
         jLabel5.setText(AppLocal.getIntString("label.prodcategorym")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jCategory.setBackground(new java.awt.Color(55, 71, 79));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setForeground(new java.awt.Color(244, 244, 244));
         m_jCategory.setBorder(null);
         m_jCategory.setPreferredSize(new java.awt.Dimension(450, 30));
 
-        jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(244, 244, 244));
         jLabel13.setText(AppLocal.getIntString("label.attributes")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jAtt.setBackground(new java.awt.Color(55, 71, 79));
         m_jAtt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jAtt.setForeground(new java.awt.Color(244, 244, 244));
         m_jAtt.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(244, 244, 244));
         jLabel7.setText(AppLocal.getIntString("label.taxcategorym")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jTax.setBackground(new java.awt.Color(55, 71, 79));
         m_jTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTax.setForeground(new java.awt.Color(244, 244, 244));
         m_jTax.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel16.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(244, 244, 244));
         jLabel16.setText(AppLocal.getIntString("label.prodpriceselltaxm")); // NOI18N
         jLabel16.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jPriceSellTax.setBackground(new java.awt.Color(55, 71, 79));
         m_jPriceSellTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceSellTax.setForeground(new java.awt.Color(244, 244, 244));
         m_jPriceSellTax.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jPriceSellTax.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(244, 244, 244));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel4.setText(AppLocal.getIntString("label.prodpricesell")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jPriceSell.setBackground(new java.awt.Color(55, 71, 79));
         m_jPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceSell.setForeground(new java.awt.Color(244, 244, 244));
         m_jPriceSell.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jPriceSell.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(244, 244, 244));
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel19.setText(bundle.getString("label.margin")); // NOI18N
         jLabel19.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jmargin.setBackground(new java.awt.Color(55, 71, 79));
         m_jmargin.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jmargin.setForeground(new java.awt.Color(244, 244, 244));
         m_jmargin.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jmargin.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         m_jmargin.setEnabled(false);
         m_jmargin.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(244, 244, 244));
         jLabel3.setText(AppLocal.getIntString("label.prodpricebuym")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jPriceBuy.setBackground(new java.awt.Color(55, 71, 79));
         m_jPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceBuy.setForeground(new java.awt.Color(244, 244, 244));
         m_jPriceBuy.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jPriceBuy.setText("0");
         m_jPriceBuy.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        m_jVerpatrib.setBackground(new java.awt.Color(55, 71, 79));
         m_jVerpatrib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jVerpatrib.setText(bundle.getString("label.mandatory")); // NOI18N
         m_jVerpatrib.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
@@ -1320,32 +1352,42 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
+        m_jGrossProfit.setBackground(new java.awt.Color(55, 71, 79));
         m_jGrossProfit.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jGrossProfit.setForeground(new java.awt.Color(244, 244, 244));
         m_jGrossProfit.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jGrossProfit.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         m_jGrossProfit.setEnabled(false);
         m_jGrossProfit.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel22.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(244, 244, 244));
         jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel22.setText(bundle.getString("label.grossprofit")); // NOI18N
         jLabel22.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel22.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel26.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(244, 244, 244));
         jLabel26.setText(AppLocal.getIntString("label.UOM")); // NOI18N
         jLabel26.setPreferredSize(new java.awt.Dimension(70, 30));
 
+        m_jUom.setBackground(new java.awt.Color(55, 71, 79));
         m_jUom.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jUom.setForeground(new java.awt.Color(244, 244, 244));
         m_jUom.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jLabel17.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(244, 244, 244));
         jLabel17.setText(AppLocal.getIntString("label.prodsupplier")); // NOI18N
         jLabel17.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jSupplier.setBackground(new java.awt.Color(55, 71, 79));
         m_jSupplier.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSupplier.setForeground(new java.awt.Color(244, 244, 244));
         m_jSupplier.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        webBtnSupplier.setBackground(new java.awt.Color(55, 71, 79));
         webBtnSupplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         webBtnSupplier.setText(AppLocal.getIntString("label.supplier")); // NOI18N
         webBtnSupplier.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
@@ -1502,28 +1544,34 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(244, 244, 244));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel9.setText(AppLocal.getIntString("label.prodstockcost")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jstockcost.setBackground(new java.awt.Color(55, 71, 79));
         m_jstockcost.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jstockcost.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jstockcost.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(244, 244, 244));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel10.setText(AppLocal.getIntString("label.prodstockvol")); // NOI18N
         jLabel10.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jstockvolume.setBackground(new java.awt.Color(55, 71, 79));
         m_jstockvolume.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jstockvolume.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jstockvolume.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(244, 244, 244));
         jLabel8.setText(AppLocal.getIntString("label.prodincatalog")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jInCatalog.setBackground(new java.awt.Color(55, 71, 79));
         m_jInCatalog.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jInCatalog.setSelected(true);
         m_jInCatalog.setPreferredSize(new java.awt.Dimension(30, 30));
@@ -1533,75 +1581,94 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(244, 244, 244));
         jLabel18.setText(AppLocal.getIntString("label.prodorder")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jCatalogOrder.setBackground(new java.awt.Color(55, 71, 79));
         m_jCatalogOrder.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCatalogOrder.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jCatalogOrder.setPreferredSize(new java.awt.Dimension(50, 30));
 
-        jLabel15.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(244, 244, 244));
         jLabel15.setText(bundle.getString("label.service")); // NOI18N
         jLabel15.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jService.setBackground(new java.awt.Color(55, 71, 79));
         m_jService.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jService.setToolTipText("A Service Item will not be deducted from the Inventory");
         m_jService.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(244, 244, 244));
         jLabel11.setText(AppLocal.getIntString("label.prodaux")); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jComment.setBackground(new java.awt.Color(55, 71, 79));
         m_jComment.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jComment.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(244, 244, 244));
         jLabel12.setText(AppLocal.getIntString("label.prodscale")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jScale.setBackground(new java.awt.Color(55, 71, 79));
         m_jScale.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jScale.setPreferredSize(new java.awt.Dimension(30, 30));
 
+        m_jConstant.setBackground(new java.awt.Color(55, 71, 79));
         m_jConstant.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jConstant.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(244, 244, 244));
         jLabel14.setText(bundle.getString("label.prodconstant")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(130, 30));
 
-        jLabel20.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(244, 244, 244));
         jLabel20.setText(bundle.getString("label.variableprice")); // NOI18N
         jLabel20.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jVprice.setBackground(new java.awt.Color(55, 71, 79));
         m_jVprice.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jVprice.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel33.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel33.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(244, 244, 244));
         jLabel33.setText(bundle.getString("label.warranty")); // NOI18N
         jLabel33.setToolTipText(bundle.getString("label.warranty")); // NOI18N
         jLabel33.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jCheckWarrantyReceipt.setBackground(new java.awt.Color(55, 71, 79));
         m_jCheckWarrantyReceipt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCheckWarrantyReceipt.setText(bundle.getString("label.productreceipt")); // NOI18N
         m_jCheckWarrantyReceipt.setPreferredSize(new java.awt.Dimension(30, 30));
 
-        jLabel23.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel23.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(244, 244, 244));
         jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel23.setText(bundle.getString("label.prodminmax")); // NOI18N
         jLabel23.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel23.setPreferredSize(new java.awt.Dimension(531, 20));
 
+        webLabel1.setForeground(new java.awt.Color(244, 244, 244));
         webLabel1.setText(bundle.getString("label.printto")); // NOI18N
         webLabel1.setToolTipText(bundle.getString("tooltip.printto")); // NOI18N
-        webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        webLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(130, 30));
 
+        m_jPrintTo.setBackground(new java.awt.Color(55, 71, 79));
         m_jPrintTo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPrintTo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "0", "1", "2", "3", "4", "5", "6" }));
         m_jPrintTo.setPreferredSize(new java.awt.Dimension(50, 30));
 
+        jBtnShowTrans.setBackground(new java.awt.Color(55, 71, 79));
         jBtnShowTrans.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jBtnShowTrans.setForeground(new java.awt.Color(55, 71, 79));
         jBtnShowTrans.setText(bundle.getString("button.ProductStock")); // NOI18N
         jBtnShowTrans.setToolTipText("");
         jBtnShowTrans.setPreferredSize(new java.awt.Dimension(140, 25));
@@ -1632,17 +1699,21 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jTableProductStock.setRowHeight(25);
         jScrollPane2.setViewportView(jTableProductStock);
 
+        m_jPrintKB.setBackground(new java.awt.Color(55, 71, 79));
         m_jPrintKB.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
+        m_jSendStatus.setBackground(new java.awt.Color(55, 71, 79));
         m_jSendStatus.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
         m_jStockUnits.setEditable(false);
+        m_jStockUnits.setBackground(new java.awt.Color(55, 71, 79));
         m_jStockUnits.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jStockUnits.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         m_jStockUnits.setText("0");
         m_jStockUnits.setBorder(null);
 
-        jLblDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDate.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLblDate.setForeground(new java.awt.Color(244, 244, 244));
         jLblDate.setText(bundle.getString("label.proddate")); // NOI18N
         jLblDate.setPreferredSize(new java.awt.Dimension(130, 30));
 
@@ -1654,6 +1725,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
+        m_jdate.setBackground(new java.awt.Color(55, 71, 79));
         m_jdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jdate.setPreferredSize(new java.awt.Dimension(160, 30));
 
@@ -1811,7 +1883,8 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel28.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel28.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(244, 244, 244));
         jLabel28.setText(bundle.getString("label.prodbuttonhtml")); // NOI18N
         jLabel28.setPreferredSize(new java.awt.Dimension(250, 30));
 
@@ -1919,7 +1992,8 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             }
         });
 
-        jLabel21.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(244, 244, 244));
         jLabel21.setText(bundle.getString("label.texttip")); // NOI18N
         jLabel21.setPreferredSize(new java.awt.Dimension(110, 30));
 
@@ -2025,6 +2099,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
 
         jBtnXml.setBackground(new java.awt.Color(28, 35, 49));
         jBtnXml.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jBtnXml.setForeground(new java.awt.Color(244, 244, 244));
         jBtnXml.setText(bundle.getString("button.injectxml")); // NOI18N
         jBtnXml.setToolTipText(bundle.getString("tooltip.xmlheader")); // NOI18N
         jBtnXml.addActionListener(new java.awt.event.ActionListener() {
@@ -2039,7 +2114,8 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jPanel6.setBackground(new java.awt.Color(28, 35, 49));
         jPanel6.setPreferredSize(new java.awt.Dimension(0, 0));
 
-        jLabel34.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel34.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(244, 244, 244));
         jLabel34.setText(bundle.getString("label.imagesize")); // NOI18N
         jLabel34.setPreferredSize(new java.awt.Dimension(500, 30));
 
@@ -2073,62 +2149,14 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         jTabbedPane1.setBounds(10, 10, 680, 420);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void m_jInCatalogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jInCatalogActionPerformed
- 
-        if (m_jInCatalog.isSelected()) {
-            m_jCatalogOrder.setEnabled(true);   
-        } else {
-            m_jCatalogOrder.setEnabled(false);   
-            m_jCatalogOrder.setText(null);   
-        }
-
-    }//GEN-LAST:event_m_jInCatalogActionPerformed
-
-    private void jButtonHTMLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHTMLActionPerformed
-        setButtonHTML();
-    }//GEN-LAST:event_jButtonHTMLActionPerformed
-
-    private void none(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_none
-
-    }//GEN-LAST:event_none
-
-    private void m_jNameFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jNameFocusLost
-        setDisplay(btn);
-    }//GEN-LAST:event_m_jNameFocusLost
-
-    private void m_jRefFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jRefFocusLost
-        setCode();
-    }//GEN-LAST:event_m_jRefFocusLost
-
-    private void webBtnBreakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnBreakActionPerformed
-        btn=1;
-        setDisplay(btn);
-    }//GEN-LAST:event_webBtnBreakActionPerformed
-
-    private void webBtnColourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnColourActionPerformed
-        btn=2;
-        setDisplay(btn);
-    }//GEN-LAST:event_webBtnColourActionPerformed
-
-    private void webBtnLargeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnLargeActionPerformed
-        btn=3;
-        setDisplay(btn);
-    }//GEN-LAST:event_webBtnLargeActionPerformed
-
-    private void webBtnSmallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnSmallActionPerformed
-        btn=4;
-        setDisplay(btn);
-    }//GEN-LAST:event_webBtnSmallActionPerformed
-
-    private void webBtnBoldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnBoldActionPerformed
-        btn=5;
-        setDisplay(btn);
-    }//GEN-LAST:event_webBtnBoldActionPerformed
-
-    private void webBtnItalicActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnItalicActionPerformed
-        btn=6;
-        setDisplay(btn);
-    }//GEN-LAST:event_webBtnItalicActionPerformed
+    private void jBtnXmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnXmlActionPerformed
+        txtAttributes.setText(
+            "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>  \n" +
+            "<!DOCTYPE properties SYSTEM \"http://java.sun.com/dtd/properties.dtd\">\n" +
+            "<properties>\n" +
+            "    <entry key=\"identifier\">value</entry>\n" +
+            "</properties>");
+    }//GEN-LAST:event_jBtnXmlActionPerformed
 
     private void webBtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnResetActionPerformed
         btn=8;
@@ -2140,41 +2168,43 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         setDisplay(btn);
     }//GEN-LAST:event_webBtnURLActionPerformed
 
-    private void jBtnShowTransActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnShowTransActionPerformed
-        String pId = m_oId.toString();
-        if (pId != null) {
-            stockModel = new StockTableModel(getProductOfName(pId));
-            jTableProductStock.setModel(stockModel);
-            if (stockModel.getRowCount()> 0){
-                jTableProductStock.setVisible(true);
-            }else{
-                jTableProductStock.setVisible(false);
-                JOptionPane.showMessageDialog(null, 
-                    "No Stock Locations for this Product", "Locations", JOptionPane.INFORMATION_MESSAGE);
-            }
-            resetTranxTable();
-        }
-    }//GEN-LAST:event_jBtnShowTransActionPerformed
+    private void webBtnItalicActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnItalicActionPerformed
+        btn=6;
+        setDisplay(btn);
+    }//GEN-LAST:event_webBtnItalicActionPerformed
+
+    private void webBtnBoldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnBoldActionPerformed
+        btn=5;
+        setDisplay(btn);
+    }//GEN-LAST:event_webBtnBoldActionPerformed
+
+    private void webBtnSmallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnSmallActionPerformed
+        btn=4;
+        setDisplay(btn);
+    }//GEN-LAST:event_webBtnSmallActionPerformed
+
+    private void webBtnLargeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnLargeActionPerformed
+        btn=3;
+        setDisplay(btn);
+    }//GEN-LAST:event_webBtnLargeActionPerformed
+
+    private void webBtnColourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnColourActionPerformed
+        btn=2;
+        setDisplay(btn);
+    }//GEN-LAST:event_webBtnColourActionPerformed
+
+    private void webBtnBreakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnBreakActionPerformed
+        btn=1;
+        setDisplay(btn);
+    }//GEN-LAST:event_webBtnBreakActionPerformed
 
     private void colourChooserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_colourChooserActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_colourChooserActionPerformed
 
-    private void webBtnSupplierActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnSupplierActionPerformed
-          
-        JDialogNewSupplier dialog = JDialogNewSupplier.getDialog(this, appView);
-        dialog.setVisible(true);
-  
-        if (dialog.getSelectedSupplier()!=null){
-            try {
-                m_SuppliersModel = new ComboBoxValModel(m_sentsuppliers.list());
-                m_jSupplier.setModel(m_SuppliersModel);
-            } catch (BasicException ex) {
-                Logger.getLogger(ProductsEditor.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        }
-        
-    }//GEN-LAST:event_webBtnSupplierActionPerformed
+    private void jButtonHTMLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHTMLActionPerformed
+        setButtonHTML();
+    }//GEN-LAST:event_jButtonHTMLActionPerformed
 
     private void m_jbtndateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jbtndateActionPerformed
 
@@ -2190,6 +2220,60 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         }
     }//GEN-LAST:event_m_jbtndateActionPerformed
 
+    private void jBtnShowTransActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnShowTransActionPerformed
+        String pId = m_oId.toString();
+        if (pId != null) {
+            stockModel = new StockTableModel(getProductOfName(pId));
+            jTableProductStock.setModel(stockModel);
+            if (stockModel.getRowCount()> 0){
+                jTableProductStock.setVisible(true);
+            }else{
+                jTableProductStock.setVisible(false);
+                JOptionPane.showMessageDialog(null,
+                    "No Stock Locations for this Product", "Locations", JOptionPane.INFORMATION_MESSAGE);
+            }
+            resetTranxTable();
+        }
+    }//GEN-LAST:event_jBtnShowTransActionPerformed
+
+    private void m_jInCatalogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jInCatalogActionPerformed
+
+        if (m_jInCatalog.isSelected()) {
+            m_jCatalogOrder.setEnabled(true);
+        } else {
+            m_jCatalogOrder.setEnabled(false);
+            m_jCatalogOrder.setText(null);
+        }
+    }//GEN-LAST:event_m_jInCatalogActionPerformed
+
+    private void webBtnSupplierActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_webBtnSupplierActionPerformed
+
+        JDialogNewSupplier dialog = JDialogNewSupplier.getDialog(this, appView);
+        dialog.setVisible(true);
+
+        if (dialog.getSelectedSupplier()!=null){
+            try {
+                m_SuppliersModel = new ComboBoxValModel(m_sentsuppliers.list());
+                m_jSupplier.setModel(m_SuppliersModel);
+            } catch (BasicException ex) {
+                Logger.getLogger(ProductsEditor.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+
+    }//GEN-LAST:event_webBtnSupplierActionPerformed
+
+    private void none(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_none
+
+    }//GEN-LAST:event_none
+
+    private void m_jNameFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jNameFocusLost
+        setDisplay(btn);
+    }//GEN-LAST:event_m_jNameFocusLost
+
+    private void m_jRefFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_m_jRefFocusLost
+        setCode();
+    }//GEN-LAST:event_m_jRefFocusLost
+
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
 
         if (evt.getClickCount() == 2) {
@@ -2197,20 +2281,11 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
             StringSelection stringSelection = new StringSelection(uuidString);
             Clipboard clpbrd = Toolkit.getDefaultToolkit().getSystemClipboard();
             clpbrd.setContents(stringSelection, null);
-        
-            JOptionPane.showMessageDialog(null, 
+
+            JOptionPane.showMessageDialog(null,
                 AppLocal.getIntString("message.uuidcopy"));
         }
     }//GEN-LAST:event_jLabel1MouseClicked
-
-    private void jBtnXmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnXmlActionPerformed
-        txtAttributes.setText(
-            "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>  \n" +
-            "<!DOCTYPE properties SYSTEM \"http://java.sun.com/dtd/properties.dtd\">\n" +
-            "<properties>\n" +
-            "    <entry key=\"identifier\">value</entry>\n" +
-            "</properties>");
-    }//GEN-LAST:event_jBtnXmlActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private com.alee.extended.colorchooser.WebColorChooserField colourChooser;

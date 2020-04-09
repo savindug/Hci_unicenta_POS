@@ -174,6 +174,7 @@ public final class BreaksView extends javax.swing.JPanel implements EditorRecord
         m_jBreakName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jBreakName.setForeground(new java.awt.Color(255, 255, 255));
         m_jBreakName.setBorder(null);
+        m_jBreakName.setCursor(new java.awt.Cursor(java.awt.Cursor.MOVE_CURSOR));
 
         m_jBreakDescription.setBackground(new java.awt.Color(75, 81, 93));
         m_jBreakDescription.setColumns(20);
@@ -182,20 +183,21 @@ public final class BreaksView extends javax.swing.JPanel implements EditorRecord
         m_jBreakDescription.setLineWrap(true);
         m_jBreakDescription.setRows(5);
         m_jBreakDescription.setBorder(null);
+        m_jBreakDescription.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane1.setViewportView(m_jBreakDescription);
 
         m_jVisible.setBackground(new java.awt.Color(28, 35, 49));
         m_jVisible.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
-        m_Ncx.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_Ncx.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         m_Ncx.setForeground(new java.awt.Color(255, 255, 255));
         m_Ncx.setText(AppLocal.getIntString("label.epm.visible")); // NOI18N
 
-        m_Name3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_Name3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         m_Name3.setForeground(new java.awt.Color(255, 255, 255));
         m_Name3.setText(AppLocal.getIntString("label.epm.notes")); // NOI18N
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.epm.employee")); // NOI18N

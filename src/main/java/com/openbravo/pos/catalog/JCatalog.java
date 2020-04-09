@@ -483,24 +483,30 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
         m_btnBack1 = new javax.swing.JButton();
         m_jProducts = new javax.swing.JPanel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setLayout(new java.awt.BorderLayout());
 
+        m_jCategories.setBackground(new java.awt.Color(28, 35, 49));
         m_jCategories.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jCategories.setMaximumSize(new java.awt.Dimension(275, 600));
         m_jCategories.setPreferredSize(new java.awt.Dimension(265, 0));
         m_jCategories.setLayout(new java.awt.CardLayout());
 
+        m_jRootCategories.setBackground(new java.awt.Color(75, 81, 93));
         m_jRootCategories.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         m_jRootCategories.setMinimumSize(new java.awt.Dimension(200, 100));
         m_jRootCategories.setPreferredSize(new java.awt.Dimension(275, 130));
         m_jRootCategories.setLayout(new java.awt.BorderLayout());
 
+        m_jscrollcat.setBackground(new java.awt.Color(75, 81, 93));
         m_jscrollcat.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         m_jscrollcat.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         m_jscrollcat.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jscrollcat.setPreferredSize(new java.awt.Dimension(265, 130));
 
+        m_jListCategories.setBackground(new java.awt.Color(75, 81, 93));
         m_jListCategories.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jListCategories.setForeground(new java.awt.Color(255, 255, 255));
         m_jListCategories.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         m_jListCategories.setFocusable(false);
         m_jListCategories.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
@@ -512,8 +518,10 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         m_jRootCategories.add(m_jscrollcat, java.awt.BorderLayout.WEST);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jPanel3.setBackground(new java.awt.Color(75, 81, 93));
         jPanel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
         jPanel3.setLayout(new java.awt.GridLayout(0, 1, 0, 5));
         jPanel2.add(jPanel3, java.awt.BorderLayout.NORTH);
@@ -522,8 +530,10 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         m_jCategories.add(m_jRootCategories, "rootcategories");
 
+        m_jSubCategories.setBackground(new java.awt.Color(28, 35, 49));
         m_jSubCategories.setLayout(new java.awt.BorderLayout());
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
         m_lblIndicator.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -532,11 +542,15 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         m_jSubCategories.add(jPanel4, java.awt.BorderLayout.WEST);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
         jPanel5.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
         jPanel5.setLayout(new java.awt.GridLayout(0, 1, 0, 5));
 
+        m_btnBack1.setBackground(new java.awt.Color(75, 81, 93));
+        m_btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         m_btnBack1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2uparrow.png"))); // NOI18N
         m_btnBack1.setFocusPainted(false);
         m_btnBack1.setFocusable(false);
@@ -558,6 +572,7 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
 
         add(m_jCategories, java.awt.BorderLayout.LINE_START);
 
+        m_jProducts.setBackground(new java.awt.Color(28, 35, 49));
         m_jProducts.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jProducts.setLayout(new java.awt.CardLayout());
         add(m_jProducts, java.awt.BorderLayout.CENTER);

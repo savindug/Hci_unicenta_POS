@@ -308,8 +308,6 @@ public class JProductAttEdit2 extends javax.swing.JDialog {
         jPanel3.setLayout(new java.awt.BorderLayout());
 
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
-
-        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.add(m_jKeys);
 
         jPanel3.add(jPanel4, java.awt.BorderLayout.NORTH);

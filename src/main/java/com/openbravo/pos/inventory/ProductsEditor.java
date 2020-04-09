@@ -1190,8 +1190,8 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         setLayout(null);
 
         m_jTitle.setBackground(new java.awt.Color(28, 35, 49));
-        m_jTitle.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jTitle.setForeground(new java.awt.Color(102, 102, 102));
+        m_jTitle.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        m_jTitle.setForeground(new java.awt.Color(244, 244, 244));
         m_jTitle.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         m_jTitle.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         m_jTitle.setFocusable(false);
@@ -1202,8 +1202,7 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
         m_jTitle.setBounds(365, 5, 260, 25);
 
         jTabbedPane1.setBackground(new java.awt.Color(55, 71, 79));
-        jTabbedPane1.setForeground(new java.awt.Color(28, 35, 49));
-        jTabbedPane1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(680, 420));
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
@@ -2259,7 +2258,6 @@ public final class ProductsEditor extends javax.swing.JPanel implements EditorRe
                 Logger.getLogger(ProductsEditor.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-
     }//GEN-LAST:event_webBtnSupplierActionPerformed
 
     private void none(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_none

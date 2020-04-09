@@ -165,7 +165,9 @@ public class JMooringDetails extends javax.swing.JDialog {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setBackground(new java.awt.Color(28, 35, 49));
 
+        jbtnCreateTicket.setBackground(new java.awt.Color(55, 71, 79));
         jbtnCreateTicket.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnCreateTicket.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
@@ -176,7 +178,9 @@ public class JMooringDetails extends javax.swing.JDialog {
             }
         });
 
+        jTableSelector.setBackground(new java.awt.Color(28, 35, 49));
         jTableSelector.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jTableSelector.setForeground(new java.awt.Color(255, 255, 255));
         jTableSelector.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -205,14 +209,18 @@ public class JMooringDetails extends javax.swing.JDialog {
             }
         });
         jScrollPane2.setViewportView(jTableSelector);
-        jTableSelector.getColumnModel().getColumn(1).setResizable(false);
-        jTableSelector.getColumnModel().getColumn(1).setPreferredWidth(50);
-        jTableSelector.getColumnModel().getColumn(2).setResizable(false);
-        jTableSelector.getColumnModel().getColumn(2).setPreferredWidth(50);
-        jTableSelector.getColumnModel().getColumn(3).setResizable(false);
-        jTableSelector.getColumnModel().getColumn(3).setPreferredWidth(70);
+        if (jTableSelector.getColumnModel().getColumnCount() > 0) {
+            jTableSelector.getColumnModel().getColumn(1).setResizable(false);
+            jTableSelector.getColumnModel().getColumn(1).setPreferredWidth(50);
+            jTableSelector.getColumnModel().getColumn(2).setResizable(false);
+            jTableSelector.getColumnModel().getColumn(2).setPreferredWidth(50);
+            jTableSelector.getColumnModel().getColumn(3).setResizable(false);
+            jTableSelector.getColumnModel().getColumn(3).setPreferredWidth(70);
+        }
 
+        jText.setBackground(new java.awt.Color(28, 35, 49));
         jText.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jText.setForeground(new java.awt.Color(255, 255, 255));
         jText.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jText.setEnabled(false);
         jText.addActionListener(new java.awt.event.ActionListener() {
@@ -221,7 +229,9 @@ public class JMooringDetails extends javax.swing.JDialog {
             }
         });
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(bundle.getString("label.mooringscreatefor")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -231,7 +241,7 @@ public class JMooringDetails extends javax.swing.JDialog {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 508, Short.MAX_VALUE)
+                    .addComponent(jScrollPane2)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -239,7 +249,7 @@ public class JMooringDetails extends javax.swing.JDialog {
                         .addComponent(jText, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jbtnCreateTicket, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 331, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -252,11 +262,11 @@ public class JMooringDetails extends javax.swing.JDialog {
                     .addComponent(jText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1)
                     .addComponent(jbtnCreateTicket))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(240, Short.MAX_VALUE))
         );
 
-        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-        setBounds((screenSize.width-536)/2, (screenSize.height-274)/2, 536, 274);
+        setSize(new java.awt.Dimension(879, 537));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbtnCreateTicketActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnCreateTicketActionPerformed

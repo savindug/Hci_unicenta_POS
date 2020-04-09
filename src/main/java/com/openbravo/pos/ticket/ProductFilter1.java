@@ -145,37 +145,52 @@ public class ProductFilter1 extends javax.swing.JPanel implements ReportEditorCr
         m_jCboUnits = new javax.swing.JComboBox();
         m_jUnits = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(946, 50));
 
         m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(70, 30));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(70, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(70, 30));
 
+        m_jCategory.setBackground(new java.awt.Color(28, 35, 49));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setForeground(new java.awt.Color(255, 255, 255));
         m_jCategory.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jCboName.setBackground(new java.awt.Color(28, 35, 49));
         m_jCboName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCboName.setForeground(new java.awt.Color(255, 255, 255));
         m_jCboName.setPreferredSize(new java.awt.Dimension(150, 30));
 
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.produnits")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(50, 30));
 
+        m_jCboUnits.setBackground(new java.awt.Color(28, 35, 49));
         m_jCboUnits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCboUnits.setForeground(new java.awt.Color(255, 255, 255));
         m_jCboUnits.setPreferredSize(new java.awt.Dimension(150, 30));
 
         m_jUnits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -212,18 +227,19 @@ public class ProductFilter1 extends javax.swing.JPanel implements ReportEditorCr
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(m_jCboName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(m_jName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(m_jCategory, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(m_jBarcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(m_jCboUnits, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(m_jUnits, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(m_jUnits, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(m_jCboName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(m_jName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(m_jCategory, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(m_jBarcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents

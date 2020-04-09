@@ -103,7 +103,7 @@ public JRefundLines(DataLogicSystem dlSystem, JPanelTicketEdits jTicketEdit) {
         webLabel1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
 
         m_jbtnAddOne.setBackground(new java.awt.Color(55, 71, 79));
-        m_jbtnAddOne.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnAddOne.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jbtnAddOne.setForeground(new java.awt.Color(255, 255, 255));
         m_jbtnAddOne.setText(AppLocal.getIntString("button.refundone")); // NOI18N
         m_jbtnAddOne.setToolTipText(bundle.getString("tooltip.refunditem")); // NOI18N
@@ -120,7 +120,7 @@ public JRefundLines(DataLogicSystem dlSystem, JPanelTicketEdits jTicketEdit) {
         });
 
         m_jbtnAddLine.setBackground(new java.awt.Color(55, 71, 79));
-        m_jbtnAddLine.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnAddLine.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jbtnAddLine.setForeground(new java.awt.Color(255, 255, 255));
         m_jbtnAddLine.setText(AppLocal.getIntString("button.refundline")); // NOI18N
         m_jbtnAddLine.setToolTipText(bundle.getString("tooltip.refundline")); // NOI18N
@@ -137,7 +137,7 @@ public JRefundLines(DataLogicSystem dlSystem, JPanelTicketEdits jTicketEdit) {
         });
 
         m_jbtnAddAll.setBackground(new java.awt.Color(55, 71, 79));
-        m_jbtnAddAll.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnAddAll.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jbtnAddAll.setForeground(new java.awt.Color(255, 255, 255));
         m_jbtnAddAll.setText(AppLocal.getIntString("button.refundall")); // NOI18N
         m_jbtnAddAll.setToolTipText(bundle.getString("tooltip.refundticket")); // NOI18N

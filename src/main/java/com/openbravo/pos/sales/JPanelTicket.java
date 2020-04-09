@@ -2233,7 +2233,9 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         });
         m_jPanelBag.add(m_jbtnScale);
 
+        jbtnMooring.setBackground(new java.awt.Color(55, 71, 79));
         jbtnMooring.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnMooring.setForeground(new java.awt.Color(255, 255, 255));
         jbtnMooring.setText(bundle.getString("button.moorings")); // NOI18N
         jbtnMooring.setMargin(new java.awt.Insets(8, 14, 8, 14));
         jbtnMooring.setMaximumSize(new java.awt.Dimension(80, 40));
@@ -2285,7 +2287,8 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
-        webCBCustomer.setBackground(new java.awt.Color(237, 237, 237));
+        webCBCustomer.setBackground(new java.awt.Color(55, 71, 79));
+        webCBCustomer.setForeground(new java.awt.Color(255, 255, 255));
         webCBCustomer.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Find", "Create" }));
         webCBCustomer.setToolTipText(AppLocal.getIntString("tooltip.salescustomer")); // NOI18N
         webCBCustomer.setExpandIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer.png")));

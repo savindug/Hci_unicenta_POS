@@ -400,15 +400,22 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         setPreferredSize(new java.awt.Dimension(1000, 750));
         setLayout(new java.awt.BorderLayout());
 
+        jPanNorth.setBackground(new java.awt.Color(28, 35, 49));
+        jPanNorth.setForeground(new java.awt.Color(255, 255, 255));
         jPanNorth.setPreferredSize(new java.awt.Dimension(1000, 350));
 
+        m_jToolbar.setBackground(new java.awt.Color(28, 35, 49));
+        m_jToolbar.setForeground(new java.awt.Color(255, 255, 255));
         m_jToolbar.setPreferredSize(new java.awt.Dimension(500, 55));
         m_jToolbar.setLayout(new java.awt.BorderLayout());
 
+        m_jbtnReceive.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnReceive.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        m_jbtnReceive.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/receive.png"))); // NOI18N
+        m_jbtnReceive.setForeground(null);
+        m_jbtnReceive.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/recieve.png"))); // NOI18N
         m_jbtnReceive.setText(AppLocal.getIntString("button.receive")); // NOI18N
         m_jbtnReceive.setToolTipText("Receive pre-Booked Customer");
+        m_jbtnReceive.setBorder(null);
         m_jbtnReceive.setFocusPainted(false);
         m_jbtnReceive.setFocusable(false);
         m_jbtnReceive.setPreferredSize(new java.awt.Dimension(130, 45));
@@ -419,10 +426,13 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
             }
         });
 
+        m_jbtnTables.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnTables.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnTables.setForeground(null);
         m_jbtnTables.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/tables.png"))); // NOI18N
         m_jbtnTables.setText(AppLocal.getIntString("button.tables")); // NOI18N
         m_jbtnTables.setToolTipText("Go to Table Plan");
+        m_jbtnTables.setBorder(null);
         m_jbtnTables.setFocusPainted(false);
         m_jbtnTables.setFocusable(false);
         m_jbtnTables.setPreferredSize(new java.awt.Dimension(130, 45));
@@ -433,17 +443,24 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
             }
         });
 
+        m_jPanelList.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanelList.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        m_jPanelList.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelList.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelList.setPreferredSize(new java.awt.Dimension(300, 200));
         m_jPanelList.setLayout(new java.awt.BorderLayout());
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("rest.label.selectcustomer")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 45));
 
+        jButton1.setBackground(new java.awt.Color(55, 71, 79));
+        jButton1.setForeground(null);
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         jButton1.setToolTipText("Show Customers");
+        jButton1.setBorder(null);
         jButton1.setFocusPainted(false);
         jButton1.setFocusable(false);
         jButton1.setMaximumSize(new java.awt.Dimension(40, 33));
@@ -456,42 +473,59 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
             }
         });
 
+        txtCustomer.setBackground(new java.awt.Color(55, 71, 79));
+        txtCustomer.setForeground(null);
         txtCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCustomer.setMaximumSize(new java.awt.Dimension(250, 30));
         txtCustomer.setMinimumSize(new java.awt.Dimension(200, 25));
         txtCustomer.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("rest.label.chairs")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jtxtChairs.setBackground(new java.awt.Color(55, 71, 79));
+        m_jtxtChairs.setForeground(null);
         m_jtxtChairs.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtChairs.setMaximumSize(new java.awt.Dimension(50, 25));
         m_jtxtChairs.setMinimumSize(new java.awt.Dimension(50, 25));
         m_jtxtChairs.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("rest.label.notes")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jtxtDescription.setBackground(new java.awt.Color(55, 71, 79));
+        m_jtxtDescription.setForeground(null);
         m_jtxtDescription.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtDescription.setMaximumSize(new java.awt.Dimension(180, 25));
         m_jtxtDescription.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("rest.label.date")); // NOI18N
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jPanelTime.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelTime.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelTime.setPreferredSize(new java.awt.Dimension(200, 200));
         m_jPanelTime.setLayout(new java.awt.BorderLayout());
 
+        jbtnShowCalendar.setBackground(new java.awt.Color(55, 71, 79));
         jbtnShowCalendar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jbtnShowCalendar.setForeground(null);
         jbtnShowCalendar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jbtnShowCalendar.setText(bundle.getString("rest.label.showcalendar")); // NOI18N
         jbtnShowCalendar.setToolTipText(bundle.getString("rest.label.showcalendar")); // NOI18N
+        jbtnShowCalendar.setBorder(null);
         jbtnShowCalendar.setPreferredSize(new java.awt.Dimension(129, 45));
         jbtnShowCalendar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -578,35 +612,37 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
                     .addGroup(jPanNorthLayout.createSequentialGroup()
                         .addGap(7, 7, 7)
                         .addComponent(m_jtxtDescription, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanNorthLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanNorthLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(javax.swing.GroupLayout.Alignment.CENTER, jPanNorthLayout.createSequentialGroup()
-                            .addGap(31, 31, 31)
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(42, 42, 42)
                             .addComponent(jbtnShowCalendar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.CENTER, jPanNorthLayout.createSequentialGroup()
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(m_jPanelTime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanNorthLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(m_jPanelList, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(m_jPanelTime, javax.swing.GroupLayout.Alignment.CENTER, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(m_jPanelList, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
-        jLabel5.getAccessibleContext().setAccessibleName("Select Person");
-
         add(jPanNorth, java.awt.BorderLayout.CENTER);
 
+        jPanSouth.setBackground(new java.awt.Color(28, 35, 49));
+        jPanSouth.setForeground(new java.awt.Color(255, 255, 255));
         jPanSouth.setPreferredSize(new java.awt.Dimension(1000, 350));
 
+        jCalendar.setBackground(new java.awt.Color(28, 35, 49));
+        jCalendar.setForeground(new java.awt.Color(255, 255, 255));
         jCalendar.setPreferredSize(new java.awt.Dimension(1000, 350));
         jCalendar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jPanelTime.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelTime.setForeground(new java.awt.Color(255, 255, 255));
         jPanelTime.setPreferredSize(new java.awt.Dimension(250, 250));
         jPanelTime.setLayout(new java.awt.BorderLayout());
         jCalendar.add(jPanelTime, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, -1, -1));
 
+        jPanelDate.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelDate.setForeground(new java.awt.Color(255, 255, 255));
         jPanelDate.setPreferredSize(new java.awt.Dimension(700, 345));
         jPanelDate.setLayout(new java.awt.BorderLayout());
         jCalendar.add(jPanelDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 5, -1, -1));
@@ -615,7 +651,7 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         jPanSouth.setLayout(jPanSouthLayout);
         jPanSouthLayout.setHorizontalGroup(
             jPanSouthLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1012, Short.MAX_VALUE)
+            .addGap(0, 1015, Short.MAX_VALUE)
             .addGroup(jPanSouthLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanSouthLayout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)

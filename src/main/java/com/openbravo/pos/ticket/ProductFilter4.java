@@ -137,27 +137,38 @@ public class ProductFilter4 extends javax.swing.JPanel implements ReportEditorCr
         m_jCboName = new javax.swing.JComboBox();
         m_jName = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(946, 50));
 
         m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jCategory.setBackground(new java.awt.Color(28, 35, 49));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCategory.setForeground(new java.awt.Color(255, 255, 255));
         m_jCategory.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jCboName.setBackground(new java.awt.Color(28, 35, 49));
         m_jCboName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jCboName.setForeground(new java.awt.Color(255, 255, 255));
         m_jCboName.setPreferredSize(new java.awt.Dimension(150, 30));
 
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

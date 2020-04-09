@@ -87,7 +87,7 @@ public class JFrmConfig extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
         setMinimumSize(new java.awt.Dimension(950, 450));
         setPreferredSize(new java.awt.Dimension(950, 500));
 

@@ -656,7 +656,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.searchkeym")); // NOI18N
 
+        m_jSearchkey.setBackground(new java.awt.Color(75, 81, 93));
         m_jSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearchkey.setForeground(new java.awt.Color(255, 255, 255));
         m_jSearchkey.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jSearchkey.setPreferredSize(new java.awt.Dimension(0, 30));
 

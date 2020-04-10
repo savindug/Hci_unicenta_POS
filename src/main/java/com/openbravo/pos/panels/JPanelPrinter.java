@@ -107,12 +107,21 @@ public class JPanelPrinter extends JPanel implements JPanelView {
         jPanel1 = new javax.swing.JPanel();
         m_jPrinters = new javax.swing.JTabbedPane();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
+
+        m_jDisplay.setBackground(new java.awt.Color(28, 35, 49));
+        m_jDisplay.setForeground(new java.awt.Color(255, 255, 255));
         add(m_jDisplay, java.awt.BorderLayout.NORTH);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        m_jPrinters.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPrinters.setForeground(new java.awt.Color(255, 255, 255));
         m_jPrinters.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel1.add(m_jPrinters, java.awt.BorderLayout.CENTER);
 

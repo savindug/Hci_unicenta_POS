@@ -160,30 +160,43 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
         jButtonPrint = new javax.swing.JButton();
         webCBCustomer = new com.alee.laf.combobox.WebComboBox();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.Number")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jNumber.setBackground(new java.awt.Color(75, 81, 93));
+        m_jNumber.setForeground(new java.awt.Color(255, 255, 255));
         m_jNumber.setPreferredSize(new java.awt.Dimension(240, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.customer")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
         m_jCustomer.setEditable(false);
+        m_jCustomer.setBackground(new java.awt.Color(75, 81, 93));
+        m_jCustomer.setForeground(new java.awt.Color(255, 255, 255));
         m_jCustomer.setPreferredSize(new java.awt.Dimension(240, 30));
 
+        m_jAmount.setBackground(new java.awt.Color(75, 81, 93));
+        m_jAmount.setForeground(new java.awt.Color(255, 255, 255));
         m_jAmount.setPreferredSize(new java.awt.Dimension(240, 30));
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.paymenttotal")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jButtonPrint.setBackground(new java.awt.Color(55, 71, 79));
         jButtonPrint.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButtonPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/printer24.png"))); // NOI18N
         jButtonPrint.setToolTipText(AppLocal.getIntString("button.print")); // NOI18N
+        jButtonPrint.setBorder(null);
         jButtonPrint.setFocusPainted(false);
         jButtonPrint.setFocusable(false);
         jButtonPrint.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -195,6 +208,8 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
             }
         });
 
+        webCBCustomer.setBackground(new java.awt.Color(75, 81, 93));
+        webCBCustomer.setForeground(new java.awt.Color(255, 255, 255));
         webCBCustomer.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Find", "Create" }));
         webCBCustomer.setToolTipText(AppLocal.getIntString("tooltip.vouchercustomer")); // NOI18N
         webCBCustomer.setExpandIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer.png")));

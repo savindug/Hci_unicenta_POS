@@ -1058,7 +1058,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         pnlMain.add(scrollPane, java.awt.BorderLayout.CENTER);
 
-        pnlTabs.setBackground(new java.awt.Color(204, 204, 204));
+        pnlTabs.setBackground(new java.awt.Color(28, 35, 49));
+        pnlTabs.setForeground(new java.awt.Color(255, 255, 255));
         pnlTabs.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 pnlTabsStateChanged(evt);
@@ -1068,7 +1069,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         add(pnlMain, java.awt.BorderLayout.CENTER);
 
-        pnlStatus.setBackground(new java.awt.Color(204, 204, 204));
+        pnlStatus.setBackground(new java.awt.Color(28, 35, 49));
         pnlStatus.setForeground(new java.awt.Color(255, 255, 255));
         pnlStatus.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         pnlStatus.setPreferredSize(new java.awt.Dimension(59, 20));

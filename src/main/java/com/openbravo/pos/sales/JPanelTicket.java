@@ -2545,7 +2545,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jLblTotalEuros1.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         m_jPanTotals.add(m_jLblTotalEuros1);
 
-        m_jSubtotalEuros.setBackground(m_jEditLine.getBackground());
+        m_jSubtotalEuros.setBackground(new java.awt.Color(75, 81, 93));
         m_jSubtotalEuros.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jSubtotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jSubtotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -2558,7 +2558,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jSubtotalEuros.setRequestFocusEnabled(false);
         m_jPanTotals.add(m_jSubtotalEuros);
 
-        m_jTaxesEuros.setBackground(m_jEditLine.getBackground());
+        m_jTaxesEuros.setBackground(new java.awt.Color(75, 81, 93));
         m_jTaxesEuros.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         m_jTaxesEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxesEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -2571,7 +2571,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jTaxesEuros.setRequestFocusEnabled(false);
         m_jPanTotals.add(m_jTaxesEuros);
 
-        m_jTotalEuros.setBackground(m_jEditLine.getBackground());
+        m_jTotalEuros.setBackground(new java.awt.Color(75, 81, 93));
         m_jTotalEuros.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         m_jTotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -2624,7 +2624,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
-        m_jPrice.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPrice.setBackground(new java.awt.Color(75, 81, 93));
         m_jPrice.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         m_jPrice.setForeground(new java.awt.Color(255, 255, 255));
         m_jPrice.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -2633,7 +2633,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
         m_jPrice.setPreferredSize(new java.awt.Dimension(100, 25));
         m_jPrice.setRequestFocusEnabled(false);
 
-        m_jPor.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPor.setBackground(new java.awt.Color(75, 81, 93));
         m_jPor.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jPor.setForeground(new java.awt.Color(255, 255, 255));
         m_jPor.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -2656,7 +2656,7 @@ public abstract class JPanelTicket extends JPanel implements JPanelView, BeanFac
             }
         });
 
-        m_jTax.setBackground(new java.awt.Color(28, 35, 49));
+        m_jTax.setBackground(new java.awt.Color(75, 81, 93));
         m_jTax.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         m_jTax.setForeground(new java.awt.Color(255, 255, 255));
         m_jTax.setToolTipText(bundle.getString("tooltip.salestaxswitch")); // NOI18N

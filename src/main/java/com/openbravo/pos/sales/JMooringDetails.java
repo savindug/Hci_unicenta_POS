@@ -172,6 +172,7 @@ public class JMooringDetails extends javax.swing.JDialog {
         jbtnCreateTicket.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jbtnCreateTicket.setText(bundle.getString("label.mooringcreatebtn")); // NOI18N
+        jbtnCreateTicket.setBorder(null);
         jbtnCreateTicket.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnCreateTicketActionPerformed(evt);
@@ -218,7 +219,7 @@ public class JMooringDetails extends javax.swing.JDialog {
             jTableSelector.getColumnModel().getColumn(3).setPreferredWidth(70);
         }
 
-        jText.setBackground(new java.awt.Color(28, 35, 49));
+        jText.setBackground(new java.awt.Color(75, 81, 93));
         jText.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jText.setForeground(new java.awt.Color(255, 255, 255));
         jText.setDisabledTextColor(new java.awt.Color(0, 0, 0));
@@ -262,7 +263,7 @@ public class JMooringDetails extends javax.swing.JDialog {
                     .addComponent(jText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1)
                     .addComponent(jbtnCreateTicket))
-                .addContainerGap(240, Short.MAX_VALUE))
+                .addContainerGap(248, Short.MAX_VALUE))
         );
 
         setSize(new java.awt.Dimension(879, 537));

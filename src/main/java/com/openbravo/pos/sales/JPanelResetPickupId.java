@@ -206,6 +206,7 @@ public class JPanelResetPickupId extends JPanel implements JPanelView {
         jbtnUpdate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         jbtnUpdate.setText(AppLocal.getIntString("label.resetpickup")); // NOI18N
+        jbtnUpdate.setBorder(null);
         jbtnUpdate.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnUpdate.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnUpdate.setPreferredSize(new java.awt.Dimension(70, 33));
@@ -219,6 +220,7 @@ public class JPanelResetPickupId extends JPanel implements JPanelView {
         jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnExit.setForeground(new java.awt.Color(255, 255, 255));
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
+        jbtnExit.setBorder(null);
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setPreferredSize(new java.awt.Dimension(70, 33));
@@ -253,7 +255,7 @@ public class JPanelResetPickupId extends JPanel implements JPanelView {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 344, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

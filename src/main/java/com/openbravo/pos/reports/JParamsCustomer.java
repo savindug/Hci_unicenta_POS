@@ -132,14 +132,19 @@ public class JParamsCustomer extends javax.swing.JPanel implements ReportEditorC
         btnCustomer = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 60));
 
+        jTextField1.setBackground(new java.awt.Color(75, 81, 95));
         jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        btnCustomer.setBackground(new java.awt.Color(55, 71, 79));
         btnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnCustomer.setToolTipText("Get Customers");
+        btnCustomer.setBorder(null);
         btnCustomer.setPreferredSize(new java.awt.Dimension(80, 45));
         btnCustomer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,6 +153,7 @@ public class JParamsCustomer extends javax.swing.JPanel implements ReportEditorC
         });
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.customer")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 

@@ -119,13 +119,17 @@ public class JParamsReason extends javax.swing.JPanel implements ReportEditorCre
         jLabel2 = new javax.swing.JLabel();
         m_jreason = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(400, 50));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.stockreason")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jreason.setBackground(new java.awt.Color(75, 81, 93));
         m_jreason.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jreason.setForeground(new java.awt.Color(255, 255, 255));
         m_jreason.setMaximumRowCount(12);
         m_jreason.setPreferredSize(new java.awt.Dimension(250, 30));
 

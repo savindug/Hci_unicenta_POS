@@ -132,18 +132,24 @@ public class JParamsUser extends javax.swing.JPanel implements ReportEditorCreat
         jTextField1 = new javax.swing.JTextField();
         btnUser = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 60));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.user")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jTextField1.setBackground(new java.awt.Color(75, 81, 93));
         jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        btnUser.setBackground(new java.awt.Color(55, 71, 79));
         btnUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnUser.setToolTipText("Get Customers");
+        btnUser.setBorder(null);
         btnUser.setPreferredSize(new java.awt.Dimension(80, 45));
         btnUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

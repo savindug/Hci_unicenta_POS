@@ -1575,67 +1575,73 @@ public final class Transfer extends JPanel implements JPanelView {
         jbtnTransfer = new javax.swing.JButton();
         webPBar = new com.alee.laf.progressbar.WebProgressBar();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(900, 425));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel5.setText(bundle.getString("label.DbType")); // NOI18N
         jLabel5.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel5.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel5.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel18.setBackground(new java.awt.Color(28, 35, 49));
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText(AppLocal.getIntString("label.dbdriverlib")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel18.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel18.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.DbDriver")); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel1.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel1.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("URL");
         jLabel2.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel2.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel2.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("DB Version");
         jLabel7.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel7.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel7.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.DbUser")); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel3.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel3.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.DbPassword")); // NOI18N
         jLabel4.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel4.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel4.setPreferredSize(new java.awt.Dimension(160, 30));
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("TRANSFER TO :");
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
-        jLabel6.setSize(new java.awt.Dimension(150, 30));
 
-        webPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        webPanel2.setBackground(new java.awt.Color(28, 35, 49));
 
         javax.swing.GroupLayout webPanel2Layout = new javax.swing.GroupLayout(webPanel2);
         webPanel2.setLayout(webPanel2Layout);
@@ -1648,7 +1654,8 @@ public final class Transfer extends JPanel implements JPanelView {
             .addGap(0, 51, Short.MAX_VALUE)
         );
 
-        cbSource.setForeground(new java.awt.Color(51, 51, 51));
+        cbSource.setBackground(new java.awt.Color(75, 81, 93));
+        cbSource.setForeground(new java.awt.Color(255, 255, 255));
         cbSource.setToolTipText(bundle.getString("tooltip.transferfromdb")); // NOI18N
         cbSource.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbSource.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -1658,41 +1665,50 @@ public final class Transfer extends JPanel implements JPanelView {
             }
         });
 
-        jtxtDbDriverLib.setForeground(new java.awt.Color(51, 51, 51));
+        jtxtDbDriverLib.setBackground(new java.awt.Color(75, 81, 93));
+        jtxtDbDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbDriverLib.setToolTipText(bundle.getString("tootltip.transferlib")); // NOI18N
         jtxtDbDriverLib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbDriverLib.setPreferredSize(new java.awt.Dimension(300, 30));
 
+        jbtnDbDriverLib.setBackground(new java.awt.Color(55, 71, 79));
+        jbtnDbDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         jbtnDbDriverLib.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnDbDriverLib.setToolTipText(bundle.getString("tooltip.openfile")); // NOI18N
+        jbtnDbDriverLib.setBorder(null);
         jbtnDbDriverLib.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setPreferredSize(new java.awt.Dimension(60, 30));
 
-        jtxtDbDriver.setForeground(new java.awt.Color(51, 51, 51));
+        jtxtDbDriver.setBackground(new java.awt.Color(75, 81, 93));
+        jtxtDbDriver.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbDriver.setToolTipText(bundle.getString("tootltip.transferclass")); // NOI18N
         jtxtDbDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbDriver.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jtxtDbURL.setForeground(new java.awt.Color(51, 51, 51));
+        jtxtDbURL.setBackground(new java.awt.Color(75, 81, 93));
+        jtxtDbURL.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbURL.setToolTipText(bundle.getString("tootltip.transferdbname")); // NOI18N
         jtxtDbURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbURL.setPreferredSize(new java.awt.Dimension(300, 30));
 
+        jlblVersion.setBackground(new java.awt.Color(75, 81, 93));
         jlblVersion.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
-        jlblVersion.setForeground(new java.awt.Color(0, 204, 255));
+        jlblVersion.setForeground(new java.awt.Color(255, 255, 255));
         jlblVersion.setToolTipText(bundle.getString("tooltip.transferdbversion")); // NOI18N
         jlblVersion.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 204, 255)));
         jlblVersion.setMaximumSize(new java.awt.Dimension(150, 30));
         jlblVersion.setMinimumSize(new java.awt.Dimension(150, 30));
         jlblVersion.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        txtDbUser.setForeground(new java.awt.Color(51, 51, 51));
+        txtDbUser.setBackground(new java.awt.Color(75, 81, 93));
+        txtDbUser.setForeground(new java.awt.Color(255, 255, 255));
         txtDbUser.setToolTipText(bundle.getString("tooltip.dbuser")); // NOI18N
         txtDbUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDbUser.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        txtDbPass.setForeground(new java.awt.Color(51, 51, 51));
+        txtDbPass.setBackground(new java.awt.Color(75, 81, 93));
+        txtDbPass.setForeground(new java.awt.Color(255, 255, 255));
         txtDbPass.setToolTipText(bundle.getString("tooltip.dbpassword")); // NOI18N
         txtDbPass.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDbPass.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1704,6 +1720,7 @@ public final class Transfer extends JPanel implements JPanelView {
         jScrollPane1.setHorizontalScrollBar(null);
         jScrollPane1.setPreferredSize(new java.awt.Dimension(200, 350));
 
+        txtOut.setBackground(new java.awt.Color(28, 35, 49));
         txtOut.setColumns(20);
         txtOut.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         txtOut.setForeground(new java.awt.Color(0, 153, 255));
@@ -1712,21 +1729,24 @@ public final class Transfer extends JPanel implements JPanelView {
         txtOut.setBorder(null);
         jScrollPane1.setViewportView(txtOut);
 
+        jLabel8.setBackground(new java.awt.Color(28, 35, 49));
         jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 153, 255));
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("PROGRESS");
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
-        jLabel8.setSize(new java.awt.Dimension(150, 30));
 
+        jlblSource.setBackground(new java.awt.Color(28, 35, 49));
         jlblSource.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jlblSource.setForeground(new java.awt.Color(0, 153, 255));
         jlblSource.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jlblSource.setPreferredSize(new java.awt.Dimension(150, 30));
-        jlblSource.setSize(new java.awt.Dimension(150, 30));
 
+        jbtnExit.setBackground(new java.awt.Color(55, 71, 79));
         jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnExit.setForeground(new java.awt.Color(255, 255, 255));
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
         jbtnExit.setToolTipText(bundle.getString("tooltip.exit")); // NOI18N
+        jbtnExit.setBorder(null);
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -1736,7 +1756,8 @@ public final class Transfer extends JPanel implements JPanelView {
             }
         });
 
-        jtxtDbName.setForeground(new java.awt.Color(51, 51, 51));
+        jtxtDbName.setBackground(new java.awt.Color(75, 81, 93));
+        jtxtDbName.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbName.setToolTipText(bundle.getString("tooltip.dbname")); // NOI18N
         jtxtDbName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtDbName.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1753,18 +1774,22 @@ public final class Transfer extends JPanel implements JPanelView {
         jLabel9.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel9.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jLabel10.setBackground(new java.awt.Color(28, 35, 49));
         jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText(AppLocal.getIntString("label.DbName")); // NOI18N
         jLabel10.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel10.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel10.setPreferredSize(new java.awt.Dimension(160, 30));
 
+        jbtnTest.setBackground(new java.awt.Color(55, 71, 79));
         jbtnTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jbtnTest.setForeground(new java.awt.Color(255, 255, 255));
         jbtnTest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/database.png"))); // NOI18N
         jbtnTest.setText(bundle.getString("Button.Test")); // NOI18N
         jbtnTest.setToolTipText(bundle.getString("tooltip.dbtest")); // NOI18N
         jbtnTest.setActionCommand(bundle.getString("Button.Test")); // NOI18N
+        jbtnTest.setBorder(null);
         jbtnTest.setPreferredSize(new java.awt.Dimension(160, 45));
         jbtnTest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1772,9 +1797,12 @@ public final class Transfer extends JPanel implements JPanelView {
             }
         });
 
+        jbtnTransfer.setBackground(new java.awt.Color(55, 71, 79));
         jbtnTransfer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jbtnTransfer.setForeground(new java.awt.Color(255, 255, 255));
         jbtnTransfer.setText(AppLocal.getIntString("button.transfer")); // NOI18N
         jbtnTransfer.setToolTipText(bundle.getString("tooltip.transferdb")); // NOI18N
+        jbtnTransfer.setBorder(null);
         jbtnTransfer.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnTransfer.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnTransfer.setPreferredSize(new java.awt.Dimension(160, 45));

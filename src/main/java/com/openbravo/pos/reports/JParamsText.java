@@ -221,12 +221,23 @@ public final class JParamsText extends javax.swing.JPanel implements ReportEdito
         add(lblField);
         lblField.setBounds(20, 10, 120, 30);
 
+        txtField.setBackground(new java.awt.Color(75, 81, 93));
         txtField.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtField.setForeground(new java.awt.Color(255, 255, 255));
         txtField.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtField.setPreferredSize(new java.awt.Dimension(0, 30));
+        txtField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtFieldActionPerformed(evt);
+            }
+        });
         add(txtField);
         txtField.setBounds(140, 10, 200, 30);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void txtFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtFieldActionPerformed
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

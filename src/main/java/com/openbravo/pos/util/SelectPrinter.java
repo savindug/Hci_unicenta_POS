@@ -119,19 +119,14 @@ public class SelectPrinter extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(AppLocal.getIntString("form.selectprintertitle")); // NOI18N
-        setBackground(new java.awt.Color(28, 35, 49));
 
         jPanel8.setLayout(new java.awt.BorderLayout());
 
-        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.MachinePrinter")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        jPrinters.setBackground(new java.awt.Color(75, 81, 93));
         jPrinters.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jPrinters.setForeground(new java.awt.Color(255, 255, 255));
         jPrinters.setPreferredSize(new java.awt.Dimension(150, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -155,12 +150,9 @@ public class SelectPrinter extends javax.swing.JDialog {
                 .addContainerGap())
         );
 
-        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jcmdCancel.setForeground(new java.awt.Color(255, 255, 255));
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
-        jcmdCancel.setBorder(null);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdCancel.setPreferredSize(new java.awt.Dimension(80, 45));
         jcmdCancel.addActionListener(new java.awt.event.ActionListener() {
@@ -170,13 +162,10 @@ public class SelectPrinter extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
-        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
         jcmdOK.setToolTipText("");
-        jcmdOK.setBorder(null);
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setPreferredSize(new java.awt.Dimension(80, 45));
         jcmdOK.addActionListener(new java.awt.event.ActionListener() {

@@ -150,7 +150,7 @@ public final class BreaksView extends javax.swing.JPanel implements EditorRecord
 
         return breaks;
     }
-    
+
     /** This method is called from within the constructor to
      * initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is
@@ -169,35 +169,19 @@ public final class BreaksView extends javax.swing.JPanel implements EditorRecord
         jLabel1 = new javax.swing.JLabel();
 
         m_jBreakName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-<<<<<<< HEAD
-=======
         m_jBreakName.setForeground(new java.awt.Color(255, 255, 255));
         m_jBreakName.setBorder(null);
         m_jBreakName.setCursor(new java.awt.Cursor(java.awt.Cursor.MOVE_CURSOR));
->>>>>>> master
-
         m_jBreakDescription.setColumns(20);
         m_jBreakDescription.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jBreakDescription.setLineWrap(true);
         m_jBreakDescription.setRows(5);
-<<<<<<< HEAD
-=======
         m_jBreakDescription.setBorder(null);
         m_jBreakDescription.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
->>>>>>> master
         jScrollPane1.setViewportView(m_jBreakDescription);
 
         m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-<<<<<<< HEAD
-        m_Ncx.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        m_Ncx.setText(AppLocal.getIntString("label.epm.visible")); // NOI18N
-
-        m_Name3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        m_Name3.setText(AppLocal.getIntString("label.epm.notes")); // NOI18N
-
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-=======
         m_Ncx.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         m_Ncx.setForeground(new java.awt.Color(255, 255, 255));
         m_Ncx.setText(AppLocal.getIntString("label.epm.visible")); // NOI18N
@@ -208,7 +192,6 @@ public final class BreaksView extends javax.swing.JPanel implements EditorRecord
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
->>>>>>> master
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.epm.employee")); // NOI18N
 

@@ -574,7 +574,6 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(400, 147));
 
-        jListCustomers.setBackground(new java.awt.Color(75, 81, 93));
         jListCustomers.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jListCustomers.setFocusable(false);
         jListCustomers.setRequestFocusEnabled(false);

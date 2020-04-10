@@ -374,11 +374,14 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
         jPanel2.setLayout(new java.awt.BorderLayout());
         jPanel2.add(m_jKeys, java.awt.BorderLayout.NORTH);
 
+        jPanel8.setBackground(new java.awt.Color(28, 35, 49));
         jPanel8.setLayout(new java.awt.BorderLayout());
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.Cancel")); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setFocusPainted(false);
         jcmdCancel.setFocusable(false);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -391,8 +394,10 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
         });
         jPanel1.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setEnabled(false);
         jcmdOK.setFocusPainted(false);
         jcmdOK.setFocusable(false);
@@ -411,6 +416,8 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
         jPanel8.add(jPanel1, java.awt.BorderLayout.LINE_END);
 
         jPanel2.add(jPanel8, java.awt.BorderLayout.PAGE_END);
+
+        jImageViewerCustomer.setBackground(new java.awt.Color(75, 81, 93));
         jPanel2.add(jImageViewerCustomer, java.awt.BorderLayout.CENTER);
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.LINE_END);
@@ -420,55 +427,74 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel5.setLayout(new java.awt.BorderLayout());
 
+        jPanel7.setBackground(new java.awt.Color(28, 35, 49));
+
         jLblTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblTaxID.setForeground(new java.awt.Color(255, 255, 255));
         jLblTaxID.setText(AppLocal.getIntString("label.taxid")); // NOI18N
         jLblTaxID.setMaximumSize(new java.awt.Dimension(60, 15));
         jLblTaxID.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblTaxID.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jtxtTaxID.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtTaxID.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtTaxID.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jLblSearchKey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblSearchKey.setForeground(new java.awt.Color(255, 255, 255));
         jLblSearchKey.setText(AppLocal.getIntString("label.searchkey")); // NOI18N
         jLblSearchKey.setMaximumSize(new java.awt.Dimension(60, 15));
         jLblSearchKey.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblSearchKey.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jtxtSearchKey.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtSearchKey.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtSearchKey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtSearchKey.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jLblPostal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblPostal.setForeground(new java.awt.Color(255, 255, 255));
         jLblPostal.setText("Postal");
         jLblPostal.setMaximumSize(new java.awt.Dimension(60, 15));
         jLblPostal.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblPostal.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jtxtPostal.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtPostal.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtPostal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtPostal.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jLblName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblName.setForeground(new java.awt.Color(255, 255, 255));
         jLblName.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLblName.setMaximumSize(new java.awt.Dimension(60, 15));
         jLblName.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblName.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jtxtName.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtName.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jLblPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblPhone.setForeground(new java.awt.Color(255, 255, 255));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLblPhone.setText(bundle.getString("label.companytelephone")); // NOI18N
         jLblPhone.setPreferredSize(new java.awt.Dimension(110, 30));
 
         jLblEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblEmail.setForeground(new java.awt.Color(255, 255, 255));
         jLblEmail.setText(bundle.getString("label.companyemail")); // NOI18N
         jLblEmail.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jtxtPhone.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtPhone.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtPhone.setMinimumSize(new java.awt.Dimension(150, 30));
         m_jtxtPhone.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        m_jtxtName2.setBackground(new java.awt.Color(75, 81, 93));
         m_jtxtName2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName2.setMinimumSize(new java.awt.Dimension(150, 30));
         m_jtxtName2.setPreferredSize(new java.awt.Dimension(250, 30));
@@ -541,12 +567,14 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel3.add(jPanel5, java.awt.BorderLayout.PAGE_START);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setPreferredSize(new java.awt.Dimension(450, 140));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
         jScrollPane1.setPreferredSize(new java.awt.Dimension(400, 147));
 
+        jListCustomers.setBackground(new java.awt.Color(75, 81, 93));
         jListCustomers.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jListCustomers.setFocusable(false);
         jListCustomers.setRequestFocusEnabled(false);
@@ -564,11 +592,16 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel4.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
+        jPanel6.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel6.setForeground(new java.awt.Color(255, 255, 255));
+
+        jbtnReset.setBackground(new java.awt.Color(55, 71, 79));
         jbtnReset.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jbtnReset.setText(bundle.getString("button.reset")); // NOI18N
         jbtnReset.setToolTipText("Clear Filter");
         jbtnReset.setActionCommand("Reset ");
+        jbtnReset.setBorder(null);
         jbtnReset.setFocusable(false);
         jbtnReset.setPreferredSize(new java.awt.Dimension(110, 45));
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
@@ -579,10 +612,12 @@ public class JCustomerFinder extends javax.swing.JDialog implements EditorCreato
         jPanel6.add(jbtnReset);
         jbtnReset.getAccessibleContext().setAccessibleDescription("");
 
+        jbtnExecute.setBackground(new java.awt.Color(55, 71, 79));
         jbtnExecute.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jbtnExecute.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jbtnExecute.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
         jbtnExecute.setToolTipText("Execute Filter");
+        jbtnExecute.setBorder(null);
         jbtnExecute.setFocusPainted(false);
         jbtnExecute.setPreferredSize(new java.awt.Dimension(110, 45));
         jbtnExecute.addActionListener(new java.awt.event.ActionListener() {

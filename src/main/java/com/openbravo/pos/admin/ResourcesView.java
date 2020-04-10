@@ -259,27 +259,52 @@ public final class ResourcesView extends JPanel implements EditorRecord {
         m_jType = new javax.swing.JComboBox();
         m_jBtnReadScript = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
+
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
+        m_jContainer.setBackground(new java.awt.Color(28, 35, 49));
+        m_jContainer.setForeground(new java.awt.Color(255, 255, 255));
         m_jContainer.setLayout(new java.awt.CardLayout());
 
+        jScrollPane1.setBackground(new java.awt.Color(28, 35, 49));
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
+
+        m_jText.setBackground(new java.awt.Color(75, 81, 93));
         m_jText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jText.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setViewportView(m_jText);
 
         m_jContainer.add(jScrollPane1, "text");
+
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         m_jContainer.add(jPanel1, "null");
+
+        m_jImage.setBackground(new java.awt.Color(28, 35, 49));
+        m_jImage.setForeground(new java.awt.Color(255, 255, 255));
         m_jContainer.add(m_jImage, "image");
 
         jPanel3.add(m_jContainer, java.awt.BorderLayout.CENTER);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.resname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        m_jType.setBackground(new java.awt.Color(75, 81, 93));
         m_jType.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jType.setForeground(new java.awt.Color(255, 255, 255));
+        m_jType.setBorder(null);
         m_jType.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jType.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -287,9 +312,12 @@ public final class ResourcesView extends JPanel implements EditorRecord {
             }
         });
 
+        m_jBtnReadScript.setBackground(new java.awt.Color(55, 71, 79));
         m_jBtnReadScript.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBtnReadScript.setForeground(new java.awt.Color(255, 255, 255));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         m_jBtnReadScript.setText(bundle.getString("button.readscript")); // NOI18N
+        m_jBtnReadScript.setBorder(null);
         m_jBtnReadScript.setPreferredSize(new java.awt.Dimension(80, 30));
         m_jBtnReadScript.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

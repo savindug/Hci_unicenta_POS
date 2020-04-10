@@ -187,6 +187,8 @@ public class JDialogReportPanel extends javax.swing.JDialog {
 
         jPanel8.setLayout(new java.awt.BorderLayout());
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
+        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("Button.OK")); // NOI18N
         jcmdOK.setEnabled(false);
@@ -201,6 +203,8 @@ public class JDialogReportPanel extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdOK);
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
+        jcmdCancel.setForeground(new java.awt.Color(255, 255, 255));
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("Button.Cancel")); // NOI18N
         jcmdCancel.setFocusPainted(false);
@@ -216,6 +220,8 @@ public class JDialogReportPanel extends javax.swing.JDialog {
 
         jPanel8.add(jPanel1, java.awt.BorderLayout.LINE_END);
 
+        jButton1.setBackground(new java.awt.Color(55, 71, 79));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("jButton1");
         jPanel8.add(jButton1, java.awt.BorderLayout.CENTER);
 

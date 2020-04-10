@@ -34,7 +34,7 @@ import java.awt.Color;
  * @author JG uniCenta
  */
 public class JNavigator extends javax.swing.JPanel implements BrowseListener, StateListener {
-
+    
     /**
      *
      */
@@ -44,7 +44,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
      *
      */
     public final static int BUTTONS_NONAVIGATE = 1;
-
+    
     /**
      *
      */
@@ -54,11 +54,11 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
      *
      */
     protected ComparatorCreator m_cc;
-
+    
     /**
      *
      */
-    protected FindInfo m_LastFindInfo;
+    protected FindInfo m_LastFindInfo;  
 
     private javax.swing.JButton jbtnFind = null;
     private javax.swing.JButton jbtnSort = null;
@@ -67,8 +67,8 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
     private javax.swing.JButton jbtnNext = null;
     private javax.swing.JButton jbtnPrev = null;
     private javax.swing.JButton jbtnRefresh = null;
-    private javax.swing.JButton jbtnReload = null;
-
+    private javax.swing.JButton jbtnReload = null;    
+    
     /** Creates new form JNavigator
      * @param bd
      * @param vec
@@ -77,12 +77,12 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
     public JNavigator(BrowsableEditableData bd, Vectorer vec, ComparatorCreator cc, int iButtons) {
 
         initComponents();
-
+        
         if (iButtons == BUTTONS_ALL) {
             jbtnFirst = new javax.swing.JButton();
             jbtnFirst.setPreferredSize(new java.awt.Dimension(60,45));
             jbtnFirst.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2leftarrow.png")));
-            jbtnFirst.setMargin(new java.awt.Insets(2, 2, 2, 2));
+            jbtnFirst.setMargin(new java.awt.Insets(2, 2, 2, 2));            
             jbtnFirst.setFocusPainted(false);
             jbtnFirst.setFocusable(false);
             jbtnFirst.setRequestFocusEnabled(false);
@@ -97,7 +97,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
 
         if (iButtons == BUTTONS_ALL) {
             jbtnPrev = new javax.swing.JButton();
-            jbtnPrev.setPreferredSize(new java.awt.Dimension(60,45));
+            jbtnPrev.setPreferredSize(new java.awt.Dimension(60,45));            
             jbtnPrev.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1leftarrow.png")));
             jbtnPrev.setMargin(new java.awt.Insets(2, 2, 2, 2));
             jbtnPrev.setFocusPainted(false);
@@ -113,7 +113,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
         }
 
         jbtnRefresh = new javax.swing.JButton();
-        jbtnRefresh.setPreferredSize(new java.awt.Dimension(60,45));
+        jbtnRefresh.setPreferredSize(new java.awt.Dimension(60,45));        
         jbtnRefresh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1downarrow.png")));
         jbtnRefresh.setMargin(new java.awt.Insets(2, 2, 2, 2));
         jbtnRefresh.setFocusPainted(false);
@@ -129,7 +129,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
 
         if (iButtons == BUTTONS_ALL) {
             jbtnNext = new javax.swing.JButton();
-            jbtnNext.setPreferredSize(new java.awt.Dimension(60,45));
+            jbtnNext.setPreferredSize(new java.awt.Dimension(60,45));            
             jbtnNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1rightarrow.png")));
             jbtnNext.setMargin(new java.awt.Insets(2, 2, 2, 2));
             jbtnNext.setFocusPainted(false);
@@ -146,7 +146,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
 
         if (iButtons == BUTTONS_ALL) {
             jbtnLast = new javax.swing.JButton();
-            jbtnLast.setPreferredSize(new java.awt.Dimension(60,45));
+            jbtnLast.setPreferredSize(new java.awt.Dimension(60,45));            
             jbtnLast.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2rightarrow.png")));
             jbtnLast.setMargin(new java.awt.Insets(2, 2, 2, 2));
             jbtnLast.setFocusPainted(false);
@@ -165,7 +165,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
 
         if (bd.canLoadData()) {
             jbtnReload = new javax.swing.JButton();
-            jbtnReload.setPreferredSize(new java.awt.Dimension(60,45));
+            jbtnReload.setPreferredSize(new java.awt.Dimension(60,45));            
             jbtnReload.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png")));
             jbtnReload.setMargin(new java.awt.Insets(2, 2, 2, 2));
             jbtnReload.setFocusPainted(false);
@@ -182,13 +182,13 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
 
             add(new javax.swing.JSeparator());
         }
-
+        
         if (vec == null) {
             m_LastFindInfo = null;
         } else {
             m_LastFindInfo = new FindInfo(vec);
             jbtnFind = new javax.swing.JButton();
-            jbtnFind.setPreferredSize(new java.awt.Dimension(60,45));
+            jbtnFind.setPreferredSize(new java.awt.Dimension(60,45));            
             jbtnFind.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/search24.png")));
             jbtnFind.setMargin(new java.awt.Insets(2, 2, 2, 2));
             jbtnFind.setFocusPainted(false);
@@ -200,13 +200,13 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
                     jbtnFindActionPerformed(evt);
                 }
             });
-            add(jbtnFind);
+            add(jbtnFind);  
         }
-
+        
         m_cc = cc;
         if (m_cc != null) {
             jbtnSort = new javax.swing.JButton();
-            jbtnSort.setPreferredSize(new java.awt.Dimension(60,45));
+            jbtnSort.setPreferredSize(new java.awt.Dimension(60,45));            
             jbtnSort.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sort_incr.png")));
             jbtnSort.setMargin(new java.awt.Insets(2, 2, 2, 2));
             jbtnSort.setFocusPainted(false);
@@ -219,8 +219,8 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
                 }
             });
             add(jbtnSort);
-        }
-
+        }       
+        
         m_bd = bd;
         bd.addBrowseListener(this);
         bd.addStateListener(this);
@@ -265,7 +265,7 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
      * @param iCounter
      */
     public void updateIndex(int iIndex, int iCounter) {
-
+        
         if (iIndex >= 0 && iIndex < iCounter) {
             // Reposicionamiento
             if (jbtnFirst != null) jbtnFirst.setEnabled(iIndex > 0);
@@ -281,9 +281,9 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             if (jbtnLast != null) jbtnLast.setEnabled(false);
             if (jbtnRefresh != null) jbtnRefresh.setEnabled(false);
         }
-    }
-
-    private void jbtnSortActionPerformed(java.awt.event.ActionEvent evt) {
+    }   
+    
+    private void jbtnSortActionPerformed(java.awt.event.ActionEvent evt) {                                         
         try {
             Comparator c = JSort.showMessage(this, m_cc);
             if (c != null) {
@@ -292,16 +292,16 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
         } catch (BasicException eD) {
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.nolistdata"), eD);
             msg.show(this);
-        }
+        }  
     }
-
-    private void jbtnFindActionPerformed(java.awt.event.ActionEvent evt) {
-
+    
+    private void jbtnFindActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        
         try {
             FindInfo newFindInfo = JFind.showMessage(this, m_LastFindInfo);
             if (newFindInfo != null) {
                 m_LastFindInfo = newFindInfo;
-
+                
                 int index = m_bd.findNext(newFindInfo);
                 if (index < 0) {
                     MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.norecord"));
@@ -313,15 +313,15 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
         } catch (BasicException eD) {
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.nolistdata"), eD);
             msg.show(this);
-        }
-    }
+        }           
+    }                                        
 
-    private void jbtnRefreshActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jbtnRefreshActionPerformed(java.awt.event.ActionEvent evt) {                                            
+       
+        m_bd.actionReloadCurrent(this);       
+    }                                           
 
-        m_bd.actionReloadCurrent(this);
-    }
-
-    private void jbtnReloadActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jbtnReloadActionPerformed(java.awt.event.ActionEvent evt) {                                           
 
         try {
             m_bd.actionLoad();
@@ -329,9 +329,9 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.noreload"), eD);
             msg.show(this);
         }
-    }
+    }                                          
 
-    private void jbtnLastActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jbtnLastActionPerformed(java.awt.event.ActionEvent evt) {                                         
 
         try {
             m_bd.moveLast();
@@ -339,9 +339,9 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.nomove"), eD);
             msg.show(this);
         }
-    }
+    }                                        
 
-    private void jbtnFirstActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jbtnFirstActionPerformed(java.awt.event.ActionEvent evt) {                                          
 
         try{
             m_bd.moveFirst();
@@ -349,16 +349,16 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.nomove"), eD);
             msg.show(this);
         }
-    }
+    }                                         
 
-    private void jbtnPrevActionPerformed(java.awt.event.ActionEvent evt) {
+    private void jbtnPrevActionPerformed(java.awt.event.ActionEvent evt) {                                         
         try {
             m_bd.movePrev();
         } catch (BasicException eD) {
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.nomove"), eD);
             msg.show(this);
-        }
-    }
+        }       
+    }                                        
 
     private void jbtnNextActionPerformed(java.awt.event.ActionEvent evt) {
         try {
@@ -366,19 +366,22 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
         } catch (BasicException eD) {
             MessageInf msg = new MessageInf(MessageInf.SGN_NOTICE, LocalRes.getIntString("message.nomove"), eD);
             msg.show(this);
-        }
-    }
-
+        }     
+    }                                        
+       
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         setBackground(new java.awt.Color(28, 35, 49));
+<<<<<<< HEAD
         setForeground(new java.awt.Color(55, 71, 79));
+=======
         setForeground(new java.awt.Color(255, 255, 255));
+>>>>>>> master
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
     }// </editor-fold>//GEN-END:initComponents
-
+   
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
-
+    
 }

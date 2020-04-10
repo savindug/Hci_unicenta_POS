@@ -179,7 +179,9 @@ public class JDialogReportPanel extends javax.swing.JDialog {
 
         jPanel3.setLayout(new java.awt.BorderLayout());
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new java.awt.BorderLayout());
         jPanel3.add(jPanel4, java.awt.BorderLayout.CENTER);
 

@@ -204,16 +204,21 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
         m_jSearch = new javax.swing.JTextField();
         search = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(750, 130));
 
+        jLabel6.setBackground(new java.awt.Color(28, 35, 49));
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(AppLocal.getIntString("label.prodref")); // NOI18N
         jLabel6.setMaximumSize(new java.awt.Dimension(50, 20));
         jLabel6.setMinimumSize(new java.awt.Dimension(50, 20));
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jReference1.setBackground(new java.awt.Color(75, 81, 93));
         m_jReference1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jReference1.setForeground(new java.awt.Color(255, 255, 255));
         m_jReference1.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jReference1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,8 +226,10 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
             }
         });
 
+        Enter1.setBackground(new java.awt.Color(55, 71, 79));
         Enter1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/products24.png"))); // NOI18N
         Enter1.setToolTipText("Enter Product ID");
+        Enter1.setBorder(null);
         Enter1.setPreferredSize(new java.awt.Dimension(80, 45));
         Enter1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -230,11 +237,15 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
             }
         });
 
+        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jBarcode1.setBackground(new java.awt.Color(75, 81, 93));
         m_jBarcode1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode1.setForeground(new java.awt.Color(255, 255, 255));
         m_jBarcode1.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jBarcode1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -242,8 +253,10 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
             }
         });
 
+        Enter2.setBackground(new java.awt.Color(55, 71, 79));
         Enter2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/barcode.png"))); // NOI18N
         Enter2.setToolTipText("Get Barcode");
+        Enter2.setBorder(null);
         Enter2.setPreferredSize(new java.awt.Dimension(80, 45));
         Enter2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,7 +265,9 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
         });
 
         m_jSearch.setEditable(false);
+        m_jSearch.setBackground(new java.awt.Color(75, 81, 93));
         m_jSearch.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearch.setForeground(new java.awt.Color(255, 255, 255));
         m_jSearch.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         m_jSearch.setFocusable(false);
         m_jSearch.setPreferredSize(new java.awt.Dimension(70, 30));
@@ -263,6 +278,7 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
             }
         });
 
+        search.setBackground(new java.awt.Color(55, 71, 79));
         search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/search24.png"))); // NOI18N
         search.setToolTipText("Search Products");
         search.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -286,7 +302,6 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
                     .addComponent(m_jSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(Enter1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(22, 22, 22)
@@ -294,7 +309,8 @@ public class AuxiliarFilter extends javax.swing.JPanel implements ReportEditorCr
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(m_jBarcode1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Enter2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Enter2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(search, javax.swing.GroupLayout.PREFERRED_SIZE, 0, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(

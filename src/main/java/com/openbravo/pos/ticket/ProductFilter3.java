@@ -177,7 +177,9 @@ public class ProductFilter3 extends javax.swing.JPanel implements ReportEditorCr
         setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(976, 100));
 
+        m_jBarcode.setBackground(new java.awt.Color(75, 81, 93));
         m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode.setForeground(null);
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel5.setBackground(new java.awt.Color(28, 35, 49));
@@ -198,17 +200,19 @@ public class ProductFilter3 extends javax.swing.JPanel implements ReportEditorCr
         jLabel2.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jCategory.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCategory.setBackground(new java.awt.Color(75, 81, 93));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jCategory.setForeground(new java.awt.Color(255, 255, 255));
+        m_jCategory.setForeground(null);
         m_jCategory.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCboName.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCboName.setBackground(new java.awt.Color(75, 81, 93));
         m_jCboName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jCboName.setForeground(new java.awt.Color(255, 255, 255));
+        m_jCboName.setForeground(null);
         m_jCboName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setForeground(null);
         m_jName.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel4.setBackground(new java.awt.Color(28, 35, 49));
@@ -223,20 +227,24 @@ public class ProductFilter3 extends javax.swing.JPanel implements ReportEditorCr
         jLabel3.setText(AppLocal.getIntString("label.prodpricesell")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jCboPriceBuy.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCboPriceBuy.setBackground(new java.awt.Color(75, 81, 93));
         m_jCboPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jCboPriceBuy.setForeground(new java.awt.Color(255, 255, 255));
+        m_jCboPriceBuy.setForeground(null);
         m_jCboPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jCboPriceSell.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCboPriceSell.setBackground(new java.awt.Color(75, 81, 93));
         m_jCboPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jCboPriceSell.setForeground(new java.awt.Color(255, 255, 255));
+        m_jCboPriceSell.setForeground(null);
         m_jCboPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jPriceBuy.setBackground(new java.awt.Color(75, 81, 93));
         m_jPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceBuy.setForeground(null);
         m_jPriceBuy.setPreferredSize(new java.awt.Dimension(60, 30));
 
+        m_jPriceSell.setBackground(new java.awt.Color(75, 81, 93));
         m_jPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jPriceSell.setForeground(null);
         m_jPriceSell.setPreferredSize(new java.awt.Dimension(60, 30));
 
         jLabel6.setBackground(new java.awt.Color(28, 35, 49));
@@ -245,8 +253,9 @@ public class ProductFilter3 extends javax.swing.JPanel implements ReportEditorCr
         jLabel6.setText(AppLocal.getIntString("label.prodsupplier")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jSupplier.setBackground(new java.awt.Color(75, 81, 93));
         m_jSupplier.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jSupplier.setForeground(new java.awt.Color(255, 255, 255));
+        m_jSupplier.setForeground(null);
         m_jSupplier.setPreferredSize(new java.awt.Dimension(150, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

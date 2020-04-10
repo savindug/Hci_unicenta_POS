@@ -108,7 +108,11 @@
         <Component class="javax.swing.JComboBox" name="jPrinters">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< Updated upstream
               <Color blue="5d" green="51" red="4b" type="rgb"/>
+=======
+              <Color blue="31" green="23" red="1c" type="rgb"/>
+>>>>>>> Stashed changes
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Arial" size="14" style="0"/>

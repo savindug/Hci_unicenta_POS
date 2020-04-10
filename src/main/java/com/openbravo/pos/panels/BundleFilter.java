@@ -166,15 +166,20 @@ public class BundleFilter extends javax.swing.JPanel implements ReportEditorCrea
         m_jSearch = new javax.swing.JTextField();
         search = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(AppLocal.getIntString("label.prodref")); // NOI18N
         jLabel6.setMaximumSize(new java.awt.Dimension(50, 20));
         jLabel6.setMinimumSize(new java.awt.Dimension(50, 20));
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jReference1.setBackground(new java.awt.Color(75, 81, 93));
         m_jReference1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jReference1.setForeground(new java.awt.Color(255, 255, 255));
         m_jReference1.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jReference1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,8 +187,10 @@ public class BundleFilter extends javax.swing.JPanel implements ReportEditorCrea
             }
         });
 
+        Enter1.setBackground(new java.awt.Color(55, 71, 79));
         Enter1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/products24.png"))); // NOI18N
         Enter1.setToolTipText("Enter Product ID");
+        Enter1.setBorder(null);
         Enter1.setPreferredSize(new java.awt.Dimension(80, 45));
         Enter1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,11 +198,15 @@ public class BundleFilter extends javax.swing.JPanel implements ReportEditorCrea
             }
         });
 
+        jLabel7.setBackground(new java.awt.Color(255, 255, 255));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jBarcode1.setBackground(new java.awt.Color(75, 81, 93));
         m_jBarcode1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode1.setForeground(new java.awt.Color(255, 255, 255));
         m_jBarcode1.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jBarcode1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,8 +214,11 @@ public class BundleFilter extends javax.swing.JPanel implements ReportEditorCrea
             }
         });
 
+        Enter2.setBackground(new java.awt.Color(55, 71, 79));
+        Enter2.setForeground(new java.awt.Color(255, 255, 255));
         Enter2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/barcode.png"))); // NOI18N
         Enter2.setToolTipText("Get Barcode");
+        Enter2.setBorder(null);
         Enter2.setPreferredSize(new java.awt.Dimension(80, 45));
         Enter2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -213,14 +227,18 @@ public class BundleFilter extends javax.swing.JPanel implements ReportEditorCrea
         });
 
         m_jSearch.setEditable(false);
+        m_jSearch.setBackground(new java.awt.Color(75, 81, 93));
         m_jSearch.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearch.setForeground(new java.awt.Color(255, 255, 255));
         m_jSearch.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         m_jSearch.setFocusable(false);
         m_jSearch.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jSearch.setRequestFocusEnabled(false);
 
+        search.setBackground(new java.awt.Color(55, 71, 79));
         search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/search24.png"))); // NOI18N
         search.setToolTipText("Search Products");
+        search.setBorder(null);
         search.setPreferredSize(new java.awt.Dimension(80, 45));
         search.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -290,27 +290,27 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel4.setText(AppLocal.getIntString("label.item")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jName.setBackground(new java.awt.Color(55, 71, 79));
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(132, 30));
 
-        m_jUnits.setBackground(new java.awt.Color(55, 71, 79));
+        m_jUnits.setBackground(new java.awt.Color(75, 81, 93));
         m_jUnits.setForeground(new java.awt.Color(255, 255, 255));
         m_jUnits.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jUnits.setPreferredSize(new java.awt.Dimension(132, 30));
 
-        m_jPrice.setBackground(new java.awt.Color(55, 71, 79));
+        m_jPrice.setBackground(new java.awt.Color(75, 81, 93));
         m_jPrice.setForeground(new java.awt.Color(255, 255, 255));
         m_jPrice.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPrice.setPreferredSize(new java.awt.Dimension(132, 30));
 
-        m_jPriceTax.setBackground(new java.awt.Color(55, 71, 79));
+        m_jPriceTax.setBackground(new java.awt.Color(75, 81, 93));
         m_jPriceTax.setForeground(new java.awt.Color(255, 255, 255));
         m_jPriceTax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceTax.setPreferredSize(new java.awt.Dimension(132, 30));
 
-        m_jTaxrate.setBackground(new java.awt.Color(55, 71, 79));
+        m_jTaxrate.setBackground(new java.awt.Color(75, 81, 93));
         m_jTaxrate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jTaxrate.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxrate.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -329,7 +329,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel6.setText(AppLocal.getIntString("label.totalcash")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jTotal.setBackground(new java.awt.Color(55, 71, 79));
+        m_jTotal.setBackground(new java.awt.Color(75, 81, 93));
         m_jTotal.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jTotal.setForeground(new java.awt.Color(255, 255, 255));
         m_jTotal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -343,7 +343,7 @@ public class JProductLineEdit extends javax.swing.JDialog {
         jLabel7.setText(AppLocal.getIntString("label.subtotalcash")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jSubtotal.setBackground(new java.awt.Color(55, 71, 79));
+        m_jSubtotal.setBackground(new java.awt.Color(75, 81, 93));
         m_jSubtotal.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jSubtotal.setForeground(new java.awt.Color(255, 255, 255));
         m_jSubtotal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);

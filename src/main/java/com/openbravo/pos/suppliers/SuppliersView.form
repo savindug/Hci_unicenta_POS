@@ -1300,7 +1300,11 @@
                 <Component class="javax.swing.JTextArea" name="m_jNotes">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+<<<<<<< Updated upstream
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
+=======
+                      <Color blue="31" green="23" red="1c" type="rgb"/>
+>>>>>>> Stashed changes
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Arial" size="14" style="0"/>

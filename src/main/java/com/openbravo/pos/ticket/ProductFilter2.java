@@ -154,6 +154,7 @@ public class ProductFilter2 extends javax.swing.JPanel implements ReportEditorCr
         setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(976, 100));
 
+        m_jBarcode.setBackground(new java.awt.Color(75, 81, 93));
         m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -176,15 +177,17 @@ public class ProductFilter2 extends javax.swing.JPanel implements ReportEditorCr
         jLabel2.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        m_jCategory.setBackground(new java.awt.Color(75, 81, 93));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setEnabled(false);
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        m_jCboName.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCboName.setBackground(new java.awt.Color(75, 81, 93));
         m_jCboName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCboName.setForeground(new java.awt.Color(255, 255, 255));
         m_jCboName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jName.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -202,18 +205,22 @@ public class ProductFilter2 extends javax.swing.JPanel implements ReportEditorCr
         jLabel3.setEnabled(false);
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jCboPriceBuy.setBackground(new java.awt.Color(75, 81, 93));
         m_jCboPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCboPriceBuy.setEnabled(false);
         m_jCboPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jCboPriceSell.setBackground(new java.awt.Color(75, 81, 93));
         m_jCboPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCboPriceSell.setEnabled(false);
         m_jCboPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jPriceBuy.setBackground(new java.awt.Color(75, 81, 93));
         m_jPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceBuy.setEnabled(false);
         m_jPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jPriceSell.setBackground(new java.awt.Color(75, 81, 93));
         m_jPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceSell.setEnabled(false);
         m_jPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));

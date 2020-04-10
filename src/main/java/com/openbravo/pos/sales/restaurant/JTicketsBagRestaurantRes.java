@@ -411,7 +411,6 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
 
         m_jbtnReceive.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnReceive.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        m_jbtnReceive.setForeground(null);
         m_jbtnReceive.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/recieve.png"))); // NOI18N
         m_jbtnReceive.setText(AppLocal.getIntString("button.receive")); // NOI18N
         m_jbtnReceive.setToolTipText("Receive pre-Booked Customer");
@@ -428,7 +427,6 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
 
         m_jbtnTables.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnTables.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        m_jbtnTables.setForeground(null);
         m_jbtnTables.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/tables.png"))); // NOI18N
         m_jbtnTables.setText(AppLocal.getIntString("button.tables")); // NOI18N
         m_jbtnTables.setToolTipText("Go to Table Plan");
@@ -457,7 +455,6 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 45));
 
         jButton1.setBackground(new java.awt.Color(55, 71, 79));
-        jButton1.setForeground(null);
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         jButton1.setToolTipText("Show Customers");
         jButton1.setBorder(null);
@@ -473,8 +470,7 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
             }
         });
 
-        txtCustomer.setBackground(new java.awt.Color(55, 71, 79));
-        txtCustomer.setForeground(null);
+        txtCustomer.setBackground(new java.awt.Color(75, 81, 93));
         txtCustomer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtCustomer.setMaximumSize(new java.awt.Dimension(250, 30));
         txtCustomer.setMinimumSize(new java.awt.Dimension(200, 25));
@@ -486,8 +482,7 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         jLabel3.setText(AppLocal.getIntString("rest.label.chairs")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jtxtChairs.setBackground(new java.awt.Color(55, 71, 79));
-        m_jtxtChairs.setForeground(null);
+        m_jtxtChairs.setBackground(new java.awt.Color(75, 81, 93));
         m_jtxtChairs.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtChairs.setMaximumSize(new java.awt.Dimension(50, 25));
         m_jtxtChairs.setMinimumSize(new java.awt.Dimension(50, 25));
@@ -499,8 +494,7 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
         jLabel4.setText(AppLocal.getIntString("rest.label.notes")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
-        m_jtxtDescription.setBackground(new java.awt.Color(55, 71, 79));
-        m_jtxtDescription.setForeground(null);
+        m_jtxtDescription.setBackground(new java.awt.Color(75, 81, 93));
         m_jtxtDescription.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtDescription.setMaximumSize(new java.awt.Dimension(180, 25));
         m_jtxtDescription.setPreferredSize(new java.awt.Dimension(250, 30));
@@ -520,7 +514,6 @@ public class JTicketsBagRestaurantRes extends javax.swing.JPanel implements Edit
 
         jbtnShowCalendar.setBackground(new java.awt.Color(55, 71, 79));
         jbtnShowCalendar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jbtnShowCalendar.setForeground(null);
         jbtnShowCalendar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jbtnShowCalendar.setText(bundle.getString("rest.label.showcalendar")); // NOI18N

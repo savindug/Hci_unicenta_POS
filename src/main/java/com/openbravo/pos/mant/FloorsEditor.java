@@ -160,33 +160,25 @@ public final class FloorsEditor extends JPanel implements EditorRecord {
         setMinimumSize(new java.awt.Dimension(91, 125));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setPreferredSize(new java.awt.Dimension(150, 100));
         jPanel1.setLayout(null);
 
-        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
         jPanel1.add(jLabel3);
         jLabel3.setBounds(20, 20, 110, 30);
 
-        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setPreferredSize(new java.awt.Dimension(250, 30));
         jPanel1.add(m_jName);
         m_jName.setBounds(130, 20, 250, 30);
 
         add(jPanel1, java.awt.BorderLayout.NORTH);
 
-        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 0));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
-        m_jImage.setBackground(new java.awt.Color(75, 81, 93));
-        m_jImage.setForeground(new java.awt.Color(255, 255, 255));
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel3.add(m_jImage, java.awt.BorderLayout.CENTER);
 

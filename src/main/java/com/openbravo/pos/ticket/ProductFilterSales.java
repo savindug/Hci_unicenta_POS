@@ -163,8 +163,7 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
         jLabel5.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtName.setBackground(new java.awt.Color(75, 81, 93));
-        m_jtxtName.setForeground(new java.awt.Color(255, 255, 255));
+        m_jtxtName.setBackground(new java.awt.Color(55, 71, 79));
         m_jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 
@@ -174,7 +173,7 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
         jLabel2.setText(AppLocal.getIntString("label.prodcategory")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCategory.setBackground(new java.awt.Color(75, 81, 93));
+        m_jCategory.setBackground(new java.awt.Color(55, 71, 79));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setForeground(new java.awt.Color(255, 255, 255));
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
@@ -185,7 +184,7 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
         jLabel4.setText(AppLocal.getIntString("label.prodpricebuy")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCboPriceBuy.setBackground(new java.awt.Color(75, 81, 93));
+        m_jCboPriceBuy.setBackground(new java.awt.Color(55, 71, 79));
         m_jCboPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCboPriceBuy.setForeground(new java.awt.Color(255, 255, 255));
         m_jCboPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -195,8 +194,7 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
             }
         });
 
-        m_jPriceBuy.setBackground(new java.awt.Color(75, 81, 93));
-        m_jPriceBuy.setForeground(new java.awt.Color(255, 255, 255));
+        m_jPriceBuy.setBackground(new java.awt.Color(55, 71, 79));
         m_jPriceBuy.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceBuy.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -206,18 +204,16 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
         jLabel3.setText(AppLocal.getIntString("label.prodpricesell")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jCboPriceSell.setBackground(new java.awt.Color(75, 81, 93));
+        m_jCboPriceSell.setBackground(new java.awt.Color(28, 35, 49));
         m_jCboPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCboPriceSell.setForeground(new java.awt.Color(255, 255, 255));
         m_jCboPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jPriceSell.setBackground(new java.awt.Color(75, 81, 93));
-        m_jPriceSell.setForeground(new java.awt.Color(255, 255, 255));
+        m_jPriceSell.setBackground(new java.awt.Color(55, 71, 79));
         m_jPriceSell.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPriceSell.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jtxtBarCode.setBackground(new java.awt.Color(75, 81, 93));
-        m_jtxtBarCode.setForeground(new java.awt.Color(255, 255, 255));
+        m_jtxtBarCode.setBackground(new java.awt.Color(55, 71, 79));
         m_jtxtBarCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtBarCode.setMaximumSize(new java.awt.Dimension(100, 25));
         m_jtxtBarCode.setPreferredSize(new java.awt.Dimension(230, 30));

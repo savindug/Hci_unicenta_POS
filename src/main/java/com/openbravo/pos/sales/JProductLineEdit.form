@@ -230,7 +230,7 @@
             <Component class="com.openbravo.editor.JEditorString" name="m_jName">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -246,7 +246,7 @@
             <Component class="com.openbravo.editor.JEditorDouble" name="m_jUnits">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -262,7 +262,7 @@
             <Component class="com.openbravo.editor.JEditorCurrency" name="m_jPrice">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -278,7 +278,7 @@
             <Component class="com.openbravo.editor.JEditorCurrency" name="m_jPriceTax">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -294,7 +294,7 @@
             <Component class="javax.swing.JLabel" name="m_jTaxrate">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="12" style="0"/>
@@ -359,7 +359,7 @@
             <Component class="javax.swing.JLabel" name="m_jTotal">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="12" style="0"/>
@@ -408,7 +408,7 @@
             <Component class="javax.swing.JLabel" name="m_jSubtotal">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="12" style="0"/>

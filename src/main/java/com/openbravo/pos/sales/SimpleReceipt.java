@@ -293,7 +293,7 @@ public class SimpleReceipt extends javax.swing.JPanel {
         m_jPanTotals.setBackground(new java.awt.Color(28, 35, 49));
         m_jPanTotals.setLayout(new java.awt.GridBagLayout());
 
-        m_jTotalEuros.setBackground(new java.awt.Color(75, 81, 93));
+        m_jTotalEuros.setBackground(new java.awt.Color(55, 71, 79));
         m_jTotalEuros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -323,7 +323,7 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         m_jPanTotals.add(m_jLblTotalEuros1, gridBagConstraints);
 
-        m_jSubtotalEuros.setBackground(new java.awt.Color(75, 81, 93));
+        m_jSubtotalEuros.setBackground(new java.awt.Color(55, 71, 79));
         m_jSubtotalEuros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jSubtotalEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jSubtotalEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -341,7 +341,7 @@ public class SimpleReceipt extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
         m_jPanTotals.add(m_jSubtotalEuros, gridBagConstraints);
 
-        m_jTaxesEuros.setBackground(new java.awt.Color(75, 81, 93));
+        m_jTaxesEuros.setBackground(new java.awt.Color(55, 71, 79));
         m_jTaxesEuros.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jTaxesEuros.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxesEuros.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -389,7 +389,7 @@ public class SimpleReceipt extends javax.swing.JPanel {
         m_jButtons.setBackground(new java.awt.Color(28, 35, 49));
         m_jButtons.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
-        m_jTicketId.setBackground(new java.awt.Color(75, 81, 93));
+        m_jTicketId.setBackground(new java.awt.Color(55, 71, 79));
         m_jTicketId.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jTicketId.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jTicketId.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));

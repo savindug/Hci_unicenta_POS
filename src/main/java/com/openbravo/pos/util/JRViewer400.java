@@ -768,10 +768,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         btnSave.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnSave.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         btnSave.setToolTipText(getBundleString("save"));
         btnSave.setBorder(null);
@@ -783,10 +780,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnSave);
 
         btnPrint.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnPrint.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/yast_printer.png"))); // NOI18N
         btnPrint.setToolTipText(getBundleString("print"));
         btnPrint.setBorder(null);
@@ -798,10 +792,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnPrint);
 
         btnReload.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnReload.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnReload.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         btnReload.setToolTipText(getBundleString("reload"));
         btnReload.setBorder(null);
@@ -851,10 +842,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(jSeparator2);
 
         btnZoomIn.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnZoomIn.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnZoomIn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag+.png"))); // NOI18N
         btnZoomIn.setToolTipText(getBundleString("zoom.in"));
         btnZoomIn.setBorder(null);
@@ -885,17 +873,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(cmbZoom);
 
         btnZoomOut.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnZoomOut.setForeground(new java.awt.Color(255, 255, 255));
         btnZoomOut.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag-.png"))); // NOI18N
         btnZoomOut.setToolTipText(getBundleString("zoom.out"));
         btnZoomOut.setBorder(null);
         btnZoomOut.setBorderPainted(false);
-=======
-        btnZoomOut.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag-.png"))); // NOI18N
-        btnZoomOut.setToolTipText(getBundleString("zoom.out"));
-        btnZoomOut.setBorder(null);
->>>>>>> Stashed changes
         btnZoomOut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnZoomOutActionPerformed(evt);
@@ -905,10 +887,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(jSeparator3);
 
         btnFirst.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnFirst.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnFirst.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2leftarrow.png"))); // NOI18N
         btnFirst.setToolTipText(getBundleString("first.page"));
         btnFirst.setBorder(null);
@@ -920,10 +899,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnFirst);
 
         btnPrevious.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnPrevious.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnPrevious.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1leftarrow.png"))); // NOI18N
         btnPrevious.setToolTipText(getBundleString("previous.page"));
         btnPrevious.setBorder(null);
@@ -948,10 +924,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(txtGoTo);
 
         btnNext.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnNext.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1rightarrow.png"))); // NOI18N
         btnNext.setToolTipText(getBundleString("next.page"));
         btnNext.setBorder(null);
@@ -963,10 +936,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnNext);
 
         btnLast.setBackground(new java.awt.Color(55, 71, 79));
-<<<<<<< Updated upstream
         btnLast.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> Stashed changes
         btnLast.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2rightarrow.png"))); // NOI18N
         btnLast.setToolTipText(getBundleString("last.page"));
         btnLast.setBorder(null);
@@ -1088,12 +1058,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         pnlMain.add(scrollPane, java.awt.BorderLayout.CENTER);
 
-<<<<<<< Updated upstream
         pnlTabs.setBackground(new java.awt.Color(204, 204, 204));
-=======
-        pnlTabs.setBackground(new java.awt.Color(75, 81, 93));
-        pnlTabs.setForeground(new java.awt.Color(255, 255, 255));
->>>>>>> Stashed changes
         pnlTabs.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 pnlTabsStateChanged(evt);
@@ -1103,18 +1068,13 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         add(pnlMain, java.awt.BorderLayout.CENTER);
 
-<<<<<<< Updated upstream
         pnlStatus.setBackground(new java.awt.Color(204, 204, 204));
         pnlStatus.setForeground(new java.awt.Color(255, 255, 255));
-=======
-        pnlStatus.setBackground(new java.awt.Color(28, 35, 49));
->>>>>>> Stashed changes
         pnlStatus.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         pnlStatus.setPreferredSize(new java.awt.Dimension(59, 20));
         pnlStatus.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));
 
         lblStatus.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
-        lblStatus.setForeground(new java.awt.Color(255, 255, 255));
         lblStatus.setText("Page i of n");
         lblStatus.setMaximumSize(new java.awt.Dimension(59, 18));
         pnlStatus.add(lblStatus);

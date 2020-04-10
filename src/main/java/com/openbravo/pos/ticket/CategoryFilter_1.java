@@ -129,7 +129,7 @@ public class CategoryFilter_1 extends javax.swing.JPanel implements ReportEditor
         setBackground(new java.awt.Color(28, 35, 49));
         setForeground(new java.awt.Color(255, 255, 255));
 
-        m_jCategory.setBackground(new java.awt.Color(75, 81, 93));
+        m_jCategory.setBackground(new java.awt.Color(28, 35, 49));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setForeground(new java.awt.Color(255, 255, 255));
         m_jCategory.setPreferredSize(new java.awt.Dimension(200, 30));

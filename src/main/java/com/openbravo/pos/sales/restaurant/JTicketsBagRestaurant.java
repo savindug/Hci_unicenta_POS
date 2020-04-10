@@ -212,16 +212,13 @@ public class JTicketsBagRestaurant extends javax.swing.JPanel {
         m_DelTicket = new javax.swing.JButton();
         j_btnKitchen = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setMinimumSize(new java.awt.Dimension(250, 50));
         setPreferredSize(new java.awt.Dimension(350, 50));
         setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
-        m_TablePlan.setBackground(new java.awt.Color(55, 71, 79));
         m_TablePlan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/tables.png"))); // NOI18N
         m_TablePlan.setToolTipText("Go to Table Plan");
-        m_TablePlan.setBorder(null);
         m_TablePlan.setFocusPainted(false);
         m_TablePlan.setFocusable(false);
         m_TablePlan.setMargin(new java.awt.Insets(0, 4, 0, 4));
@@ -236,10 +233,8 @@ public class JTicketsBagRestaurant extends javax.swing.JPanel {
         });
         add(m_TablePlan);
 
-        m_MoveTable.setBackground(new java.awt.Color(55, 71, 79));
         m_MoveTable.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/movetable.png"))); // NOI18N
         m_MoveTable.setToolTipText("Move Table");
-        m_MoveTable.setBorder(null);
         m_MoveTable.setFocusPainted(false);
         m_MoveTable.setFocusable(false);
         m_MoveTable.setMargin(new java.awt.Insets(0, 4, 0, 4));
@@ -254,10 +249,8 @@ public class JTicketsBagRestaurant extends javax.swing.JPanel {
         });
         add(m_MoveTable);
 
-        m_DelTicket.setBackground(new java.awt.Color(55, 71, 79));
         m_DelTicket.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         m_DelTicket.setToolTipText("Delete Current Order");
-        m_DelTicket.setBorder(null);
         m_DelTicket.setFocusPainted(false);
         m_DelTicket.setFocusable(false);
         m_DelTicket.setMargin(new java.awt.Insets(0, 4, 0, 4));
@@ -272,10 +265,8 @@ public class JTicketsBagRestaurant extends javax.swing.JPanel {
         });
         add(m_DelTicket);
 
-        j_btnKitchen.setBackground(new java.awt.Color(55, 71, 79));
         j_btnKitchen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/printer24.png"))); // NOI18N
         j_btnKitchen.setToolTipText("Send to Kichen Printer");
-        j_btnKitchen.setBorder(null);
         j_btnKitchen.setMargin(new java.awt.Insets(0, 4, 0, 4));
         j_btnKitchen.setMaximumSize(new java.awt.Dimension(50, 40));
         j_btnKitchen.setMinimumSize(new java.awt.Dimension(50, 40));

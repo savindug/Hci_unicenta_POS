@@ -100,7 +100,7 @@ public class JProductAttEditItem extends javax.swing.JPanel implements JProductA
         jLabel1.setText("jLabel1");
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        jValue.setBackground(new java.awt.Color(75, 81, 93));
+        jValue.setBackground(new java.awt.Color(55, 71, 79));
         jValue.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jValue.setPreferredSize(new java.awt.Dimension(0, 30));
 

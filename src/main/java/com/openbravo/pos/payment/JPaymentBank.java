@@ -137,7 +137,6 @@ public class JPaymentBank extends javax.swing.JPanel implements JPaymentInterfac
         jPanel1.setLayout(new javax.swing.BoxLayout(jPanel1, javax.swing.BoxLayout.Y_AXIS));
         jPanel1.add(m_jKeys);
 
-        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
@@ -150,13 +149,10 @@ public class JPaymentBank extends javax.swing.JPanel implements JPaymentInterfac
 
         add(jPanel2, java.awt.BorderLayout.EAST);
 
-        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
-        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setLayout(null);
 
         jLabel8.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.InputCash")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(100, 30));
         jPanel4.add(jLabel8);

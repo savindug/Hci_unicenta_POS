@@ -203,7 +203,7 @@ public class JNumberDialog extends javax.swing.JDialog {
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_jnumber.setBackground(new java.awt.Color(75, 81, 93));
+        m_jnumber.setBackground(new java.awt.Color(55, 71, 79));
         m_jnumber.setForeground(new java.awt.Color(255, 255, 255));
         m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel4.add(m_jnumber, java.awt.BorderLayout.CENTER);

@@ -353,65 +353,47 @@ public class JPanelTransfer extends JPanel implements JPanelView {
         jLabel4 = new javax.swing.JLabel();
         jbtnExit = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(28, 35, 49));
+        setBackground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(650, 400));
 
         jPanel1.setLayout(null);
 
-        webPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        webPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        cbTarget.setBackground(new java.awt.Color(75, 81, 93));
-        cbTarget.setForeground(new java.awt.Color(255, 255, 255));
         cbTarget.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbTarget.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        txtDBDriverLib.setBackground(new java.awt.Color(75, 81, 93));
-        txtDBDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         txtDBDriverLib.setText("webTextField1");
         txtDBDriverLib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBDriverLib.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        txtDBDriver.setBackground(new java.awt.Color(75, 81, 93));
-        txtDBDriver.setForeground(new java.awt.Color(255, 255, 255));
         txtDBDriver.setText("webTextField2");
         txtDBDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBDriver.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        txtDBUser.setBackground(new java.awt.Color(75, 81, 93));
-        txtDBUser.setForeground(new java.awt.Color(255, 255, 255));
         txtDBUser.setText("webTextField2");
         txtDBUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBUser.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        txtDBURL.setBackground(new java.awt.Color(75, 81, 93));
-        txtDBURL.setForeground(new java.awt.Color(255, 255, 255));
         txtDBURL.setText("webTextField1");
         txtDBURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBURL.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        txtDBPass.setBackground(new java.awt.Color(75, 81, 93));
-        txtDBPass.setForeground(new java.awt.Color(255, 255, 255));
         txtDBPass.setText("webPasswordField1");
         txtDBPass.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBPass.setPreferredSize(new java.awt.Dimension(300, 30));
 
-        jbtnDbDriverLib.setBackground(new java.awt.Color(55, 71, 79));
-        jbtnDbDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         jbtnDbDriverLib.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
-        jbtnDbDriverLib.setBorder(null);
         jbtnDbDriverLib.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setPreferredSize(new java.awt.Dimension(64, 32));
 
-        jButtonTest.setBackground(new java.awt.Color(55, 71, 79));
         jButtonTest.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jButtonTest.setForeground(new java.awt.Color(255, 255, 255));
         jButtonTest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/database.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jButtonTest.setText(bundle.getString("Button.Test")); // NOI18N
         jButtonTest.setActionCommand(bundle.getString("Button.Test")); // NOI18N
-        jButtonTest.setBorder(null);
         jButtonTest.setPreferredSize(new java.awt.Dimension(80, 45));
         jButtonTest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -419,11 +401,8 @@ public class JPanelTransfer extends JPanel implements JPanelView {
             }
         });
 
-        jbtnMigrate.setBackground(new java.awt.Color(55, 71, 79));
         jbtnMigrate.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jbtnMigrate.setForeground(new java.awt.Color(255, 255, 255));
         jbtnMigrate.setText(AppLocal.getIntString("button.migrate")); // NOI18N
-        jbtnMigrate.setBorder(null);
         jbtnMigrate.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnMigrate.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnMigrate.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -440,20 +419,25 @@ public class JPanelTransfer extends JPanel implements JPanelView {
             .addGroup(webPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(webPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtDBUser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cbTarget, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(webPanel1Layout.createSequentialGroup()
-                        .addComponent(txtDBDriverLib, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jbtnDbDriverLib, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(txtDBDriver, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtDBURL, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtDBPass, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(webPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtDBUser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cbTarget, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(webPanel1Layout.createSequentialGroup()
+                                .addComponent(txtDBDriverLib, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jbtnDbDriverLib, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtDBDriver, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtDBURL, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap())
                     .addGroup(webPanel1Layout.createSequentialGroup()
-                        .addComponent(jButtonTest, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jbtnMigrate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                        .addGroup(webPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtDBPass, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(webPanel1Layout.createSequentialGroup()
+                                .addComponent(jButtonTest, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jbtnMigrate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap())))
         );
         webPanel1Layout.setVerticalGroup(
             webPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -479,61 +463,44 @@ public class JPanelTransfer extends JPanel implements JPanelView {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        webPanel2.setBackground(new java.awt.Color(28, 35, 49));
-
-        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("New  Database ");
         jLabel5.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel5.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel5.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel18.setBackground(new java.awt.Color(28, 35, 49));
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText(AppLocal.getIntString("label.dbdriverlib")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel18.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel18.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("Label.DbDriver")); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel1.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel1.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("Label.DbURL")); // NOI18N
         jLabel2.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel2.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel2.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("Label.DbUser")); // NOI18N
         jLabel3.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel3.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel3.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("Label.DbPassword")); // NOI18N
         jLabel4.setMaximumSize(new java.awt.Dimension(150, 30));
         jLabel4.setMinimumSize(new java.awt.Dimension(150, 30));
         jLabel4.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jbtnExit.setBackground(new java.awt.Color(55, 71, 79));
         jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        jbtnExit.setForeground(new java.awt.Color(255, 255, 255));
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
-        jbtnExit.setBorder(null);
         jbtnExit.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnExit.setPreferredSize(new java.awt.Dimension(80, 45));

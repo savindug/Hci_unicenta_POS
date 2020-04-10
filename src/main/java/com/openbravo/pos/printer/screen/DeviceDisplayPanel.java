@@ -161,25 +161,19 @@ public class DeviceDisplayPanel extends JPanel implements DeviceDisplay, DeviceD
         setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         setLayout(new java.awt.BorderLayout());
 
-        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(16, 16, 16, 16));
-        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel1.setOpaque(false);
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
-        jline1.setBackground(new java.awt.Color(28, 35, 49));
         jline1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jline1.setForeground(new java.awt.Color(255, 255, 255));
         jline1.setText("jline1");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         jPanel1.add(jline1, gridBagConstraints);
 
-        jline2.setBackground(new java.awt.Color(28, 35, 49));
         jline2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jline2.setForeground(new java.awt.Color(255, 255, 255));
         jline2.setText("jline2");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;

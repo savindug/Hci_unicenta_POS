@@ -129,11 +129,7 @@ public class SelectPrinter extends javax.swing.JDialog {
         jLabel7.setText(AppLocal.getIntString("label.MachinePrinter")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
-<<<<<<< Updated upstream
         jPrinters.setBackground(new java.awt.Color(75, 81, 93));
-=======
-        jPrinters.setBackground(new java.awt.Color(28, 35, 49));
->>>>>>> Stashed changes
         jPrinters.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPrinters.setForeground(new java.awt.Color(255, 255, 255));
         jPrinters.setPreferredSize(new java.awt.Dimension(150, 30));

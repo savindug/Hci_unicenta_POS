@@ -87,7 +87,7 @@
             <Component class="javax.swing.JLabel" name="m_jTicketId">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5d" green="51" red="4b" type="rgb"/>
+                  <Color blue="4f" green="47" red="37" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Arial" size="14" style="0"/>
@@ -393,7 +393,7 @@
                 <Component class="com.openbravo.editor.JEditorIntegerPositive" name="m_jTicketEditor">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="5d" green="51" red="4b" type="rgb"/>
+                      <Color blue="4f" green="47" red="37" type="rgb"/>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>

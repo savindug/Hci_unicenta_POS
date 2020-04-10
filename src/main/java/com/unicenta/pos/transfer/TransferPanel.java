@@ -86,7 +86,6 @@ public class TransferPanel extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-        setBackground(new java.awt.Color(28, 35, 49));
 
         setSize(new java.awt.Dimension(930, 442));
         setLocationRelativeTo(null);

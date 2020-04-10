@@ -361,8 +361,6 @@ public class OrderCustomerList extends JPanel implements TicketSelector {
         setPreferredSize(new java.awt.Dimension(256, 560));
         setLayout(new java.awt.BorderLayout());
 
-        jPanelCustomers.setBackground(new java.awt.Color(28, 35, 49));
-        jPanelCustomers.setForeground(new java.awt.Color(255, 255, 255));
         jPanelCustomers.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelCustomers.setLayout(new java.awt.CardLayout());
         add(jPanelCustomers, java.awt.BorderLayout.CENTER);

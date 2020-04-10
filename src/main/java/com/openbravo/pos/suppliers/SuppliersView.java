@@ -1082,11 +1082,7 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
 
         jPanel3.setBackground(new java.awt.Color(55, 71, 79));
 
-<<<<<<< Updated upstream
         m_jNotes.setBackground(new java.awt.Color(204, 204, 204));
-=======
-        m_jNotes.setBackground(new java.awt.Color(28, 35, 49));
->>>>>>> Stashed changes
         m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jNotes.setPreferredSize(new java.awt.Dimension(0, 0));
         jScrollPane1.setViewportView(m_jNotes);

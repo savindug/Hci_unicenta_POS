@@ -245,6 +245,8 @@ public class PeopleView extends JPanel implements EditorRecord {
         webCBSecurity = new com.alee.laf.combobox.WebComboBox();
         jLabel6 = new javax.swing.JLabel();
 
+        jToolBar1.setBackground(new java.awt.Color(28, 35, 49));
+        jToolBar1.setForeground(new java.awt.Color(255, 255, 255));
         jToolBar1.setRollover(true);
 
         setBackground(new java.awt.Color(28, 35, 49));

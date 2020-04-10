@@ -331,7 +331,6 @@ public class OrderSupplierList extends JPanel implements SupplierTicketSelector 
         setLayout(new java.awt.BorderLayout());
 
         jPanelSuppliers.setBackground(new java.awt.Color(28, 35, 49));
-        jPanelSuppliers.setForeground(new java.awt.Color(255, 255, 255));
         jPanelSuppliers.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelSuppliers.setLayout(new java.awt.CardLayout());
         add(jPanelSuppliers, java.awt.BorderLayout.CENTER);

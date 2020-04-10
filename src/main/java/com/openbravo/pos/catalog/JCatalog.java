@@ -504,7 +504,7 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
         m_jscrollcat.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jscrollcat.setPreferredSize(new java.awt.Dimension(265, 130));
 
-        m_jListCategories.setBackground(new java.awt.Color(75, 81, 93));
+        m_jListCategories.setBackground(new java.awt.Color(55, 71, 79));
         m_jListCategories.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jListCategories.setForeground(new java.awt.Color(255, 255, 255));
         m_jListCategories.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);

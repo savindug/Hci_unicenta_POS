@@ -224,52 +224,61 @@ public class JPanelConfiguration extends JPanel implements JPanelView {
         setMinimumSize(new java.awt.Dimension(0, 0));
         setPreferredSize(new java.awt.Dimension(950, 600));
 
-        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
+        jTabbedPane1.setBackground(new java.awt.Color(28, 35, 49));
+        jTabbedPane1.setForeground(new java.awt.Color(255, 255, 255));
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(930, 550));
 
-        jPanelGeneral.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelGeneral.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelGeneral.setForeground(new java.awt.Color(255, 255, 255));
         jPanelGeneral.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelGeneral.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelGeneral.setLayout(new javax.swing.BoxLayout(jPanelGeneral, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("General", jPanelGeneral);
 
-        jPanelLocale.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelLocale.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelLocale.setForeground(new java.awt.Color(255, 255, 255));
         jPanelLocale.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelLocale.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelLocale.setLayout(new javax.swing.BoxLayout(jPanelLocale, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Locale", jPanelLocale);
 
-        jPanelPayment.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelPayment.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelPayment.setForeground(new java.awt.Color(255, 255, 255));
         jPanelPayment.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelPayment.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelPayment.setLayout(new javax.swing.BoxLayout(jPanelPayment, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Payment Method", jPanelPayment);
 
-        jPanelPeripheral.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelPeripheral.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelPeripheral.setForeground(new java.awt.Color(255, 255, 255));
         jPanelPeripheral.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelPeripheral.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelPeripheral.setLayout(new javax.swing.BoxLayout(jPanelPeripheral, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Peripherals", jPanelPeripheral);
 
-        jPanelSystem.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelSystem.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelSystem.setForeground(new java.awt.Color(255, 255, 255));
         jPanelSystem.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelSystem.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelSystem.setLayout(new javax.swing.BoxLayout(jPanelSystem, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("System Options", jPanelSystem);
 
-        jPanelTicketSetup.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelTicketSetup.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelTicketSetup.setForeground(new java.awt.Color(255, 255, 255));
         jPanelTicketSetup.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelTicketSetup.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelTicketSetup.setLayout(new javax.swing.BoxLayout(jPanelTicketSetup, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Ticket Setup", jPanelTicketSetup);
 
-        jPanelCompany.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelCompany.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelCompany.setForeground(new java.awt.Color(255, 255, 255));
         jPanelCompany.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelCompany.setLayout(new javax.swing.BoxLayout(jPanelCompany, javax.swing.BoxLayout.LINE_AXIS));
         jTabbedPane1.addTab("Company", jPanelCompany);
 
-        jPanelDatabase.setBackground(new java.awt.Color(255, 255, 255));
+        jPanelDatabase.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelDatabase.setForeground(new java.awt.Color(255, 255, 255));
         jPanelDatabase.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelDatabase.setPreferredSize(new java.awt.Dimension(0, 400));
         jPanelDatabase.setLayout(new javax.swing.BoxLayout(jPanelDatabase, javax.swing.BoxLayout.LINE_AXIS));

@@ -235,74 +235,108 @@ public class JPanelConfigLocale extends javax.swing.JPanel implements PanelConfi
         jLabel8 = new javax.swing.JLabel();
         jcboDatetime = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(0, 0));
         setPreferredSize(new java.awt.Dimension(650, 450));
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(600, 400));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.locale")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboLocale.setBackground(new java.awt.Color(69, 81, 93));
         jcboLocale.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboLocale.setForeground(new java.awt.Color(255, 255, 255));
         jcboLocale.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.integer")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboInteger.setBackground(new java.awt.Color(69, 81, 93));
         jcboInteger.setEditable(true);
         jcboInteger.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboInteger.setForeground(new java.awt.Color(255, 255, 255));
         jcboInteger.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.double")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboDouble.setBackground(new java.awt.Color(69, 81, 93));
         jcboDouble.setEditable(true);
         jcboDouble.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDouble.setForeground(new java.awt.Color(255, 255, 255));
         jcboDouble.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.currency")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboCurrency.setBackground(new java.awt.Color(69, 81, 93));
         jcboCurrency.setEditable(true);
         jcboCurrency.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboCurrency.setForeground(new java.awt.Color(255, 255, 255));
         jcboCurrency.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.percent")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboPercent.setBackground(new java.awt.Color(69, 81, 93));
         jcboPercent.setEditable(true);
         jcboPercent.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboPercent.setForeground(new java.awt.Color(255, 255, 255));
         jcboPercent.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel6.setBackground(new java.awt.Color(28, 35, 49));
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(AppLocal.getIntString("label.date")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboDate.setBackground(new java.awt.Color(69, 81, 93));
         jcboDate.setEditable(true);
         jcboDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDate.setForeground(new java.awt.Color(255, 255, 255));
         jcboDate.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.time")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboTime.setBackground(new java.awt.Color(69, 81, 93));
         jcboTime.setEditable(true);
         jcboTime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboTime.setForeground(new java.awt.Color(255, 255, 255));
         jcboTime.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel8.setBackground(new java.awt.Color(28, 35, 49));
         jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.datetime")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboDatetime.setBackground(new java.awt.Color(69, 81, 93));
         jcboDatetime.setEditable(true);
         jcboDatetime.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDatetime.setForeground(new java.awt.Color(255, 255, 255));
         jcboDatetime.setPreferredSize(new java.awt.Dimension(0, 30));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -381,7 +415,7 @@ public class JPanelConfigLocale extends javax.swing.JPanel implements PanelConfi
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jcboDatetime, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(100, Short.MAX_VALUE))
+                .addContainerGap(91, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -762,11 +762,16 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         setPreferredSize(new java.awt.Dimension(450, 150));
         setLayout(new java.awt.BorderLayout());
 
+        jToolBar.setBackground(new java.awt.Color(28, 35, 49));
         jToolBar.setFloatable(false);
+        jToolBar.setForeground(new java.awt.Color(255, 255, 255));
         jToolBar.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
+        btnSave.setBackground(new java.awt.Color(55, 71, 79));
+        btnSave.setForeground(new java.awt.Color(255, 255, 255));
         btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         btnSave.setToolTipText(getBundleString("save"));
+        btnSave.setBorder(null);
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSaveActionPerformed(evt);
@@ -774,8 +779,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnSave);
 
+        btnPrint.setBackground(new java.awt.Color(55, 71, 79));
+        btnPrint.setForeground(new java.awt.Color(255, 255, 255));
         btnPrint.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/yast_printer.png"))); // NOI18N
         btnPrint.setToolTipText(getBundleString("print"));
+        btnPrint.setBorder(null);
         btnPrint.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPrintActionPerformed(evt);
@@ -783,8 +791,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnPrint);
 
+        btnReload.setBackground(new java.awt.Color(55, 71, 79));
+        btnReload.setForeground(new java.awt.Color(255, 255, 255));
         btnReload.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         btnReload.setToolTipText(getBundleString("reload"));
+        btnReload.setBorder(null);
         btnReload.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnReloadActionPerformed(evt);
@@ -793,8 +804,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnReload);
         jToolBar.add(jSeparator1);
 
+        btnActualSize.setBackground(new java.awt.Color(55, 71, 79));
+        btnActualSize.setForeground(new java.awt.Color(255, 255, 255));
         btnActualSize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/mime.png"))); // NOI18N
         btnActualSize.setToolTipText(getBundleString("actual.size"));
+        btnActualSize.setBorder(null);
         btnActualSize.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnActualSizeActionPerformed(evt);
@@ -802,8 +816,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnActualSize);
 
+        btnFitPage.setBackground(new java.awt.Color(55, 71, 79));
+        btnFitPage.setForeground(new java.awt.Color(255, 255, 255));
         btnFitPage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/mime2.png"))); // NOI18N
         btnFitPage.setToolTipText(getBundleString("fit.page"));
+        btnFitPage.setBorder(null);
         btnFitPage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFitPageActionPerformed(evt);
@@ -811,8 +828,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnFitPage);
 
+        btnFitWidth.setBackground(new java.awt.Color(55, 71, 79));
+        btnFitWidth.setForeground(new java.awt.Color(255, 255, 255));
         btnFitWidth.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/mime3.png"))); // NOI18N
         btnFitWidth.setToolTipText(getBundleString("fit.width"));
+        btnFitWidth.setBorder(null);
         btnFitWidth.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFitWidthActionPerformed(evt);
@@ -821,8 +841,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnFitWidth);
         jToolBar.add(jSeparator2);
 
+        btnZoomIn.setBackground(new java.awt.Color(55, 71, 79));
+        btnZoomIn.setForeground(new java.awt.Color(255, 255, 255));
         btnZoomIn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag+.png"))); // NOI18N
         btnZoomIn.setToolTipText(getBundleString("zoom.in"));
+        btnZoomIn.setBorder(null);
         btnZoomIn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnZoomInActionPerformed(evt);
@@ -830,7 +853,9 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnZoomIn);
 
+        cmbZoom.setBackground(new java.awt.Color(75, 81, 93));
         cmbZoom.setEditable(true);
+        cmbZoom.setForeground(new java.awt.Color(255, 255, 255));
         cmbZoom.setToolTipText(getBundleString("zoom.ratio"));
         cmbZoom.setMaximumSize(new java.awt.Dimension(80, 23));
         cmbZoom.setMinimumSize(new java.awt.Dimension(80, 23));
@@ -847,8 +872,12 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(cmbZoom);
 
+        btnZoomOut.setBackground(new java.awt.Color(55, 71, 79));
+        btnZoomOut.setForeground(new java.awt.Color(255, 255, 255));
         btnZoomOut.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/viewmag-.png"))); // NOI18N
         btnZoomOut.setToolTipText(getBundleString("zoom.out"));
+        btnZoomOut.setBorder(null);
+        btnZoomOut.setBorderPainted(false);
         btnZoomOut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnZoomOutActionPerformed(evt);
@@ -857,8 +886,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         jToolBar.add(btnZoomOut);
         jToolBar.add(jSeparator3);
 
+        btnFirst.setBackground(new java.awt.Color(55, 71, 79));
+        btnFirst.setForeground(new java.awt.Color(255, 255, 255));
         btnFirst.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2leftarrow.png"))); // NOI18N
         btnFirst.setToolTipText(getBundleString("first.page"));
+        btnFirst.setBorder(null);
         btnFirst.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFirstActionPerformed(evt);
@@ -866,8 +898,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnFirst);
 
+        btnPrevious.setBackground(new java.awt.Color(55, 71, 79));
+        btnPrevious.setForeground(new java.awt.Color(255, 255, 255));
         btnPrevious.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1leftarrow.png"))); // NOI18N
         btnPrevious.setToolTipText(getBundleString("previous.page"));
+        btnPrevious.setBorder(null);
         btnPrevious.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPreviousActionPerformed(evt);
@@ -875,6 +910,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnPrevious);
 
+        txtGoTo.setBackground(new java.awt.Color(75, 81, 93));
+        txtGoTo.setForeground(new java.awt.Color(255, 255, 255));
         txtGoTo.setToolTipText(getBundleString("go.to.page"));
         txtGoTo.setMaximumSize(new java.awt.Dimension(40, 23));
         txtGoTo.setMinimumSize(new java.awt.Dimension(40, 23));
@@ -886,8 +923,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(txtGoTo);
 
+        btnNext.setBackground(new java.awt.Color(55, 71, 79));
+        btnNext.setForeground(new java.awt.Color(255, 255, 255));
         btnNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/1rightarrow.png"))); // NOI18N
         btnNext.setToolTipText(getBundleString("next.page"));
+        btnNext.setBorder(null);
         btnNext.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNextActionPerformed(evt);
@@ -895,8 +935,11 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         jToolBar.add(btnNext);
 
+        btnLast.setBackground(new java.awt.Color(55, 71, 79));
+        btnLast.setForeground(new java.awt.Color(255, 255, 255));
         btnLast.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/2rightarrow.png"))); // NOI18N
         btnLast.setToolTipText(getBundleString("last.page"));
+        btnLast.setBorder(null);
         btnLast.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLastActionPerformed(evt);
@@ -1015,6 +1058,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         pnlMain.add(scrollPane, java.awt.BorderLayout.CENTER);
 
+        pnlTabs.setBackground(new java.awt.Color(204, 204, 204));
         pnlTabs.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 pnlTabsStateChanged(evt);
@@ -1024,6 +1068,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         add(pnlMain, java.awt.BorderLayout.CENTER);
 
+        pnlStatus.setBackground(new java.awt.Color(204, 204, 204));
+        pnlStatus.setForeground(new java.awt.Color(255, 255, 255));
         pnlStatus.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         pnlStatus.setPreferredSize(new java.awt.Dimension(59, 20));
         pnlStatus.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));

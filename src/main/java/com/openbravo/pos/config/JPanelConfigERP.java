@@ -128,48 +128,67 @@ public class JPanelConfigERP extends javax.swing.JPanel implements PanelConfig {
         jLabelName = new javax.swing.JLabel();
         jLabelProperties = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(700, 500));
 
+        jtxtUrl.setBackground(new java.awt.Color(75, 81, 93));
         jtxtUrl.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtUrl.setForeground(new java.awt.Color(255, 255, 255));
         jtxtUrl.setPreferredSize(new java.awt.Dimension(350, 30));
 
+        jtxtId.setBackground(new java.awt.Color(75, 81, 93));
         jtxtId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtId.setForeground(new java.awt.Color(255, 255, 255));
         jtxtId.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jTextField1.setBackground(new java.awt.Color(75, 81, 93));
         jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jTextField2.setBackground(new java.awt.Color(75, 81, 93));
         jTextField2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(255, 255, 255));
         jTextField2.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jtxtName.setBackground(new java.awt.Color(75, 81, 93));
         jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtName.setForeground(new java.awt.Color(255, 255, 255));
         jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jtxtPassword.setBackground(new java.awt.Color(75, 81, 93));
         jtxtPassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtPassword.setForeground(new java.awt.Color(255, 255, 255));
         jtxtPassword.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jlabelUrl.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlabelUrl.setForeground(new java.awt.Color(255, 255, 255));
         jlabelUrl.setText(AppLocal.getIntString("label.erpurl")); // NOI18N
         jlabelUrl.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabelId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelId.setForeground(new java.awt.Color(255, 255, 255));
         jLabelId.setText(AppLocal.getIntString("label.erpid")); // NOI18N
         jLabelId.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.erporg")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.erppos")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabelName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelName.setForeground(new java.awt.Color(255, 255, 255));
         jLabelName.setText(AppLocal.getIntString("label.erpuser")); // NOI18N
         jLabelName.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabelProperties.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabelProperties.setForeground(new java.awt.Color(255, 255, 255));
         jLabelProperties.setText(AppLocal.getIntString("label.erppassword")); // NOI18N
         jLabelProperties.setPreferredSize(new java.awt.Dimension(150, 30));
 

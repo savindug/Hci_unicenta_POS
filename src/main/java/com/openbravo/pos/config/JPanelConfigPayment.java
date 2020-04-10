@@ -135,22 +135,26 @@ public class JPanelConfigPayment extends javax.swing.JPanel implements PanelConf
         jLabel11 = new javax.swing.JLabel();
         jcboCardReader = new javax.swing.JComboBox();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(590, 450));
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel2.setPreferredSize(new java.awt.Dimension(600, 200));
         jPanel2.setLayout(new java.awt.GridLayout(1, 1));
 
         jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText(AppLocal.getIntString("label.paymentgateway")); // NOI18N
         jLabel13.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jLabel13.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboPaymentGateway.setBackground(new java.awt.Color(75, 81, 93));
         jcboPaymentGateway.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboPaymentGateway.setForeground(new java.awt.Color(255, 255, 255));
         jcboPaymentGateway.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboPaymentGateway.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,17 +162,21 @@ public class JPanelConfigPayment extends javax.swing.JPanel implements PanelConf
             }
         });
 
-        jchkPaymentTest.setBackground(new java.awt.Color(255, 255, 255));
+        jchkPaymentTest.setBackground(new java.awt.Color(28, 35, 49));
         jchkPaymentTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkPaymentTest.setForeground(new java.awt.Color(255, 255, 255));
         jchkPaymentTest.setText(AppLocal.getIntString("label.paymenttestmode")); // NOI18N
         jchkPaymentTest.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText(AppLocal.getIntString("label.cardreader")); // NOI18N
         jLabel11.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         jLabel11.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboCardReader.setBackground(new java.awt.Color(75, 81, 93));
         jcboCardReader.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboCardReader.setForeground(new java.awt.Color(255, 255, 255));
         jcboCardReader.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

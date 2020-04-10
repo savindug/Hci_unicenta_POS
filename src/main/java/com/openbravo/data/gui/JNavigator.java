@@ -373,7 +373,11 @@ public class JNavigator extends javax.swing.JPanel implements BrowseListener, St
     private void initComponents() {
 
         setBackground(new java.awt.Color(28, 35, 49));
+<<<<<<< HEAD
         setForeground(new java.awt.Color(55, 71, 79));
+=======
+        setForeground(new java.awt.Color(255, 255, 255));
+>>>>>>> master
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
     }// </editor-fold>//GEN-END:initComponents
    

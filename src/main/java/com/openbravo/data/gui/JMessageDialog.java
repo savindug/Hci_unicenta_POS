@@ -149,11 +149,15 @@ public class JMessageDialog extends javax.swing.JDialog {
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
+        jlblErrorCode.setBackground(new java.awt.Color(28, 35, 49));
         jlblErrorCode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblErrorCode.setForeground(new java.awt.Color(255, 255, 255));
         jlblErrorCode.setText("jlblErrorCode");
         jPanel4.add(jlblErrorCode);
 
+        jlblMessage.setBackground(new java.awt.Color(28, 35, 49));
         jlblMessage.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblMessage.setForeground(new java.awt.Color(255, 255, 255));
         jlblMessage.setText("jlblMessage");
         jlblMessage.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jlblMessage.setMinimumSize(new java.awt.Dimension(200, 100));
@@ -163,7 +167,9 @@ public class JMessageDialog extends javax.swing.JDialog {
         jscrException.setAlignmentX(0.0F);
 
         jtxtException.setEditable(false);
+        jtxtException.setBackground(new java.awt.Color(28, 35, 49));
         jtxtException.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jtxtException.setForeground(new java.awt.Color(255, 255, 255));
         jscrException.setViewportView(jtxtException);
 
         jPanel4.add(jscrException);
@@ -178,10 +184,15 @@ public class JMessageDialog extends javax.swing.JDialog {
         jPanel3.setBackground(new java.awt.Color(28, 35, 49));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jcmdOK.setActionCommand(bundle.getString("button.OK")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setMaximumSize(new java.awt.Dimension(65, 33));
         jcmdOK.setMinimumSize(new java.awt.Dimension(65, 33));
         jcmdOK.setPreferredSize(new java.awt.Dimension(65, 33));
@@ -192,8 +203,11 @@ public class JMessageDialog extends javax.swing.JDialog {
         });
         jPanel2.add(jcmdOK);
 
+        jcmdMore.setBackground(new java.awt.Color(55, 71, 79));
         jcmdMore.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdMore.setForeground(new java.awt.Color(255, 255, 255));
         jcmdMore.setText(LocalRes.getIntString("button.information")); // NOI18N
+        jcmdMore.setBorder(null);
         jcmdMore.setMaximumSize(new java.awt.Dimension(65, 33));
         jcmdMore.setMinimumSize(new java.awt.Dimension(65, 33));
         jcmdMore.setPreferredSize(new java.awt.Dimension(65, 33));

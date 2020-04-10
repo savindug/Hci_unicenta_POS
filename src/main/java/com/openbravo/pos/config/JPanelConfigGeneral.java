@@ -252,37 +252,45 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jbtnHTML = new javax.swing.JButton();
         jbtnClearHTML = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(800, 450));
 
-        jPanel11.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel11.setBackground(new java.awt.Color(75, 81, 93));
         jPanel11.setOpaque(false);
         jPanel11.setPreferredSize(new java.awt.Dimension(750, 450));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.MachineName")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.looknfeel")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.MachineScreen")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.Ticketsbag")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtMachineHostname.setBackground(new java.awt.Color(75, 81, 93));
         jtxtMachineHostname.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtMachineHostname.setForeground(new java.awt.Color(255, 255, 255));
         jtxtMachineHostname.setToolTipText(AppLocal.getIntString("tooltip.config.general.terminal")); // NOI18N
         jtxtMachineHostname.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jtxtMachineHostname.setMinimumSize(new java.awt.Dimension(130, 25));
         jtxtMachineHostname.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        jcboLAF.setBackground(new java.awt.Color(75, 81, 93));
         jcboLAF.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboLAF.setForeground(new java.awt.Color(255, 255, 255));
         jcboLAF.setToolTipText(AppLocal.getIntString("tooltip.config.general.skin")); // NOI18N
         jcboLAF.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboLAF.setPreferredSize(new java.awt.Dimension(200, 30));
@@ -292,18 +300,23 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
+        jcboMachineScreenmode.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachineScreenmode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachineScreenmode.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachineScreenmode.setToolTipText(AppLocal.getIntString("tooltip.config.general.screen")); // NOI18N
         jcboMachineScreenmode.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScreenmode.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        jcboTicketsBag.setBackground(new java.awt.Color(75, 81, 93));
         jcboTicketsBag.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboTicketsBag.setForeground(new java.awt.Color(255, 255, 255));
         jcboTicketsBag.setToolTipText(AppLocal.getIntString("tooltip.config.general.tickets")); // NOI18N
         jcboTicketsBag.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboTicketsBag.setPreferredSize(new java.awt.Dimension(200, 30));
 
-        jchkHideInfo.setBackground(new java.awt.Color(255, 255, 255));
+        jchkHideInfo.setBackground(new java.awt.Color(28, 35, 49));
         jchkHideInfo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jchkHideInfo.setForeground(new java.awt.Color(255, 255, 255));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jchkHideInfo.setText(bundle.getString("label.Infopanel")); // NOI18N
         jchkHideInfo.setToolTipText(AppLocal.getIntString("tooltip.config.general.footer")); // NOI18N
@@ -314,24 +327,30 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jchkHideInfo.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText(bundle.getString("label.startuplogo")); // NOI18N
         jLabel18.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabel18.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabel18.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtStartupLogo.setBackground(new java.awt.Color(75, 81, 93));
         jtxtStartupLogo.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupLogo.setForeground(new java.awt.Color(255, 255, 255));
         jtxtStartupLogo.setToolTipText(AppLocal.getIntString("tooltip.config.general.logo")); // NOI18N
         jtxtStartupLogo.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupLogo.setMinimumSize(new java.awt.Dimension(0, 0));
         jtxtStartupLogo.setPreferredSize(new java.awt.Dimension(400, 30));
 
         jLabel19.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText(AppLocal.getIntString("label.startuptext")); // NOI18N
         jLabel19.setMaximumSize(new java.awt.Dimension(0, 25));
         jLabel19.setMinimumSize(new java.awt.Dimension(0, 0));
         jLabel19.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtStartupText.setBackground(new java.awt.Color(75, 81, 93));
         jtxtStartupText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupText.setForeground(new java.awt.Color(255, 255, 255));
         jtxtStartupText.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
         jtxtStartupText.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupText.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -347,9 +366,11 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
+        jbtnLogo.setBackground(new java.awt.Color(55, 71, 79));
         jbtnLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnLogo.setText("  ");
         jbtnLogo.setToolTipText(AppLocal.getIntString("tooltip.config.general.logo")); // NOI18N
+        jbtnLogo.setBorder(null);
         jbtnLogo.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnLogo.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnLogo.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -359,16 +380,20 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
+        jbtnText.setBackground(new java.awt.Color(55, 71, 79));
         jbtnText.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnText.setText("  ");
         jbtnText.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
+        jbtnText.setBorder(null);
         jbtnText.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnText.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnText.setPreferredSize(new java.awt.Dimension(80, 45));
 
+        jbtnTextClear.setBackground(new java.awt.Color(55, 71, 79));
         jbtnTextClear.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jbtnTextClear.setForeground(new java.awt.Color(255, 0, 153));
         jbtnTextClear.setText("X");
+        jbtnTextClear.setBorder(null);
         jbtnTextClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnTextClearActionPerformed(evt);
@@ -376,10 +401,13 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         });
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(AppLocal.getIntString("label.MachineDepartment")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtMachineDepartment.setBackground(new java.awt.Color(75, 81, 93));
         jtxtMachineDepartment.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtMachineDepartment.setForeground(new java.awt.Color(255, 255, 255));
         jtxtMachineDepartment.setToolTipText(AppLocal.getIntString("tooltip.config.general.dept")); // NOI18N
         jtxtMachineDepartment.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jtxtMachineDepartment.setMinimumSize(new java.awt.Dimension(130, 25));
@@ -389,11 +417,13 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         lblIP_Address.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lblIP_Address.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        webLabel1.setForeground(new java.awt.Color(255, 255, 255));
         webLabel1.setText(bundle.getString("label.nameIP")); // NOI18N
         webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLblURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblURL.setForeground(new java.awt.Color(255, 255, 255));
         jLblURL.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         jLblURL.setText(AppLocal.getIntString("label.URL")); // NOI18N
         jLblURL.setToolTipText(bundle.getString("tooltip.config.general.URL")); // NOI18N
@@ -407,7 +437,9 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
+        jtxtStartupHTML.setBackground(new java.awt.Color(75, 81, 93));
         jtxtStartupHTML.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtStartupHTML.setForeground(new java.awt.Color(255, 255, 255));
         jtxtStartupHTML.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
         jtxtStartupHTML.setMaximumSize(new java.awt.Dimension(0, 25));
         jtxtStartupHTML.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -423,9 +455,11 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
+        jbtnHTML.setBackground(new java.awt.Color(55, 71, 79));
         jbtnHTML.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnHTML.setText("  ");
         jbtnHTML.setToolTipText(AppLocal.getIntString("tooltip.config.general.text")); // NOI18N
+        jbtnHTML.setBorder(null);
         jbtnHTML.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnHTML.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnHTML.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -435,9 +469,11 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
             }
         });
 
+        jbtnClearHTML.setBackground(new java.awt.Color(55, 71, 79));
         jbtnClearHTML.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jbtnClearHTML.setForeground(new java.awt.Color(255, 0, 153));
         jbtnClearHTML.setText("X");
+        jbtnClearHTML.setBorder(null);
         jbtnClearHTML.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtnClearHTMLActionPerformed(evt);
@@ -553,7 +589,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
                     .addComponent(jbtnClearHTML))
                 .addGap(18, 18, 18)
                 .addComponent(jchkHideInfo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

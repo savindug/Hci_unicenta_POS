@@ -810,6 +810,7 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
         m_jbtnReservations.setBackground(new java.awt.Color(55, 71, 79));

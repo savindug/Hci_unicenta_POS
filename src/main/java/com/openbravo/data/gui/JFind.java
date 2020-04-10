@@ -131,28 +131,43 @@ public class JFind extends JDialog {
         setTitle(LocalRes.getIntString("title.find")); // NOI18N
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(LocalRes.getIntString("label.findwhat")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
         m_jFind.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jFind.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(LocalRes.getIntString("label.where")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jWhere.setBackground(new java.awt.Color(28, 35, 49));
         m_jWhere.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jWhere.setForeground(new java.awt.Color(255, 255, 255));
         m_jWhere.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(LocalRes.getIntString("label.match")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jMatch.setBackground(new java.awt.Color(28, 35, 49));
         m_jMatch.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jMatch.setForeground(new java.awt.Color(255, 255, 255));
         m_jMatch.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        m_jMatchCase.setBackground(new java.awt.Color(28, 35, 49));
         m_jMatchCase.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jMatchCase.setForeground(new java.awt.Color(255, 255, 255));
         m_jMatchCase.setText(LocalRes.getIntString("label.casesensitive")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -200,8 +215,11 @@ public class JFind extends JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(LocalRes.getIntString("button.cancel")); // NOI18N
@@ -213,6 +231,7 @@ public class JFind extends JDialog {
         });
         jPanel2.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N

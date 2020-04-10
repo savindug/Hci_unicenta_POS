@@ -1019,54 +1019,76 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         webLabel2 = new com.alee.laf.label.WebLabel();
         webLabel3 = new com.alee.laf.label.WebLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(800, 525));
 
-        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setBackground(new java.awt.Color(28, 35, 49));
         jPanel13.setPreferredSize(new java.awt.Dimension(800, 520));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.MachineDisplay")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel6.setBackground(new java.awt.Color(28, 35, 49));
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText(AppLocal.getIntString("label.MachinePrinter")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.MachinePrinter2")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel8.setBackground(new java.awt.Color(28, 35, 49));
         jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.MachinePrinter3")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel9.setBackground(new java.awt.Color(28, 35, 49));
         jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText(AppLocal.getIntString("label.MachinePrinter4")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel10.setBackground(new java.awt.Color(28, 35, 49));
         jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText(AppLocal.getIntString("label.MachinePrinter5")); // NOI18N
         jLabel10.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel11.setBackground(new java.awt.Color(28, 35, 49));
         jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText(AppLocal.getIntString("label.MachinePrinter6")); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel12.setBackground(new java.awt.Color(28, 35, 49));
         jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText(AppLocal.getIntString("label.scale")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel13.setBackground(new java.awt.Color(28, 35, 49));
         jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText(AppLocal.getIntString("label.scanner")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel14.setBackground(new java.awt.Color(28, 35, 49));
         jLabel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText(AppLocal.getIntString("label.reportsprinter")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jcboMachineDisplay.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachineDisplay.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachineDisplay.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachineDisplay.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineDisplay.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachineDisplay.addActionListener(new java.awt.event.ActionListener() {
@@ -1075,7 +1097,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachinePrinter.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachinePrinter.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachinePrinter.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachinePrinter.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter.addActionListener(new java.awt.event.ActionListener() {
@@ -1084,7 +1108,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachinePrinter2.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachinePrinter2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachinePrinter2.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachinePrinter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter2.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter2.addActionListener(new java.awt.event.ActionListener() {
@@ -1093,7 +1119,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachinePrinter3.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachinePrinter3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachinePrinter3.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachinePrinter3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter3.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter3.addActionListener(new java.awt.event.ActionListener() {
@@ -1102,7 +1130,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachinePrinter4.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachinePrinter4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachinePrinter4.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachinePrinter4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter4.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter4.addActionListener(new java.awt.event.ActionListener() {
@@ -1111,7 +1141,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachinePrinter5.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachinePrinter5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachinePrinter5.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachinePrinter5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter5.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter5.addActionListener(new java.awt.event.ActionListener() {
@@ -1120,7 +1152,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachinePrinter6.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachinePrinter6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachinePrinter6.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachinePrinter6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachinePrinter6.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachinePrinter6.addActionListener(new java.awt.event.ActionListener() {
@@ -1129,7 +1163,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachineScale.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachineScale.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachineScale.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachineScale.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScale.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachineScale.addActionListener(new java.awt.event.ActionListener() {
@@ -1138,7 +1174,9 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        jcboMachineScanner.setBackground(new java.awt.Color(75, 81, 93));
         jcboMachineScanner.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboMachineScanner.setForeground(new java.awt.Color(255, 255, 255));
         jcboMachineScanner.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jcboMachineScanner.setPreferredSize(new java.awt.Dimension(200, 30));
         jcboMachineScanner.addActionListener(new java.awt.event.ActionListener() {
@@ -1147,14 +1185,17 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        cboPrinters.setBackground(new java.awt.Color(75, 81, 93));
         cboPrinters.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        cboPrinters.setForeground(new java.awt.Color(255, 255, 255));
         cboPrinters.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         cboPrinters.setPreferredSize(new java.awt.Dimension(200, 30));
 
         m_jDisplayParams.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jDisplayParams.setLayout(new java.awt.CardLayout());
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel2.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jDisplayParams.add(jPanel2, "empty");
@@ -1244,7 +1285,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jPrinterParams1.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jPrinterParams1.setLayout(new java.awt.CardLayout());
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel5.setForeground(new java.awt.Color(255, 255, 255));
         jPanel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel5.setPreferredSize(new java.awt.Dimension(450, 30));
         m_jPrinterParams1.add(jPanel5, "empty");
@@ -1346,7 +1388,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jPrinterParams2.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jPrinterParams2.setLayout(new java.awt.CardLayout());
 
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel7.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel7.setForeground(new java.awt.Color(255, 255, 255));
         jPanel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel7.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jPrinterParams2.add(jPanel7, "empty");
@@ -1448,7 +1491,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jPrinterParams3.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jPrinterParams3.setLayout(new java.awt.CardLayout());
 
-        jPanel9.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel9.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel9.setForeground(new java.awt.Color(255, 255, 255));
         jPanel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel9.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jPrinterParams3.add(jPanel9, "empty");
@@ -1550,7 +1594,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jPrinterParams4.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jPrinterParams4.setLayout(new java.awt.CardLayout());
 
-        jPanel14.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel14.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel14.setForeground(new java.awt.Color(255, 255, 255));
         jPanel14.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel14.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jPrinterParams4.add(jPanel14, "empty");
@@ -1652,7 +1697,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jPrinterParams5.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jPrinterParams5.setLayout(new java.awt.CardLayout());
 
-        jPanel20.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel20.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel20.setForeground(new java.awt.Color(255, 255, 255));
         jPanel20.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel20.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jPrinterParams5.add(jPanel20, "empty");
@@ -1754,7 +1800,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jPrinterParams6.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jPrinterParams6.setLayout(new java.awt.CardLayout());
 
-        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel23.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel23.setForeground(new java.awt.Color(255, 255, 255));
         jPanel23.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel23.setPreferredSize(new java.awt.Dimension(200, 30));
         m_jPrinterParams6.add(jPanel23, "empty");
@@ -1855,7 +1902,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jScaleParams.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jScaleParams.setLayout(new java.awt.CardLayout());
 
-        jPanel16.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel16.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel16.setForeground(new java.awt.Color(255, 255, 255));
         jPanel16.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel16.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jScaleParams.add(jPanel16, "empty");
@@ -1897,7 +1945,8 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
         m_jScannerParams.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jScannerParams.setLayout(new java.awt.CardLayout());
 
-        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel24.setBackground(new java.awt.Color(75, 81, 93));
+        jPanel24.setForeground(new java.awt.Color(255, 255, 255));
         jPanel24.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel24.setPreferredSize(new java.awt.Dimension(400, 30));
         m_jScannerParams.add(jPanel24, "empty");
@@ -1936,7 +1985,7 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
 
         m_jScannerParams.add(jPanel19, "comm");
 
-        jPanel27.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel27.setBackground(new java.awt.Color(28, 35, 49));
 
         webSwtch_iButton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webSwtch_iButton.setPreferredSize(new java.awt.Dimension(80, 30));
@@ -1946,10 +1995,14 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        webLbliButton.setBackground(new java.awt.Color(28, 35, 49));
+        webLbliButton.setForeground(new java.awt.Color(255, 255, 255));
         webLbliButton.setText(AppLocal.getIntString("label.ibutton")); // NOI18N
         webLbliButton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webLbliButton.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        webSlider.setBackground(new java.awt.Color(28, 35, 49));
+        webSlider.setForeground(new java.awt.Color(255, 255, 255));
         webSlider.setMajorTickSpacing(10);
         webSlider.setMinorTickSpacing(5);
         webSlider.setPaintLabels(true);
@@ -1966,15 +2019,21 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
             }
         });
 
+        webLabel1.setBackground(new java.awt.Color(28, 35, 49));
+        webLabel1.setForeground(new java.awt.Color(255, 255, 255));
         webLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         webLabel1.setText(bundle.getString("label.ibuttonresponsespeed")); // NOI18N
         webLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         webLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        webLabel2.setBackground(new java.awt.Color(28, 35, 49));
+        webLabel2.setForeground(new java.awt.Color(255, 255, 255));
         webLabel2.setText(bundle.getString("label.fast")); // NOI18N
         webLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
+        webLabel3.setBackground(new java.awt.Color(28, 35, 49));
+        webLabel3.setForeground(new java.awt.Color(255, 255, 255));
         webLabel3.setText(bundle.getString("label.slow")); // NOI18N
         webLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
@@ -2006,7 +2065,7 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                     .addComponent(webSwtch_iButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(webLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(webSlider, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(webLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(webLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2025,7 +2084,7 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jcboMachinePrinter2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(m_jPrinterParams2, javax.swing.GroupLayout.DEFAULT_SIZE, 414, Short.MAX_VALUE))
+                        .addComponent(m_jPrinterParams2, javax.swing.GroupLayout.DEFAULT_SIZE, 410, Short.MAX_VALUE))
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -2038,18 +2097,6 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                         .addComponent(jcboMachineScale, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(m_jScaleParams, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel13Layout.createSequentialGroup()
-                                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jcboMachineScanner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel13Layout.createSequentialGroup()
-                                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cboPrinters, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(m_jScannerParams, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -2083,7 +2130,20 @@ public class JPanelConfigPeripheral extends javax.swing.JPanel implements PanelC
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(m_jPrinterParams1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                     .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel13Layout.createSequentialGroup()
+                                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel13Layout.createSequentialGroup()
+                                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jcboMachineScanner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel13Layout.createSequentialGroup()
+                                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(cboPrinters, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(m_jScannerParams, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addGap(16, 16, 16))
         );

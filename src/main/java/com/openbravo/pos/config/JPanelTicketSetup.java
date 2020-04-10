@@ -178,17 +178,20 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
 
         jTextField2.setText("jTextField2");
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(700, 500));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.ticketsetupnumber")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(190, 30));
 
         jReceiptSize.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jReceiptSize.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(0), Integer.valueOf(0), null, Integer.valueOf(1)));
+        jReceiptSize.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
         jReceiptSize.setPreferredSize(new java.awt.Dimension(50, 30));
         jReceiptSize.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -196,10 +199,14 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
             }
         });
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(bundle.getString("label.ticketsetupprefix")); // NOI18N
 
+        jTextReceiptPrefix.setBackground(new java.awt.Color(75, 81, 93));
         jTextReceiptPrefix.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTextReceiptPrefix.setForeground(new java.awt.Color(255, 255, 255));
         jTextReceiptPrefix.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextReceiptPrefix.setPreferredSize(new java.awt.Dimension(100, 30));
         jTextReceiptPrefix.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -208,18 +215,22 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
             }
         });
 
+        jTicketExample.setBackground(new java.awt.Color(75, 81, 93));
         jTicketExample.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jTicketExample.setForeground(new java.awt.Color(255, 255, 255));
         jTicketExample.setText("1");
         jTicketExample.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTicketExample.setEnabled(false);
         jTicketExample.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(bundle.getString("label.pickupcodesize")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(190, 30));
 
         jPickupSize.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jPickupSize.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(0), Integer.valueOf(0), null, Integer.valueOf(1)));
+        jPickupSize.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
         jPickupSize.setToolTipText("");
         jPickupSize.setPreferredSize(new java.awt.Dimension(50, 30));
         jPickupSize.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -228,8 +239,9 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
             }
         });
 
-        m_jReceiptPrintOff.setBackground(new java.awt.Color(255, 255, 255));
+        m_jReceiptPrintOff.setBackground(new java.awt.Color(28, 35, 49));
         m_jReceiptPrintOff.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jReceiptPrintOff.setForeground(new java.awt.Color(255, 255, 255));
         m_jReceiptPrintOff.setText(bundle.getString("label.receiptprint")); // NOI18N
         m_jReceiptPrintOff.setPreferredSize(new java.awt.Dimension(180, 30));
         m_jReceiptPrintOff.addActionListener(new java.awt.event.ActionListener() {
@@ -238,9 +250,12 @@ public class JPanelTicketSetup extends javax.swing.JPanel implements PanelConfig
             }
         });
 
+        jbtnReset.setBackground(new java.awt.Color(55, 71, 79));
         jbtnReset.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnReset.setForeground(new java.awt.Color(255, 255, 255));
         jbtnReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jbtnReset.setText(AppLocal.getIntString("label.resetpickup")); // NOI18N
+        jbtnReset.setBorder(null);
         jbtnReset.setMaximumSize(new java.awt.Dimension(70, 33));
         jbtnReset.setMinimumSize(new java.awt.Dimension(70, 33));
         jbtnReset.setPreferredSize(new java.awt.Dimension(100, 45));

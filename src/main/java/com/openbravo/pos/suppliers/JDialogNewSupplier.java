@@ -172,7 +172,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblTaxID.setMinimumSize(new java.awt.Dimension(140, 25));
         jLblTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jTaxID.setBackground(new java.awt.Color(75, 81, 93));
         m_jTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxID.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -181,7 +183,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblSearchkey.setText(AppLocal.getIntString("label.searchkeym")); // NOI18N
         jLblSearchkey.setPreferredSize(new java.awt.Dimension(82, 30));
 
+        m_jSearchkey.setBackground(new java.awt.Color(75, 81, 93));
         m_jSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearchkey.setForeground(new java.awt.Color(255, 255, 255));
         m_jSearchkey.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         m_jSearchkey.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jSearchkey.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
@@ -194,7 +198,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblName.setMinimumSize(new java.awt.Dimension(140, 25));
         jLblName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jName.setPreferredSize(new java.awt.Dimension(400, 30));
 
@@ -204,7 +210,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblFirstName.setAlignmentX(0.5F);
         jLblFirstName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtFirstName.setBackground(new java.awt.Color(75, 81, 93));
         txtFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtFirstName.setForeground(new java.awt.Color(255, 255, 255));
         txtFirstName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtFirstName.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -213,7 +221,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblLastName.setText(AppLocal.getIntString("label.lastname")); // NOI18N
         jLblLastName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtLastName.setBackground(new java.awt.Color(75, 81, 93));
         txtLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtLastName.setForeground(new java.awt.Color(255, 255, 255));
         txtLastName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtLastName.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -222,7 +232,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblEmail.setText(AppLocal.getIntString("label.email")); // NOI18N
         jLblEmail.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtEmail.setBackground(new java.awt.Color(75, 81, 93));
         txtEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtEmail.setForeground(new java.awt.Color(255, 255, 255));
         txtEmail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtEmail.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -231,7 +243,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblTelephone1.setText(AppLocal.getIntString("label.phone")); // NOI18N
         jLblTelephone1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtPhone.setBackground(new java.awt.Color(75, 81, 93));
         txtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPhone.setForeground(new java.awt.Color(255, 255, 255));
         txtPhone.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPhone.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -240,7 +254,9 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblTelephone2.setText(AppLocal.getIntString("label.phone2")); // NOI18N
         jLblTelephone2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtPhone2.setBackground(new java.awt.Color(75, 81, 93));
         txtPhone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPhone2.setForeground(new java.awt.Color(255, 255, 255));
         txtPhone2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPhone2.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -332,7 +348,7 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         m_jBtnOK.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jBtnOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jBtnOK.setText(AppLocal.getIntString("Button.OK")); // NOI18N
-        m_jBtnOK.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        m_jBtnOK.setBorder(null);
         m_jBtnOK.setFocusPainted(false);
         m_jBtnOK.setFocusable(false);
         m_jBtnOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -349,7 +365,7 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         m_jBtnCancel.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jBtnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         m_jBtnCancel.setText(AppLocal.getIntString("Button.Cancel")); // NOI18N
-        m_jBtnCancel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        m_jBtnCancel.setBorder(null);
         m_jBtnCancel.setFocusPainted(false);
         m_jBtnCancel.setFocusable(false);
         m_jBtnCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));

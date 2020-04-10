@@ -100,9 +100,12 @@ public class ParametersPrinter extends javax.swing.JPanel implements ParametersC
         jPrinters = new javax.swing.JComboBox();
         jReceiptPrinter = new javax.swing.JCheckBox();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
 
+        jPrinters.setBackground(new java.awt.Color(75, 81, 93));
         jPrinters.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jPrinters.setForeground(new java.awt.Color(255, 255, 255));
         jPrinters.setPreferredSize(new java.awt.Dimension(200, 30));
         jPrinters.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,8 +113,9 @@ public class ParametersPrinter extends javax.swing.JPanel implements ParametersC
             }
         });
 
-        jReceiptPrinter.setBackground(new java.awt.Color(255, 255, 255));
+        jReceiptPrinter.setBackground(new java.awt.Color(28, 35, 49));
         jReceiptPrinter.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jReceiptPrinter.setForeground(new java.awt.Color(255, 255, 255));
         jReceiptPrinter.setSelected(true);
         jReceiptPrinter.setText(AppLocal.getIntString("label.receiptprinter")); // NOI18N
 

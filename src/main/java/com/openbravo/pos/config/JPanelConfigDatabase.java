@@ -244,7 +244,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel6.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 196, -1, -1));
 
+        jcboDBDriver.setBackground(new java.awt.Color(75, 81, 93));
         jcboDBDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jcboDBDriver.setForeground(new java.awt.Color(255, 255, 255));
         jcboDBDriver.setPreferredSize(new java.awt.Dimension(150, 30));
         jcboDBDriver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -258,13 +260,18 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel18.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 154, -1, 25));
 
+        jtxtDbDriverLib.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbDriverLib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbDriverLib.setPreferredSize(new java.awt.Dimension(500, 30));
         add(jtxtDbDriverLib, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 152, -1, -1));
 
+        jbtnDbDriverLib.setBackground(new java.awt.Color(55, 71, 79));
+        jbtnDbDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         jbtnDbDriverLib.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnDbDriverLib.setText("  ");
         jbtnDbDriverLib.setToolTipText("");
+        jbtnDbDriverLib.setBorder(null);
         jbtnDbDriverLib.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnDbDriverLib.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -275,7 +282,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel1.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(324, 196, -1, -1));
 
+        jtxtDbDriver.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbDriver.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbDriver.setPreferredSize(new java.awt.Dimension(150, 30));
         jtxtDbDriver.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -289,7 +298,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel2.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 343, -1, -1));
 
+        jtxtDbURL.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbURL.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbURL.setPreferredSize(new java.awt.Dimension(275, 30));
         add(jtxtDbURL, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 343, -1, -1));
 
@@ -298,7 +309,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel3.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 380, -1, -1));
 
+        jtxtDbUser.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbUser.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbUser.setPreferredSize(new java.awt.Dimension(150, 30));
         add(jtxtDbUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 380, -1, -1));
 
@@ -307,14 +320,19 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel4.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 417, -1, -1));
 
+        jtxtDbPassword.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbPassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbPassword.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbPassword.setPreferredSize(new java.awt.Dimension(150, 30));
         add(jtxtDbPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 417, -1, -1));
 
+        jButtonTest.setBackground(new java.awt.Color(55, 71, 79));
         jButtonTest.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButtonTest.setForeground(new java.awt.Color(255, 255, 255));
         jButtonTest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/database.png"))); // NOI18N
         jButtonTest.setText(bundle.getString("button.test")); // NOI18N
         jButtonTest.setActionCommand(bundle.getString("Button.Test")); // NOI18N
+        jButtonTest.setBorder(null);
         jButtonTest.setPreferredSize(new java.awt.Dimension(110, 45));
         jButtonTest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -334,10 +352,13 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLabel5.setPreferredSize(new java.awt.Dimension(889, 120));
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 6, 880, -1));
 
+        jButtonTest1.setBackground(new java.awt.Color(55, 71, 79));
         jButtonTest1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jButtonTest1.setForeground(new java.awt.Color(255, 255, 255));
         jButtonTest1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/database.png"))); // NOI18N
         jButtonTest1.setText(bundle.getString("button.test")); // NOI18N
         jButtonTest1.setActionCommand(bundle.getString("Button.Test")); // NOI18N
+        jButtonTest1.setBorder(null);
         jButtonTest1.setEnabled(false);
         jButtonTest1.setPreferredSize(new java.awt.Dimension(110, 45));
         jButtonTest1.addActionListener(new java.awt.event.ActionListener() {
@@ -347,17 +368,23 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         });
         add(jButtonTest1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 455, -1, -1));
 
+        jtxtDbPassword1.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbPassword1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbPassword1.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbPassword1.setEnabled(false);
         jtxtDbPassword1.setPreferredSize(new java.awt.Dimension(150, 30));
         add(jtxtDbPassword1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 417, -1, -1));
 
+        jtxtDbUser1.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbUser1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbUser1.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbUser1.setEnabled(false);
         jtxtDbUser1.setPreferredSize(new java.awt.Dimension(150, 30));
         add(jtxtDbUser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 380, -1, -1));
 
+        jtxtDbURL1.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbURL1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbURL1.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbURL1.setEnabled(false);
         jtxtDbURL1.setPreferredSize(new java.awt.Dimension(275, 30));
         add(jtxtDbURL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 343, -1, -1));
@@ -385,7 +412,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDBName.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLblDBName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 269, -1, -1));
 
+        jtxtDbName.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbName.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbName.setPreferredSize(new java.awt.Dimension(275, 30));
         add(jtxtDbName, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 269, -1, -1));
 
@@ -395,7 +424,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDbName1.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLblDbName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 269, -1, -1));
 
+        jtxtDbName1.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbName1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbName1.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbName1.setEnabled(false);
         jtxtDbName1.setPreferredSize(new java.awt.Dimension(275, 30));
         add(jtxtDbName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 269, -1, -1));
@@ -419,7 +450,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDBIP.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLblDBIP, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 306, -1, -1));
 
+        jtxtDbIP.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbIP.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbIP.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbIP.setPreferredSize(new java.awt.Dimension(135, 30));
         add(jtxtDbIP, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 306, -1, -1));
 
@@ -429,7 +462,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDbIP1.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLblDbIP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 306, -1, -1));
 
+        jtxtDbIP1.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbIP1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbIP1.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbIP1.setEnabled(false);
         jtxtDbIP1.setPreferredSize(new java.awt.Dimension(135, 30));
         add(jtxtDbIP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 306, -1, -1));
@@ -439,7 +474,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDBPort.setPreferredSize(new java.awt.Dimension(50, 30));
         add(jLblDBPort, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 306, -1, -1));
 
+        jtxtDbPort.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbPort.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbPort.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbPort.setPreferredSize(new java.awt.Dimension(70, 30));
         add(jtxtDbPort, new org.netbeans.lib.awtextra.AbsoluteConstraints(344, 306, 70, -1));
 
@@ -449,7 +486,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jLblDBPort1.setPreferredSize(new java.awt.Dimension(50, 30));
         add(jLblDBPort1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 306, -1, -1));
 
+        jtxtDbPort1.setBackground(new java.awt.Color(75, 81, 93));
         jtxtDbPort1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtDbPort1.setForeground(new java.awt.Color(255, 255, 255));
         jtxtDbPort1.setEnabled(false);
         jtxtDbPort1.setPreferredSize(new java.awt.Dimension(70, 30));
         add(jtxtDbPort1, new org.netbeans.lib.awtextra.AbsoluteConstraints(774, 306, -1, -1));

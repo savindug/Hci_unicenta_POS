@@ -132,25 +132,39 @@ public class JSort extends JDialog {
         setTitle(LocalRes.getIntString("caption.sort")); // NOI18N
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(LocalRes.getIntString("label.sortby")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jSort1.setBackground(new java.awt.Color(28, 35, 49));
         m_jSort1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSort1.setForeground(new java.awt.Color(255, 255, 255));
         m_jSort1.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(LocalRes.getIntString("label.andby")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jSort2.setBackground(new java.awt.Color(28, 35, 49));
         m_jSort2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSort2.setForeground(new java.awt.Color(255, 255, 255));
         m_jSort2.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(LocalRes.getIntString("label.andby")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jSort3.setBackground(new java.awt.Color(28, 35, 49));
         m_jSort3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSort3.setForeground(new java.awt.Color(255, 255, 255));
         m_jSort3.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -192,11 +206,14 @@ public class JSort extends JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(LocalRes.getIntString("button.cancel")); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setMaximumSize(new java.awt.Dimension(65, 33));
         jcmdCancel.setMinimumSize(new java.awt.Dimension(65, 33));
         jcmdCancel.setPreferredSize(new java.awt.Dimension(110, 45));
@@ -207,9 +224,11 @@ public class JSort extends JDialog {
         });
         jPanel2.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setMaximumSize(new java.awt.Dimension(65, 33));
         jcmdOK.setMinimumSize(new java.awt.Dimension(65, 33));
         jcmdOK.setPreferredSize(new java.awt.Dimension(110, 45));

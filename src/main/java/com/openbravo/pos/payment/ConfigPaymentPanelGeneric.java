@@ -85,21 +85,29 @@ public class ConfigPaymentPanelGeneric extends javax.swing.JPanel implements Pay
         jLabel2 = new javax.swing.JLabel();
         jtxtCommercePwd = new javax.swing.JPasswordField();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(400, 90));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.commerceid")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtCommerceID.setBackground(new java.awt.Color(75, 81, 93));
         jtxtCommerceID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtCommerceID.setForeground(new java.awt.Color(255, 255, 255));
         jtxtCommerceID.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.commercepwd")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtCommercePwd.setBackground(new java.awt.Color(75, 81, 93));
         jtxtCommercePwd.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtCommercePwd.setForeground(new java.awt.Color(255, 255, 255));
         jtxtCommercePwd.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

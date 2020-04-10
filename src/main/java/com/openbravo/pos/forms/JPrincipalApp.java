@@ -574,19 +574,28 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
         m_jTitle = new javax.swing.JLabel();
         m_jPanelContainer = new javax.swing.JPanel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        m_jPanelLeft.setBackground(new java.awt.Color(102, 102, 102));
+        m_jPanelLeft.setBackground(new java.awt.Color(75, 81, 21));
         m_jPanelLeft.setBorder(null);
+        m_jPanelLeft.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelLeft.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelLeft.setPreferredSize(new java.awt.Dimension(250, 2));
         jPanel1.add(m_jPanelLeft, java.awt.BorderLayout.LINE_START);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel2.setPreferredSize(new java.awt.Dimension(45, 45));
 
+        jButton1.setBackground(new java.awt.Color(75, 81, 93));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setToolTipText(AppLocal.getIntString("tooltip.menu")); // NOI18N
         jButton1.setFocusPainted(false);
         jButton1.setFocusable(false);
@@ -623,11 +632,16 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
 
         add(jPanel1, java.awt.BorderLayout.LINE_START);
 
+        m_jPanelRight.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelRight.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelRight.setPreferredSize(new java.awt.Dimension(200, 40));
         m_jPanelRight.setLayout(new java.awt.BorderLayout());
 
+        m_jPanelTitle.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelTitle.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
+        m_jTitle.setBackground(new java.awt.Color(28, 35, 49));
         m_jTitle.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         m_jTitle.setForeground(new java.awt.Color(0, 168, 223));
         m_jTitle.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, java.awt.Color.darkGray), javax.swing.BorderFactory.createEmptyBorder(10, 10, 10, 10)));
@@ -638,6 +652,8 @@ public class JPrincipalApp extends javax.swing.JPanel implements AppUserView {
 
         m_jPanelRight.add(m_jPanelTitle, java.awt.BorderLayout.NORTH);
 
+        m_jPanelContainer.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelContainer.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelContainer.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jPanelContainer.setLayout(new java.awt.CardLayout());
         m_jPanelRight.add(m_jPanelContainer, java.awt.BorderLayout.CENTER);

@@ -259,11 +259,17 @@ public abstract class JPanelTable extends JPanel implements JPanelView, BeanFact
         container = new javax.swing.JPanel();
         toolbar = new javax.swing.JPanel();
 
-        setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
+        container.setBackground(new java.awt.Color(55, 71, 79));
+        container.setForeground(new java.awt.Color(255, 255, 255));
         container.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         container.setLayout(new java.awt.BorderLayout());
+
+        toolbar.setBackground(new java.awt.Color(28, 35, 49));
+        toolbar.setForeground(new java.awt.Color(255, 255, 255));
         container.add(toolbar, java.awt.BorderLayout.NORTH);
 
         add(container, java.awt.BorderLayout.CENTER);

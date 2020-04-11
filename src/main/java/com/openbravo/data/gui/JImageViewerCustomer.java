@@ -333,11 +333,12 @@ public class JImageViewerCustomer extends javax.swing.JPanel {
 
         add(m_jScr, java.awt.BorderLayout.CENTER);
 
-        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setBackground(new java.awt.Color(55, 71, 79));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setBackground(new java.awt.Color(55, 71, 79));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel2.setLayout(new java.awt.GridLayout(0, 1, 0, 2));
 

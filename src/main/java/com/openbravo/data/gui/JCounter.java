@@ -78,6 +78,7 @@ public class JCounter extends JPanel implements BrowseListener, StateListener  {
         jlblCounter = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setMaximumSize(new java.awt.Dimension(80, 20));
         setMinimumSize(new java.awt.Dimension(80, 20));

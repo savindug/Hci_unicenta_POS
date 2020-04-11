@@ -130,9 +130,11 @@ public class JSort extends JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(LocalRes.getIntString("caption.sort")); // NOI18N
+        setBackground(new java.awt.Color(28, 35, 49));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

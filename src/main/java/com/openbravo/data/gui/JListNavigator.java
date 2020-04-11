@@ -125,10 +125,14 @@ public class JListNavigator extends javax.swing.JPanel implements BrowseListener
         jScrollPane1 = new javax.swing.JScrollPane();
         m_jlist = new javax.swing.JList();
 
+        setBackground(new java.awt.Color(55, 71, 79));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(300, 2));
         setLayout(new java.awt.BorderLayout());
 
+        jScrollPane1.setBackground(new java.awt.Color(55, 71, 79));
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setAutoscrolls(true);
         jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 

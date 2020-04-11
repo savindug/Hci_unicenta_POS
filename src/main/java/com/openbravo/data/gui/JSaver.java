@@ -91,7 +91,8 @@ public class JSaver extends JPanel implements StateListener {
         jbtnDelete = new javax.swing.JButton();
         jbtnSave = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(28, 35, 49));
+        setBackground(new java.awt.Color(55, 71, 79));
+        setForeground(new java.awt.Color(255, 255, 255));
 
         jbtnNew.setBackground(new java.awt.Color(55, 71, 79));
         jbtnNew.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/editnew.png"))); // NOI18N

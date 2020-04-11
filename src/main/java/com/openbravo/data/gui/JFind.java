@@ -129,6 +129,7 @@ public class JFind extends JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(LocalRes.getIntString("title.find")); // NOI18N
+        setBackground(new java.awt.Color(28, 35, 49));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
@@ -223,6 +224,7 @@ public class JFind extends JDialog {
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(LocalRes.getIntString("button.cancel")); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setPreferredSize(new java.awt.Dimension(110, 45));
         jcmdCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -235,6 +237,7 @@ public class JFind extends JDialog {
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(LocalRes.getIntString("button.OK")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setMaximumSize(new java.awt.Dimension(65, 33));
         jcmdOK.setMinimumSize(new java.awt.Dimension(65, 33));
         jcmdOK.setPreferredSize(new java.awt.Dimension(110, 45));

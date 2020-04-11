@@ -102,8 +102,10 @@ public class JListData extends javax.swing.JDialog {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setBackground(new java.awt.Color(28, 35, 49));
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
         m_jOK.setBackground(new java.awt.Color(55, 71, 79));
@@ -136,7 +138,10 @@ public class JListData extends javax.swing.JDialog {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.SOUTH);
 
-        m_jData.setBackground(new java.awt.Color(28, 35, 49));
+        jScrollPane1.setBackground(new java.awt.Color(55, 71, 79));
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
+
+        m_jData.setBackground(new java.awt.Color(55, 71, 79));
         m_jData.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jData.setForeground(new java.awt.Color(255, 255, 255));
         m_jData.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);

@@ -123,6 +123,7 @@ public class SelectPrinter extends javax.swing.JDialog {
 
         jPanel8.setLayout(new java.awt.BorderLayout());
 
+        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.MachinePrinter")); // NOI18N

@@ -225,7 +225,7 @@ public class JPanelConfiguration extends JPanel implements JPanelView {
         setPreferredSize(new java.awt.Dimension(950, 600));
 
         jTabbedPane1.setBackground(new java.awt.Color(28, 35, 49));
-        jTabbedPane1.setForeground(new java.awt.Color(255, 255, 255));
+        jTabbedPane1.setForeground(new java.awt.Color(204, 204, 204));
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(930, 550));
 

@@ -157,6 +157,7 @@ public class JPanelConfigCompany extends javax.swing.JPanel implements PanelConf
         jtxtTktFooter6 = new javax.swing.JTextField();
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(700, 500));
 

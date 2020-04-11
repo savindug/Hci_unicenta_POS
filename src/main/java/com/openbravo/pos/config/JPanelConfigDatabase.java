@@ -234,11 +234,13 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jtxtDbPort1 = new javax.swing.JTextField();
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(900, 500));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(null);
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel6.setText(bundle.getString("label.Database")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(125, 30));
@@ -256,6 +258,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jcboDBDriver, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 196, -1, -1));
 
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setForeground(null);
         jLabel18.setText(AppLocal.getIntString("label.dbdriverlib")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 154, -1, 25));
@@ -266,7 +269,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jtxtDbDriverLib.setPreferredSize(new java.awt.Dimension(500, 30));
         add(jtxtDbDriverLib, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 152, -1, -1));
 
-        jbtnDbDriverLib.setBackground(new java.awt.Color(55, 71, 79));
+        jbtnDbDriverLib.setBackground(new java.awt.Color(28, 35, 49));
         jbtnDbDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         jbtnDbDriverLib.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnDbDriverLib.setText("  ");
@@ -278,6 +281,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jbtnDbDriverLib, new org.netbeans.lib.awtextra.AbsoluteConstraints(649, 145, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(null);
         jLabel1.setText(AppLocal.getIntString("label.DbDriver")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(324, 196, -1, -1));
@@ -294,6 +298,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jtxtDbDriver, new org.netbeans.lib.awtextra.AbsoluteConstraints(459, 197, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(null);
         jLabel2.setText(AppLocal.getIntString("label.DbURL")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 343, -1, -1));
@@ -305,6 +310,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jtxtDbURL, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 343, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(null);
         jLabel3.setText(AppLocal.getIntString("label.DbUser")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 380, -1, -1));
@@ -316,6 +322,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jtxtDbUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 380, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(null);
         jLabel4.setText(AppLocal.getIntString("label.DbPassword")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 417, -1, -1));
@@ -342,8 +349,9 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jButtonTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 455, -1, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 137, 880, -1));
 
-        jLabel5.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel5.setForeground(null);
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/uniCenta_logo_vert_100.png"))); // NOI18N
         jLabel5.setText(bundle.getString("message.DBDefault")); // NOI18N
@@ -408,6 +416,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jLblDbPassword1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 417, -1, -1));
 
         jLblDBName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDBName.setForeground(null);
         jLblDBName.setText(AppLocal.getIntString("label.DbName")); // NOI18N
         jLblDBName.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLblDBName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 269, -1, -1));
@@ -431,6 +440,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         jtxtDbName1.setPreferredSize(new java.awt.Dimension(275, 30));
         add(jtxtDbName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 269, -1, -1));
 
+        LblMultiDB.setForeground(null);
         LblMultiDB.setText(AppLocal.getIntString("label.multidb")); // NOI18N
         LblMultiDB.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         LblMultiDB.setPreferredSize(new java.awt.Dimension(125, 30));
@@ -446,6 +456,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(multiDB, new org.netbeans.lib.awtextra.AbsoluteConstraints(139, 233, -1, -1));
 
         jLblDBIP.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDBIP.setForeground(null);
         jLblDBIP.setText(AppLocal.getIntString("label.DbIP")); // NOI18N
         jLblDBIP.setPreferredSize(new java.awt.Dimension(125, 30));
         add(jLblDBIP, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 306, -1, -1));
@@ -470,6 +481,7 @@ public class JPanelConfigDatabase extends javax.swing.JPanel implements PanelCon
         add(jtxtDbIP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 306, -1, -1));
 
         jLblDBPort.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLblDBPort.setForeground(null);
         jLblDBPort.setText(AppLocal.getIntString("label.DbPort")); // NOI18N
         jLblDBPort.setPreferredSize(new java.awt.Dimension(50, 30));
         add(jLblDBPort, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 306, -1, -1));

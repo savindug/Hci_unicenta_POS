@@ -253,6 +253,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
         jbtnClearHTML = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(800, 450));
 
@@ -589,7 +590,7 @@ public class JPanelConfigGeneral extends javax.swing.JPanel implements PanelConf
                     .addComponent(jbtnClearHTML))
                 .addGap(18, 18, 18)
                 .addComponent(jchkHideInfo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

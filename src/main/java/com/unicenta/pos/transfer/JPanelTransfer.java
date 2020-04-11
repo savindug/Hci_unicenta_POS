@@ -357,40 +357,49 @@ public class JPanelTransfer extends JPanel implements JPanelView {
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(650, 400));
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(null);
 
         webPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        webPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         cbTarget.setBackground(new java.awt.Color(75, 81, 93));
+        cbTarget.setBorder(null);
         cbTarget.setForeground(new java.awt.Color(255, 255, 255));
         cbTarget.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         cbTarget.setPreferredSize(new java.awt.Dimension(200, 30));
 
         txtDBDriverLib.setBackground(new java.awt.Color(75, 81, 93));
+        txtDBDriverLib.setBorder(null);
         txtDBDriverLib.setForeground(new java.awt.Color(255, 255, 255));
         txtDBDriverLib.setText("webTextField1");
         txtDBDriverLib.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBDriverLib.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBDriver.setBackground(new java.awt.Color(75, 81, 93));
+        txtDBDriver.setBorder(null);
         txtDBDriver.setForeground(new java.awt.Color(255, 255, 255));
         txtDBDriver.setText("webTextField2");
         txtDBDriver.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBDriver.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBUser.setBackground(new java.awt.Color(75, 81, 93));
+        txtDBUser.setBorder(null);
         txtDBUser.setForeground(new java.awt.Color(255, 255, 255));
         txtDBUser.setText("webTextField2");
         txtDBUser.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBUser.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBURL.setBackground(new java.awt.Color(75, 81, 93));
+        txtDBURL.setBorder(null);
         txtDBURL.setForeground(new java.awt.Color(255, 255, 255));
         txtDBURL.setText("webTextField1");
         txtDBURL.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtDBURL.setPreferredSize(new java.awt.Dimension(300, 30));
 
         txtDBPass.setBackground(new java.awt.Color(75, 81, 93));
+        txtDBPass.setBorder(null);
         txtDBPass.setForeground(new java.awt.Color(255, 255, 255));
         txtDBPass.setText("webPasswordField1");
         txtDBPass.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -480,6 +489,7 @@ public class JPanelTransfer extends JPanel implements JPanelView {
         );
 
         webPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        webPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -530,7 +540,7 @@ public class JPanelTransfer extends JPanel implements JPanelView {
         jLabel4.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jbtnExit.setBackground(new java.awt.Color(55, 71, 79));
-        jbtnExit.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnExit.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jbtnExit.setForeground(new java.awt.Color(255, 255, 255));
         jbtnExit.setText(AppLocal.getIntString("Button.Exit")); // NOI18N
         jbtnExit.setBorder(null);
@@ -590,7 +600,7 @@ public class JPanelTransfer extends JPanel implements JPanelView {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(webPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(39, 39, 39)
                 .addComponent(webPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );

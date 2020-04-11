@@ -174,6 +174,8 @@ public class DevicePrinterPanel extends javax.swing.JPanel implements DevicePrin
 
         m_jScrollView = new javax.swing.JScrollPane();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
         m_jScrollView.setBackground(new java.awt.Color(28, 35, 49));

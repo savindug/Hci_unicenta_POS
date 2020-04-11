@@ -269,16 +269,15 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         m_jKeyDot = new javax.swing.JButton();
         m_txtKeys = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(28, 35, 49));
-        setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        setBackground(new java.awt.Color(55, 71, 79));
         setForeground(new java.awt.Color(204, 204, 204));
         setPreferredSize(new java.awt.Dimension(300, 300));
         setLayout(new java.awt.GridBagLayout());
 
-        m_jCE.setBackground(new java.awt.Color(28, 35, 49));
+        m_jCE.setBackground(new java.awt.Color(55, 71, 79));
         m_jCE.setForeground(new java.awt.Color(204, 204, 204));
         m_jCE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/number-clear.png"))); // NOI18N
-        m_jCE.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jCE.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jCE.setFocusPainted(false);
         m_jCE.setFocusable(false);
         m_jCE.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
@@ -294,10 +293,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 5, 0);
         add(m_jCE, gridBagConstraints);
 
-        m_jMinus.setBackground(new java.awt.Color(28, 35, 49));
+        m_jMinus.setBackground(new java.awt.Color(55, 71, 79));
         m_jMinus.setForeground(new java.awt.Color(204, 204, 204));
         m_jMinus.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/number-minus.png"))); // NOI18N
-        m_jMinus.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jMinus.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jMinus.setFocusPainted(false);
         m_jMinus.setFocusable(false);
         m_jMinus.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -311,10 +310,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 5, 0);
         add(m_jMinus, gridBagConstraints);
 
-        m_jKey1.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey1.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey1.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn1.png"))); // NOI18N
-        m_jKey1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey1.setFocusPainted(false);
         m_jKey1.setFocusable(false);
         m_jKey1.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -327,10 +326,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey1, gridBagConstraints);
 
-        m_jKey2.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey2.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey2.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn2.png"))); // NOI18N
-        m_jKey2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey2.setFocusPainted(false);
         m_jKey2.setFocusable(false);
         m_jKey2.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -343,10 +342,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey2, gridBagConstraints);
 
-        m_jKey3.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey3.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey3.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn3.png"))); // NOI18N
-        m_jKey3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey3.setFocusPainted(false);
         m_jKey3.setFocusable(false);
         m_jKey3.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -359,10 +358,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey3, gridBagConstraints);
 
-        m_jKey4.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey4.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey4.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn4.png"))); // NOI18N
-        m_jKey4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey4.setFocusPainted(false);
         m_jKey4.setFocusable(false);
         m_jKey4.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -375,10 +374,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey4, gridBagConstraints);
 
-        m_jKey5.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey5.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey5.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn5.png"))); // NOI18N
-        m_jKey5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey5.setFocusPainted(false);
         m_jKey5.setFocusable(false);
         m_jKey5.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -391,10 +390,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey5, gridBagConstraints);
 
-        m_jKey6.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey6.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey6.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn6.png"))); // NOI18N
-        m_jKey6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey6.setFocusPainted(false);
         m_jKey6.setFocusable(false);
         m_jKey6.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -407,10 +406,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey6, gridBagConstraints);
 
-        m_jKey7.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey7.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey7.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn7.png"))); // NOI18N
-        m_jKey7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey7.setFocusPainted(false);
         m_jKey7.setFocusable(false);
         m_jKey7.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -423,10 +422,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey7, gridBagConstraints);
 
-        m_jKey8.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey8.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey8.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn8.png"))); // NOI18N
-        m_jKey8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey8.setFocusPainted(false);
         m_jKey8.setFocusable(false);
         m_jKey8.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -439,10 +438,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey8, gridBagConstraints);
 
-        m_jKey9.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey9.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey9.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn9.png"))); // NOI18N
-        m_jKey9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey9.setFocusPainted(false);
         m_jKey9.setFocusable(false);
         m_jKey9.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -455,10 +454,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.weighty = 1.0;
         add(m_jKey9, gridBagConstraints);
 
-        m_jKey0.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKey0.setBackground(new java.awt.Color(55, 71, 79));
         m_jKey0.setForeground(new java.awt.Color(204, 204, 204));
         m_jKey0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/btn0.png"))); // NOI18N
-        m_jKey0.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKey0.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKey0.setFocusPainted(false);
         m_jKey0.setFocusable(false);
         m_jKey0.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -473,10 +472,10 @@ public class JEditorKeys extends javax.swing.JPanel implements EditorKeys {
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         add(m_jKey0, gridBagConstraints);
 
-        m_jKeyDot.setBackground(new java.awt.Color(28, 35, 49));
+        m_jKeyDot.setBackground(new java.awt.Color(55, 71, 79));
         m_jKeyDot.setForeground(new java.awt.Color(204, 204, 204));
         m_jKeyDot.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/number-fullstop.png"))); // NOI18N
-        m_jKeyDot.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        m_jKeyDot.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jKeyDot.setFocusPainted(false);
         m_jKeyDot.setFocusable(false);
         m_jKeyDot.setMargin(new java.awt.Insets(8, 16, 8, 16));

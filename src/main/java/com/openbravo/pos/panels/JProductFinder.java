@@ -173,15 +173,25 @@ public class JProductFinder extends javax.swing.JDialog {
         setTitle(AppLocal.getIntString("form.productslist")); // NOI18N
         setPreferredSize(new java.awt.Dimension(750, 600));
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(450, 0));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        m_jProductSelect.setBackground(new java.awt.Color(28, 35, 49));
+        m_jProductSelect.setForeground(new java.awt.Color(255, 255, 255));
         m_jProductSelect.setLayout(new java.awt.BorderLayout());
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
+
+        jButton3.setBackground(new java.awt.Color(55, 71, 79));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jButton3.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
         jButton3.setToolTipText("Execute Filter");
+        jButton3.setBorder(null);
         jButton3.setPreferredSize(new java.awt.Dimension(110, 45));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,15 +204,21 @@ public class JProductFinder extends javax.swing.JDialog {
 
         jPanel2.add(m_jProductSelect, java.awt.BorderLayout.NORTH);
 
-        jPanel5.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel5.setForeground(new java.awt.Color(255, 255, 255));
         jPanel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel5.setPreferredSize(new java.awt.Dimension(450, 140));
         jPanel5.setLayout(new java.awt.BorderLayout());
 
+        jScrollPane1.setBackground(new java.awt.Color(28, 35, 49));
+        jScrollPane1.setBorder(null);
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jScrollPane1.setPreferredSize(new java.awt.Dimension(400, 147));
 
+        jListProducts.setBackground(new java.awt.Color(55, 71, 79));
         jListProducts.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jListProducts.setForeground(new java.awt.Color(255, 255, 255));
         jListProducts.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jListProducts.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -222,6 +238,8 @@ public class JProductFinder extends javax.swing.JDialog {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.WEST);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setPreferredSize(new java.awt.Dimension(300, 0));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
@@ -233,11 +251,16 @@ public class JProductFinder extends javax.swing.JDialog {
         });
         jPanel4.add(m_jKeys, java.awt.BorderLayout.NORTH);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setForeground(new java.awt.Color(255, 255, 255));
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdCancel.setMaximumSize(new java.awt.Dimension(103, 44));
         jcmdCancel.setMinimumSize(new java.awt.Dimension(103, 44));
@@ -249,9 +272,12 @@ public class JProductFinder extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setEnabled(false);
         jcmdOK.setMargin(new java.awt.Insets(8, 16, 8, 16));
         jcmdOK.setMaximumSize(new java.awt.Dimension(103, 44));
@@ -265,6 +291,11 @@ public class JProductFinder extends javax.swing.JDialog {
         jPanel1.add(jcmdOK);
 
         jPanel4.add(jPanel1, java.awt.BorderLayout.PAGE_END);
+
+        jPanel6.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel6.setForeground(new java.awt.Color(255, 255, 255));
+
+        jImageViewerProduct.setForeground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);

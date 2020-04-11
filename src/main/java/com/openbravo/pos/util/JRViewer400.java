@@ -758,6 +758,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         pnlStatus = new javax.swing.JPanel();
         lblStatus = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(450, 150));
         setPreferredSize(new java.awt.Dimension(450, 150));
         setLayout(new java.awt.BorderLayout());
@@ -949,6 +951,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         add(jToolBar, java.awt.BorderLayout.NORTH);
 
+        pnlMain.setBackground(new java.awt.Color(28, 35, 49));
+        pnlMain.setForeground(new java.awt.Color(255, 255, 255));
         pnlMain.addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentResized(java.awt.event.ComponentEvent evt) {
                 pnlMainComponentResized(evt);
@@ -956,33 +960,44 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         });
         pnlMain.setLayout(new java.awt.BorderLayout());
 
+        scrollPane.setBackground(new java.awt.Color(55, 71, 79));
+        scrollPane.setBorder(null);
+        scrollPane.setForeground(new java.awt.Color(255, 255, 255));
         scrollPane.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         scrollPane.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
+        pnlInScroll.setBackground(new java.awt.Color(55, 71, 79));
+        pnlInScroll.setForeground(new java.awt.Color(255, 255, 255));
         pnlInScroll.setLayout(new java.awt.GridBagLayout());
 
+        pnlPage.setBackground(new java.awt.Color(55, 71, 79));
+        pnlPage.setForeground(new java.awt.Color(255, 255, 255));
         pnlPage.setMinimumSize(new java.awt.Dimension(100, 100));
         pnlPage.setPreferredSize(new java.awt.Dimension(100, 100));
         pnlPage.setLayout(new java.awt.BorderLayout());
 
+        jPanel4.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setMinimumSize(new java.awt.Dimension(100, 120));
         jPanel4.setPreferredSize(new java.awt.Dimension(100, 120));
         jPanel4.setLayout(new java.awt.GridBagLayout());
 
+        pnlLinks.setBackground(new java.awt.Color(55, 71, 79));
+        pnlLinks.setForeground(new java.awt.Color(255, 255, 255));
         pnlLinks.setMinimumSize(new java.awt.Dimension(5, 5));
         pnlLinks.setOpaque(false);
         pnlLinks.setPreferredSize(new java.awt.Dimension(5, 5));
+        pnlLinks.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                pnlLinksMouseDragged(evt);
+            }
+        });
         pnlLinks.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 pnlLinksMousePressed(evt);
             }
             public void mouseReleased(java.awt.event.MouseEvent evt) {
                 pnlLinksMouseReleased(evt);
-            }
-        });
-        pnlLinks.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
-                pnlLinksMouseDragged(evt);
             }
         });
         pnlLinks.setLayout(null);
@@ -1002,6 +1017,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         gridBagConstraints.fill = java.awt.GridBagConstraints.VERTICAL;
         jPanel4.add(jPanel5, gridBagConstraints);
 
+        jPanel6.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel6.setForeground(new java.awt.Color(255, 255, 255));
         jPanel6.setMinimumSize(new java.awt.Dimension(5, 5));
         jPanel6.setPreferredSize(new java.awt.Dimension(5, 5));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -1028,6 +1045,8 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         gridBagConstraints.gridy = 2;
         jPanel4.add(jPanel8, gridBagConstraints);
 
+        jPanel9.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel9.setForeground(new java.awt.Color(255, 255, 255));
         jPanel9.setMinimumSize(new java.awt.Dimension(5, 5));
         jPanel9.setPreferredSize(new java.awt.Dimension(5, 5));
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -1058,7 +1077,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
 
         pnlMain.add(scrollPane, java.awt.BorderLayout.CENTER);
 
-        pnlTabs.setBackground(new java.awt.Color(28, 35, 49));
+        pnlTabs.setBackground(new java.awt.Color(55, 71, 79));
         pnlTabs.setForeground(new java.awt.Color(255, 255, 255));
         pnlTabs.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
@@ -1076,6 +1095,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         pnlStatus.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));
 
         lblStatus.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        lblStatus.setForeground(new java.awt.Color(255, 255, 255));
         lblStatus.setText("Page i of n");
         lblStatus.setMaximumSize(new java.awt.Dimension(59, 18));
         pnlStatus.add(lblStatus);

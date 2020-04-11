@@ -121,7 +121,12 @@ public class SelectPrinter extends javax.swing.JDialog {
         setTitle(AppLocal.getIntString("form.selectprintertitle")); // NOI18N
         setBackground(new java.awt.Color(28, 35, 49));
 
+        jPanel8.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel8.setForeground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.BorderLayout());
+
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -156,6 +161,7 @@ public class SelectPrinter extends javax.swing.JDialog {
         );
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N

@@ -144,6 +144,7 @@ public class JParamsUser extends javax.swing.JPanel implements ReportEditorCreat
         jTextField1.setBackground(new java.awt.Color(75, 81, 93));
         jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField1.setBorder(null);
         jTextField1.setPreferredSize(new java.awt.Dimension(200, 30));
 
         btnUser.setBackground(new java.awt.Color(55, 71, 79));

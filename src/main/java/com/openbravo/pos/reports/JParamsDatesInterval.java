@@ -136,7 +136,9 @@ public class JParamsDatesInterval extends javax.swing.JPanel implements ReportEd
         jLabel1.setText(AppLocal.getIntString("label.StartDate")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jTxtStartDate.setBackground(new java.awt.Color(75, 81, 93));
         jTxtStartDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTxtStartDate.setForeground(new java.awt.Color(255, 255, 255));
         jTxtStartDate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jTxtStartDate.setPreferredSize(new java.awt.Dimension(160, 30));
 
@@ -145,7 +147,9 @@ public class JParamsDatesInterval extends javax.swing.JPanel implements ReportEd
         jLabel2.setText(AppLocal.getIntString("label.EndDate")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jTxtEndDate.setBackground(new java.awt.Color(75, 81, 93));
         jTxtEndDate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTxtEndDate.setForeground(new java.awt.Color(255, 255, 255));
         jTxtEndDate.setBorder(null);
         jTxtEndDate.setPreferredSize(new java.awt.Dimension(160, 30));
 

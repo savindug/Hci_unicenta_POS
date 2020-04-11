@@ -211,6 +211,7 @@ public final class JParamsText extends javax.swing.JPanel implements ReportEdito
         txtField = new javax.swing.JTextField();
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(0, 30));
         setLayout(null);
 

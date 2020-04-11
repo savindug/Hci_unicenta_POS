@@ -136,11 +136,14 @@ public class JParamsSuppliers extends javax.swing.JPanel implements ReportEditor
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setPreferredSize(new java.awt.Dimension(400, 50));
 
+        jTextField1.setBackground(new java.awt.Color(75, 81, 93));
         jTextField1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField1.setBorder(null);
         jTextField1.setPreferredSize(new java.awt.Dimension(300, 30));
 
         btnSupplier.setBackground(new java.awt.Color(55, 71, 79));
+        btnSupplier.setForeground(new java.awt.Color(255, 255, 255));
         btnSupplier.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnSupplier.setToolTipText("Get Suppliers");
         btnSupplier.setBorder(null);

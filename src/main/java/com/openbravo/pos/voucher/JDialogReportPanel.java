@@ -177,18 +177,27 @@ public class JDialogReportPanel extends javax.swing.JDialog {
         setTitle(AppLocal.getIntString("form.customertitle")); // NOI18N
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
         jPanel4.setBackground(new java.awt.Color(28, 35, 49));
-        jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
         jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new java.awt.BorderLayout());
         jPanel3.add(jPanel4, java.awt.BorderLayout.CENTER);
 
+        jPanel8.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel8.setForeground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
+        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("Button.OK")); // NOI18N
+        jcmdOK.setBorder(null);
         jcmdOK.setEnabled(false);
         jcmdOK.setFocusPainted(false);
         jcmdOK.setFocusable(false);
@@ -201,8 +210,11 @@ public class JDialogReportPanel extends javax.swing.JDialog {
         });
         jPanel1.add(jcmdOK);
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
+        jcmdCancel.setForeground(new java.awt.Color(255, 255, 255));
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("Button.Cancel")); // NOI18N
+        jcmdCancel.setBorder(null);
         jcmdCancel.setFocusPainted(false);
         jcmdCancel.setFocusable(false);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -216,7 +228,10 @@ public class JDialogReportPanel extends javax.swing.JDialog {
 
         jPanel8.add(jPanel1, java.awt.BorderLayout.LINE_END);
 
+        jButton1.setBackground(new java.awt.Color(55, 71, 79));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("jButton1");
+        jButton1.setBorder(null);
         jPanel8.add(jButton1, java.awt.BorderLayout.CENTER);
 
         jPanel3.add(jPanel8, java.awt.BorderLayout.SOUTH);

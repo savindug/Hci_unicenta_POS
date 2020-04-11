@@ -484,6 +484,7 @@ public class JCatalog extends JPanel implements ListSelectionListener, CatalogSe
         m_jProducts = new javax.swing.JPanel();
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
         m_jCategories.setBackground(new java.awt.Color(28, 35, 49));

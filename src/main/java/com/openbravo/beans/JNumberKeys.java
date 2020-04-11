@@ -211,6 +211,7 @@ public class JNumberKeys extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(28, 35, 49));
         setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        setForeground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(193, 200));
         setPreferredSize(new java.awt.Dimension(193, 200));
         setLayout(new java.awt.GridBagLayout());

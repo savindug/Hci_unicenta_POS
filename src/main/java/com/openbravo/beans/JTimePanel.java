@@ -348,13 +348,17 @@ public class JTimePanel extends javax.swing.JPanel {
         m_jlblSeparator = new javax.swing.JLabel();
         m_jlblTime2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        m_jactions.setBackground(new java.awt.Color(28, 35, 49));
         m_jactions.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
+        m_jactions.setForeground(new java.awt.Color(255, 255, 255));
         m_jactions.setLayout(new java.awt.GridLayout(0, 1, 0, 5));
         jPanel1.add(m_jactions, java.awt.BorderLayout.NORTH);
 
@@ -368,10 +372,18 @@ public class JTimePanel extends javax.swing.JPanel {
 
         m_jtime.setBackground(new java.awt.Color(28, 35, 49));
         m_jtime.setForeground(new java.awt.Color(255, 255, 255));
+
+        m_jlblTime.setBackground(new java.awt.Color(28, 35, 49));
+        m_jlblTime.setForeground(new java.awt.Color(255, 255, 255));
         m_jtime.add(m_jlblTime);
 
+        m_jlblSeparator.setBackground(new java.awt.Color(28, 35, 49));
+        m_jlblSeparator.setForeground(new java.awt.Color(255, 255, 255));
         m_jlblSeparator.setText(" - ");
         m_jtime.add(m_jlblSeparator);
+
+        m_jlblTime2.setBackground(new java.awt.Color(28, 35, 49));
+        m_jlblTime2.setForeground(new java.awt.Color(255, 255, 255));
         m_jtime.add(m_jlblTime2);
 
         jPanel2.add(m_jtime, java.awt.BorderLayout.NORTH);

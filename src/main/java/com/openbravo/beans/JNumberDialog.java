@@ -143,6 +143,7 @@ public class JNumberDialog extends javax.swing.JDialog {
         m_jPanelTitle = new javax.swing.JPanel();
         m_lblMessage = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -151,6 +152,7 @@ public class JNumberDialog extends javax.swing.JDialog {
         });
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
         jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
@@ -183,14 +185,19 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelGrid.setForeground(new java.awt.Color(255, 255, 255));
         jPanelGrid.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanelGrid.setPreferredSize(new java.awt.Dimension(300, 300));
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
+        m_jKeys.setForeground(new java.awt.Color(255, 255, 255));
         m_jKeys.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,10 +208,10 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
-        m_jnumber.setBackground(new java.awt.Color(55, 71, 79));
-        m_jnumber.setForeground(new java.awt.Color(255, 255, 255));
+        m_jnumber.setBackground(new java.awt.Color(28, 35, 49));
         m_jnumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel4.add(m_jnumber, java.awt.BorderLayout.CENTER);
 
@@ -216,6 +223,8 @@ public class JNumberDialog extends javax.swing.JDialog {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
 
+        m_jPanelTitle.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelTitle.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
         m_lblMessage.setBackground(new java.awt.Color(28, 35, 49));

@@ -178,6 +178,7 @@ public class JCalendarDialog extends javax.swing.JDialog {
         jPanelGrid = new javax.swing.JPanel();
 
         setTitle(m_resources.getString("title.calendar")); // NOI18N
+        setBackground(new java.awt.Color(28, 35, 49));
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
@@ -186,6 +187,7 @@ public class JCalendarDialog extends javax.swing.JDialog {
         });
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
@@ -218,11 +220,12 @@ public class JCalendarDialog extends javax.swing.JDialog {
         getContentPane().add(jPanel1, java.awt.BorderLayout.SOUTH);
 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
-        jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
-        jPanelGrid.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(55, 71, 79), 3));
+        jPanelGrid.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanelGrid.setForeground(new java.awt.Color(255, 255, 255));
         jPanelGrid.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanelGrid.setLayout(new java.awt.GridLayout(1, 0, 5, 0));

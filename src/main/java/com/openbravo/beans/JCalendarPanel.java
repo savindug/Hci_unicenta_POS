@@ -327,18 +327,26 @@ public class JCalendarPanel extends javax.swing.JPanel {
         jPanel3 = new javax.swing.JPanel();
         m_jActions = new javax.swing.JPanel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        m_jMonth.setBackground(new java.awt.Color(55, 71, 79));
+        m_jMonth.setForeground(new java.awt.Color(255, 255, 255));
         m_jMonth.setLayout(new java.awt.BorderLayout());
 
+        m_jWeekDays.setBackground(new java.awt.Color(55, 71, 79));
+        m_jWeekDays.setForeground(new java.awt.Color(255, 255, 255));
         m_jWeekDays.setLayout(new java.awt.GridLayout(1, 7));
         m_jMonth.add(m_jWeekDays, java.awt.BorderLayout.NORTH);
 
-        m_jDates.setBackground(new java.awt.Color(28, 35, 49));
+        m_jDates.setBackground(new java.awt.Color(55, 71, 79));
         m_jDates.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(55, 71, 79), 3));
         m_jDates.setForeground(new java.awt.Color(255, 255, 255));
         m_jDates.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -347,9 +355,12 @@ public class JCalendarPanel extends javax.swing.JPanel {
 
         jPanel1.add(m_jMonth, java.awt.BorderLayout.CENTER);
 
-        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
+        m_jLblMonth.setBackground(new java.awt.Color(28, 35, 49));
         m_jLblMonth.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        m_jLblMonth.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.add(m_jLblMonth);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.NORTH);
@@ -357,9 +368,12 @@ public class JCalendarPanel extends javax.swing.JPanel {
         add(jPanel1, java.awt.BorderLayout.CENTER);
 
         jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
+        m_jActions.setBackground(new java.awt.Color(55, 71, 79));
         m_jActions.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 5, 0, 5));
+        m_jActions.setForeground(new java.awt.Color(255, 255, 255));
         m_jActions.setLayout(new java.awt.GridLayout(0, 1, 0, 5));
         jPanel3.add(m_jActions, java.awt.BorderLayout.NORTH);
 

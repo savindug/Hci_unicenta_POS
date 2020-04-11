@@ -143,6 +143,7 @@ public class JPasswordDialog extends javax.swing.JDialog {
         m_jPanelTitle = new javax.swing.JPanel();
         m_lblMessage = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setPreferredSize(new java.awt.Dimension(320, 450));
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -152,6 +153,7 @@ public class JPasswordDialog extends javax.swing.JDialog {
         });
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
         jcmdCancel.setBackground(new java.awt.Color(28, 35, 49));
@@ -184,15 +186,20 @@ public class JPasswordDialog extends javax.swing.JDialog {
 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(320, 390));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
         jPanelGrid.setBackground(new java.awt.Color(28, 35, 49));
+        jPanelGrid.setForeground(new java.awt.Color(255, 255, 255));
         jPanelGrid.setPreferredSize(new java.awt.Dimension(310, 380));
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setPreferredSize(new java.awt.Dimension(300, 350));
         jPanel3.setLayout(new javax.swing.BoxLayout(jPanel3, javax.swing.BoxLayout.Y_AXIS));
 
+        m_jKeys.setForeground(new java.awt.Color(255, 255, 255));
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jKeysActionPerformed(evt);
@@ -218,6 +225,8 @@ public class JPasswordDialog extends javax.swing.JDialog {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
 
+        m_jPanelTitle.setBackground(new java.awt.Color(28, 35, 49));
+        m_jPanelTitle.setForeground(new java.awt.Color(255, 255, 255));
         m_jPanelTitle.setLayout(new java.awt.BorderLayout());
 
         m_lblMessage.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, java.awt.Color.darkGray), javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5)));

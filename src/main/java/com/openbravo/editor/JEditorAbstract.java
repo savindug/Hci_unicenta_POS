@@ -199,13 +199,15 @@ public abstract class JEditorAbstract extends javax.swing.JPanel implements Edit
         m_jText = new javax.swing.JButton();
         m_jMode = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
         panBackground.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.background"));
         panBackground.setLayout(new java.awt.BorderLayout());
 
         m_jText.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.background"));
-        m_jText.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jText.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         m_jText.setContentAreaFilled(false);
         m_jText.setFocusPainted(false);
         m_jText.setFocusable(false);
@@ -222,7 +224,9 @@ public abstract class JEditorAbstract extends javax.swing.JPanel implements Edit
 
         add(panBackground, java.awt.BorderLayout.CENTER);
 
+        m_jMode.setBackground(new java.awt.Color(55, 71, 79));
         m_jMode.setFont(new java.awt.Font("Dialog", 0, 9)); // NOI18N
+        m_jMode.setForeground(new java.awt.Color(255, 255, 255));
         m_jMode.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jMode.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         m_jMode.setPreferredSize(new java.awt.Dimension(32, 0));

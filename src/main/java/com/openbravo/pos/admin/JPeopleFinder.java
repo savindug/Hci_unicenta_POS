@@ -280,14 +280,17 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
         jPanel4.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
         jPanel6.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel6.setForeground(new java.awt.Color(255, 255, 255));
 
         jButton1.setBackground(new java.awt.Color(75, 81, 93));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jButton1.setText(bundle.getString("button.reset")); // NOI18N
         jButton1.setToolTipText("Clear Filter");
         jButton1.setActionCommand("Reset ");
+        jButton1.setBorder(null);
         jButton1.setFocusable(false);
         jButton1.setPreferredSize(new java.awt.Dimension(110, 45));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -300,9 +303,11 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
 
         jButton3.setBackground(new java.awt.Color(75, 81, 93));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jButton3.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
         jButton3.setToolTipText("Execute Filter");
+        jButton3.setBorder(null);
         jButton3.setFocusPainted(false);
         jButton3.setPreferredSize(new java.awt.Dimension(110, 45));
         jButton3.addActionListener(new java.awt.event.ActionListener() {

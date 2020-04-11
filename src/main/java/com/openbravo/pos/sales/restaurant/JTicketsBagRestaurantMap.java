@@ -801,6 +801,8 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
         m_jText = new javax.swing.JLabel();
         webLblautoRefresh = new com.alee.laf.label.WebLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.CardLayout());
 
         m_jPanelMap.setBackground(new java.awt.Color(28, 35, 49));
@@ -808,12 +810,17 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
         m_jPanelMap.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jPanelMap.setLayout(new java.awt.BorderLayout());
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT));
 
         m_jbtnReservations.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnReservations.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnReservations.setForeground(new java.awt.Color(255, 255, 255));
         m_jbtnReservations.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/date.png"))); // NOI18N
         m_jbtnReservations.setText(AppLocal.getIntString("button.reservations")); // NOI18N
         m_jbtnReservations.setToolTipText("Open Reservations screen");
@@ -834,6 +841,7 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
 
         m_jbtnRefresh.setBackground(new java.awt.Color(55, 71, 79));
         m_jbtnRefresh.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jbtnRefresh.setForeground(new java.awt.Color(255, 255, 255));
         m_jbtnRefresh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         m_jbtnRefresh.setText(AppLocal.getIntString("button.reloadticket")); // NOI18N
         m_jbtnRefresh.setToolTipText("Reload table information");
@@ -852,7 +860,9 @@ public class JTicketsBagRestaurantMap extends JTicketsBag {
         });
         jPanel2.add(m_jbtnRefresh);
 
+        m_jText.setBackground(new java.awt.Color(28, 35, 49));
         m_jText.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jText.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.add(m_jText);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.LINE_START);

@@ -272,23 +272,39 @@ public final class PaymentsEditor extends javax.swing.JPanel implements EditorRe
         jPanel2 = new javax.swing.JPanel();
         m_jKeys = new com.openbravo.editor.JEditorKeys();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.paymentreason")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jreason.setBackground(new java.awt.Color(55, 71, 79));
         m_jreason.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jreason.setForeground(new java.awt.Color(255, 255, 255));
+        m_jreason.setBorder(null);
         m_jreason.setFocusable(false);
         m_jreason.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.paymenttotal")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jTotal.setBackground(new java.awt.Color(28, 35, 49));
+        jTotal.setForeground(new java.awt.Color(255, 255, 255));
         jTotal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jTotal.setPreferredSize(new java.awt.Dimension(200, 30));
 
+        m_jNotes.setBackground(new java.awt.Color(28, 35, 49));
+        m_jNotes.setForeground(new java.awt.Color(255, 255, 255));
         m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jNotes.setPreferredSize(new java.awt.Dimension(132, 100));
 
@@ -328,6 +344,11 @@ public final class PaymentsEditor extends javax.swing.JPanel implements EditorRe
 
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        m_jKeys.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m_jKeysActionPerformed(evt);
+            }
+        });
         m_jKeys.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
             public void propertyChange(java.beans.PropertyChangeEvent evt) {
                 m_jKeysPropertyChange(evt);
@@ -341,6 +362,10 @@ public final class PaymentsEditor extends javax.swing.JPanel implements EditorRe
     private void m_jKeysPropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_m_jKeysPropertyChange
 
     }//GEN-LAST:event_m_jKeysPropertyChange
+
+    private void m_jKeysActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m_jKeysActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_m_jKeysActionPerformed
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

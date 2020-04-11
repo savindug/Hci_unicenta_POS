@@ -648,7 +648,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
             }
         });
 
+        m_jTaxID.setBackground(new java.awt.Color(75, 81, 93));
         m_jTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jTaxID.setForeground(new java.awt.Color(255, 255, 255));
         m_jTaxID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -669,7 +671,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel3.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jName.setBackground(new java.awt.Color(75, 81, 93));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
         m_jName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jName.setPreferredSize(new java.awt.Dimension(0, 30));
 
@@ -680,7 +684,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel4.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jVisible.setBackground(new java.awt.Color(75, 81, 93));
         m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        m_jVisible.setForeground(new java.awt.Color(255, 255, 255));
         m_jVisible.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -690,7 +696,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel1.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtMaxdebt.setBackground(new java.awt.Color(75, 81, 93));
         txtMaxdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtMaxdebt.setForeground(new java.awt.Color(255, 255, 255));
         txtMaxdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtMaxdebt.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtMaxdebt.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -703,7 +711,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
         txtCurdebt.setEditable(false);
+        txtCurdebt.setBackground(new java.awt.Color(75, 81, 93));
         txtCurdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCurdebt.setForeground(new java.awt.Color(255, 255, 255));
         txtCurdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtCurdebt.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtCurdebt.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -715,7 +725,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel6.setPreferredSize(new java.awt.Dimension(150, 30));
 
         txtCurdate.setEditable(false);
+        txtCurdate.setBackground(new java.awt.Color(75, 81, 93));
         txtCurdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCurdate.setForeground(new java.awt.Color(255, 255, 255));
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtCurdate.setPreferredSize(new java.awt.Dimension(150, 30));
@@ -735,7 +747,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel19.setAlignmentX(0.5F);
         jLabel19.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        txtFirstName.setBackground(new java.awt.Color(75, 81, 93));
         txtFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtFirstName.setForeground(new java.awt.Color(255, 255, 255));
         txtFirstName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtFirstName.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -744,7 +758,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel15.setText(AppLocal.getIntString("label.lastname")); // NOI18N
         jLabel15.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        txtLastName.setBackground(new java.awt.Color(75, 81, 93));
         txtLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtLastName.setForeground(new java.awt.Color(255, 255, 255));
         txtLastName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtLastName.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -753,7 +769,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel16.setText(AppLocal.getIntString("label.email")); // NOI18N
         jLabel16.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        txtEmail.setBackground(new java.awt.Color(75, 81, 93));
         txtEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtEmail.setForeground(new java.awt.Color(255, 255, 255));
         txtEmail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtEmail.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -762,7 +780,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel17.setText(AppLocal.getIntString("label.phone")); // NOI18N
         jLabel17.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        txtPhone.setBackground(new java.awt.Color(75, 81, 93));
         txtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPhone.setForeground(new java.awt.Color(255, 255, 255));
         txtPhone.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPhone.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -771,7 +791,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel18.setText(AppLocal.getIntString("label.phone2")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        txtPhone2.setBackground(new java.awt.Color(75, 81, 93));
         txtPhone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPhone2.setForeground(new java.awt.Color(255, 255, 255));
         txtPhone2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPhone2.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -780,7 +802,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel14.setText(AppLocal.getIntString("label.fax")); // NOI18N
         jLabel14.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        txtFax.setBackground(new java.awt.Color(75, 81, 93));
         txtFax.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtFax.setForeground(new java.awt.Color(255, 255, 255));
         txtFax.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtFax.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -868,7 +892,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel13.setText(AppLocal.getIntString("label.address")); // NOI18N
         jLabel13.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtAddress.setBackground(new java.awt.Color(75, 81, 93));
         txtAddress.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtAddress.setForeground(new java.awt.Color(255, 255, 255));
         txtAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtAddress.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -877,7 +903,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel20.setText(AppLocal.getIntString("label.country")); // NOI18N
         jLabel20.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtCountry.setBackground(new java.awt.Color(75, 81, 93));
         txtCountry.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCountry.setForeground(new java.awt.Color(255, 255, 255));
         txtCountry.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtCountry.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -886,7 +914,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel21.setText(AppLocal.getIntString("label.address2")); // NOI18N
         jLabel21.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtAddress2.setBackground(new java.awt.Color(75, 81, 93));
         txtAddress2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtAddress2.setForeground(new java.awt.Color(255, 255, 255));
         txtAddress2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtAddress2.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -895,16 +925,25 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel22.setText(AppLocal.getIntString("label.postal")); // NOI18N
         jLabel22.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtPostal.setBackground(new java.awt.Color(75, 81, 93));
         txtPostal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtPostal.setForeground(new java.awt.Color(255, 255, 255));
         txtPostal.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtPostal.setPreferredSize(new java.awt.Dimension(0, 30));
+        txtPostal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtPostalActionPerformed(evt);
+            }
+        });
 
         jLabel23.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText(AppLocal.getIntString("label.city")); // NOI18N
         jLabel23.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtCity.setBackground(new java.awt.Color(75, 81, 93));
         txtCity.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCity.setForeground(new java.awt.Color(255, 255, 255));
         txtCity.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtCity.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -913,7 +952,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel24.setText(AppLocal.getIntString("label.region")); // NOI18N
         jLabel24.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        txtRegion.setBackground(new java.awt.Color(75, 81, 93));
         txtRegion.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtRegion.setForeground(new java.awt.Color(255, 255, 255));
         txtRegion.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtRegion.setPreferredSize(new java.awt.Dimension(200, 30));
 
@@ -973,6 +1014,7 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jTabbedPane1.addTab(AppLocal.getIntString("label.location"), jPanel2); // NOI18N
 
         jPanel4.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel4.setPreferredSize(new java.awt.Dimension(535, 0));
 
@@ -981,7 +1023,7 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jBtnShowTrans.setForeground(new java.awt.Color(255, 255, 255));
         jBtnShowTrans.setText(bundle.getString("button.SupplierTrans")); // NOI18N
         jBtnShowTrans.setToolTipText("");
-        jBtnShowTrans.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jBtnShowTrans.setBorder(null);
         jBtnShowTrans.setPreferredSize(new java.awt.Dimension(140, 25));
         jBtnShowTrans.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -990,10 +1032,13 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         });
 
         jScrollPane3.setBackground(new java.awt.Color(55, 71, 79));
+        jScrollPane3.setBorder(null);
+        jScrollPane3.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         jTableSupplierTransactions.setBackground(new java.awt.Color(55, 71, 79));
         jTableSupplierTransactions.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jTableSupplierTransactions.setForeground(new java.awt.Color(255, 255, 255));
         jTableSupplierTransactions.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -1043,7 +1088,10 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
 
         jPanel3.setBackground(new java.awt.Color(55, 71, 79));
 
+        m_jNotes.setBackground(new java.awt.Color(75, 81, 93));
         m_jNotes.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jNotes.setForeground(new java.awt.Color(255, 255, 255));
+        m_jNotes.setBorder(null);
         m_jNotes.setPreferredSize(new java.awt.Dimension(0, 0));
         jScrollPane1.setViewportView(m_jNotes);
 
@@ -1073,7 +1121,9 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel9.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jVATID.setBackground(new java.awt.Color(75, 81, 93));
         m_jVATID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jVATID.setForeground(new java.awt.Color(255, 255, 255));
         m_jVATID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         m_jVATID.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -1214,6 +1264,10 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
                 AppLocal.getIntString("message.uuidcopy"));
         }
     }//GEN-LAST:event_jLabel7MouseClicked
+
+    private void txtPostalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPostalActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtPostalActionPerformed
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jBtnShowTrans;

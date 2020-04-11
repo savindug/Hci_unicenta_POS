@@ -363,6 +363,8 @@ public class JSupplierFinder extends javax.swing.JDialog implements EditorCreato
         setTitle(AppLocal.getIntString("form.customertitle")); // NOI18N
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
@@ -438,7 +440,7 @@ public class JSupplierFinder extends javax.swing.JDialog implements EditorCreato
         jLblTaxID.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblTaxID.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtTaxID.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtTaxID.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtTaxID.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtTaxID.setPreferredSize(new java.awt.Dimension(200, 30));
@@ -450,7 +452,7 @@ public class JSupplierFinder extends javax.swing.JDialog implements EditorCreato
         jLblSearchKey.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblSearchKey.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtSearchKey.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtSearchKey.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtSearchKey.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtSearchKey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtSearchKey.setPreferredSize(new java.awt.Dimension(250, 30));
@@ -462,7 +464,7 @@ public class JSupplierFinder extends javax.swing.JDialog implements EditorCreato
         jLblPostal.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblPostal.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtPostal.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtPostal.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtPostal.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtPostal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtPostal.setPreferredSize(new java.awt.Dimension(250, 30));
@@ -474,7 +476,7 @@ public class JSupplierFinder extends javax.swing.JDialog implements EditorCreato
         jLblName.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblName.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtName.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtName.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtName.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
@@ -490,13 +492,13 @@ public class JSupplierFinder extends javax.swing.JDialog implements EditorCreato
         jLblEmail.setText(bundle.getString("label.companyemail")); // NOI18N
         jLblEmail.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtPhone.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtPhone.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtPhone.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtPhone.setMinimumSize(new java.awt.Dimension(150, 30));
         m_jtxtPhone.setPreferredSize(new java.awt.Dimension(250, 30));
 
-        m_jtxtName2.setBackground(new java.awt.Color(75, 81, 93));
+        m_jtxtName2.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtName2.setForeground(new java.awt.Color(255, 255, 255));
         m_jtxtName2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName2.setMinimumSize(new java.awt.Dimension(150, 30));

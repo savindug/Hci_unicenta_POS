@@ -163,6 +163,7 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         setResizable(false);
 
         jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
         jLblTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -172,8 +173,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblTaxID.setMinimumSize(new java.awt.Dimension(140, 25));
         jLblTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jTaxID.setBackground(new java.awt.Color(55, 71, 79));
         m_jTaxID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jTaxID.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        m_jTaxID.setForeground(new java.awt.Color(255, 255, 255));
+        m_jTaxID.setBorder(null);
         m_jTaxID.setPreferredSize(new java.awt.Dimension(150, 30));
 
         jLblSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -181,9 +184,11 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblSearchkey.setText(AppLocal.getIntString("label.searchkeym")); // NOI18N
         jLblSearchkey.setPreferredSize(new java.awt.Dimension(82, 30));
 
+        m_jSearchkey.setBackground(new java.awt.Color(55, 71, 79));
         m_jSearchkey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jSearchkey.setForeground(new java.awt.Color(255, 255, 255));
         m_jSearchkey.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-        m_jSearchkey.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        m_jSearchkey.setBorder(null);
         m_jSearchkey.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         m_jSearchkey.setPreferredSize(new java.awt.Dimension(150, 30));
 
@@ -194,8 +199,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblName.setMinimumSize(new java.awt.Dimension(140, 25));
         jLblName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        m_jName.setBackground(new java.awt.Color(55, 71, 79));
         m_jName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        m_jName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        m_jName.setForeground(new java.awt.Color(255, 255, 255));
+        m_jName.setBorder(null);
         m_jName.setPreferredSize(new java.awt.Dimension(400, 30));
 
         jLblFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -204,8 +211,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblFirstName.setAlignmentX(0.5F);
         jLblFirstName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtFirstName.setBackground(new java.awt.Color(55, 71, 79));
         txtFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtFirstName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        txtFirstName.setForeground(new java.awt.Color(255, 255, 255));
+        txtFirstName.setBorder(null);
         txtFirstName.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jLblLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -213,8 +222,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblLastName.setText(AppLocal.getIntString("label.lastname")); // NOI18N
         jLblLastName.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtLastName.setBackground(new java.awt.Color(55, 71, 79));
         txtLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtLastName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        txtLastName.setForeground(new java.awt.Color(255, 255, 255));
+        txtLastName.setBorder(null);
         txtLastName.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jLblEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -222,8 +233,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblEmail.setText(AppLocal.getIntString("label.email")); // NOI18N
         jLblEmail.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtEmail.setBackground(new java.awt.Color(55, 71, 79));
         txtEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtEmail.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        txtEmail.setForeground(new java.awt.Color(255, 255, 255));
+        txtEmail.setBorder(null);
         txtEmail.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jLblTelephone1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -231,8 +244,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblTelephone1.setText(AppLocal.getIntString("label.phone")); // NOI18N
         jLblTelephone1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtPhone.setBackground(new java.awt.Color(55, 71, 79));
         txtPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtPhone.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        txtPhone.setForeground(new java.awt.Color(255, 255, 255));
+        txtPhone.setBorder(null);
         txtPhone.setPreferredSize(new java.awt.Dimension(200, 30));
 
         jLblTelephone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -240,8 +255,10 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jLblTelephone2.setText(AppLocal.getIntString("label.phone2")); // NOI18N
         jLblTelephone2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        txtPhone2.setBackground(new java.awt.Color(55, 71, 79));
         txtPhone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        txtPhone2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        txtPhone2.setForeground(new java.awt.Color(255, 255, 255));
+        txtPhone2.setBorder(null);
         txtPhone2.setPreferredSize(new java.awt.Dimension(200, 30));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -326,6 +343,7 @@ public class JDialogNewSupplier extends javax.swing.JDialog {
         jPanel3.getAccessibleContext().setAccessibleName("");
 
         jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
         m_jBtnOK.setBackground(new java.awt.Color(55, 71, 79));

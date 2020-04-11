@@ -684,7 +684,7 @@ String rsn = AppLocal.getIntString("label.suptblHeaderCol5");
         jLabel4.setMinimumSize(new java.awt.Dimension(140, 25));
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 30));
 
-        m_jVisible.setBackground(new java.awt.Color(75, 81, 93));
+        m_jVisible.setBackground(new java.awt.Color(28, 35, 49));
         m_jVisible.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jVisible.setForeground(new java.awt.Color(255, 255, 255));
         m_jVisible.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));

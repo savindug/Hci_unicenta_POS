@@ -203,7 +203,7 @@ public abstract class JEditorAbstract extends javax.swing.JPanel implements Edit
         setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
-        panBackground.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.background"));
+        panBackground.setBackground(new java.awt.Color(55, 71, 79));
         panBackground.setLayout(new java.awt.BorderLayout());
 
         m_jText.setBackground(javax.swing.UIManager.getDefaults().getColor("TextField.background"));

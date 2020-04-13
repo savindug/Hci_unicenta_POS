@@ -1054,7 +1054,9 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         gridBagConstraints.gridy = 0;
         jPanel4.add(jPanel9, gridBagConstraints);
 
+        lblPage.setBackground(new java.awt.Color(28, 35, 49));
         lblPage.setFont(new java.awt.Font("Agency FB", 0, 12)); // NOI18N
+        lblPage.setForeground(new java.awt.Color(204, 204, 204));
         lblPage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         lblPage.setOpaque(true);
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -1094,6 +1096,7 @@ public final class JRViewer400 extends javax.swing.JPanel implements JRHyperlink
         pnlStatus.setPreferredSize(new java.awt.Dimension(59, 20));
         pnlStatus.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 0));
 
+        lblStatus.setBackground(new java.awt.Color(28, 35, 49));
         lblStatus.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         lblStatus.setForeground(new java.awt.Color(255, 255, 255));
         lblStatus.setText("Page i of n");

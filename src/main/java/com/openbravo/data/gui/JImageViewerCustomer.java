@@ -323,6 +323,8 @@ public class JImageViewerCustomer extends javax.swing.JPanel {
         m_jPercent = new javax.swing.JLabel();
         m_jbtnzoomout = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new java.awt.BorderLayout());
 
         m_jImage.setBackground(new java.awt.Color(55, 71, 79));

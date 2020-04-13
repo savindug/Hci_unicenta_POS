@@ -226,7 +226,6 @@ public class JPeopleFinder extends javax.swing.JDialog implements EditorCreator 
         jLblName.setMinimumSize(new java.awt.Dimension(60, 15));
         jLblName.setPreferredSize(new java.awt.Dimension(110, 30));
 
-        m_jtxtName.setBackground(new java.awt.Color(28, 35, 49));
         m_jtxtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jtxtName.setPreferredSize(new java.awt.Dimension(250, 30));
 

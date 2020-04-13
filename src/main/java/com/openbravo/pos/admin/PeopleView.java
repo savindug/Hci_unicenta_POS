@@ -250,6 +250,7 @@ public class PeopleView extends JPanel implements EditorRecord {
         jToolBar1.setRollover(true);
 
         setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         setPreferredSize(new java.awt.Dimension(500, 500));
 

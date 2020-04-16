@@ -176,6 +176,7 @@ public class ProductFilterSales extends javax.swing.JPanel implements EditorCrea
         m_jCategory.setBackground(new java.awt.Color(55, 71, 79));
         m_jCategory.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         m_jCategory.setForeground(new java.awt.Color(255, 255, 255));
+        m_jCategory.setBorder(null);
         m_jCategory.setPreferredSize(new java.awt.Dimension(250, 30));
 
         jLabel4.setBackground(new java.awt.Color(28, 35, 49));

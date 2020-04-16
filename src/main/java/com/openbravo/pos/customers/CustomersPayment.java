@@ -304,14 +304,14 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
-        jPanel6.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel6.setBackground(new java.awt.Color(28, 35, 49));
         jPanel6.setForeground(new java.awt.Color(255, 255, 255));
 
         btnCustomer.setBackground(new java.awt.Color(55, 71, 79));
         btnCustomer.setForeground(new java.awt.Color(255, 255, 255));
         btnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnCustomer.setToolTipText("Customer Account");
-        btnCustomer.setBorder(null);
+        btnCustomer.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCustomer.setFocusPainted(false);
         btnCustomer.setFocusable(false);
         btnCustomer.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -328,7 +328,7 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         btnSave.setForeground(new java.awt.Color(255, 255, 255));
         btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         btnSave.setToolTipText("Save");
-        btnSave.setBorder(null);
+        btnSave.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnSave.setFocusPainted(false);
         btnSave.setFocusable(false);
         btnSave.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -350,7 +350,7 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         btnPay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         btnPay.setText(AppLocal.getIntString("button.pay")); // NOI18N
         btnPay.setToolTipText("Pay Account");
-        btnPay.setBorder(null);
+        btnPay.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPay.setFocusPainted(false);
         btnPay.setFocusable(false);
         btnPay.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -372,7 +372,7 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         btnPrePay.setText(AppLocal.getIntString("button.prepay")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         btnPrePay.setToolTipText(bundle.getString("tooltip.prepay")); // NOI18N
-        btnPrePay.setBorder(null);
+        btnPrePay.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnPrePay.setFocusPainted(false);
         btnPrePay.setFocusable(false);
         btnPrePay.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -399,6 +399,7 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
+        m_jKeys.setBackground(new java.awt.Color(28, 35, 49));
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_jKeysActionPerformed(evt);

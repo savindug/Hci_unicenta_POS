@@ -191,13 +191,23 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(AppLocal.getIntString("form.customertitle")); // NOI18N
+        setAutoRequestFocus(false);
+        setBackground(new java.awt.Color(28, 35, 49));
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
         jPanel2.add(m_jKeys, java.awt.BorderLayout.NORTH);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setForeground(new java.awt.Color(255, 255, 255));
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
-        jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
+        jcmdCancel.setText(AppLocal.getIntString("Button.Cancel")); // NOI18N
+        jcmdCancel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jcmdCancel.setFocusPainted(false);
         jcmdCancel.setFocusable(false);
         jcmdCancel.setMargin(new java.awt.Insets(8, 16, 8, 16));
@@ -210,9 +220,12 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
         });
         jPanel1.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
-        jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
+        jcmdOK.setText(AppLocal.getIntString("Button.OK")); // NOI18N
+        jcmdOK.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jcmdOK.setEnabled(false);
         jcmdOK.setFocusPainted(false);
         jcmdOK.setFocusable(false);
@@ -230,11 +243,20 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.LINE_END);
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel5.setForeground(new java.awt.Color(255, 255, 255));
         jPanel5.setLayout(new java.awt.BorderLayout());
 
+        jPanel7.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel7.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.epm.employee")); // NOI18N
 
         m_jtxtName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -262,9 +284,15 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel5.add(jPanel7, java.awt.BorderLayout.CENTER);
 
+        jPanel6.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel6.setForeground(new java.awt.Color(255, 255, 255));
+
+        jButton1.setBackground(new java.awt.Color(55, 71, 79));
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/reload.png"))); // NOI18N
         jButton1.setText(AppLocal.getIntString("button.clean")); // NOI18N
+        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.setPreferredSize(new java.awt.Dimension(110, 45));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -273,9 +301,12 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
         });
         jPanel6.add(jButton1);
 
+        jButton3.setBackground(new java.awt.Color(55, 71, 79));
         jButton3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jButton3.setText(AppLocal.getIntString("button.executefilter")); // NOI18N
+        jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3.setFocusPainted(false);
         jButton3.setFocusable(false);
         jButton3.setPreferredSize(new java.awt.Dimension(110, 45));
@@ -291,10 +322,18 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel3.add(jPanel5, java.awt.BorderLayout.PAGE_START);
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
         jPanel4.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new java.awt.BorderLayout());
 
+        jScrollPane1.setBackground(new java.awt.Color(28, 35, 49));
+        jScrollPane1.setBorder(null);
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
+
+        jListEmployees.setBackground(new java.awt.Color(55, 71, 79));
         jListEmployees.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jListEmployees.setForeground(new java.awt.Color(255, 255, 255));
         jListEmployees.setFocusable(false);
         jListEmployees.setRequestFocusEnabled(false);
         jListEmployees.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -313,6 +352,8 @@ public class JEmployeeFinder extends javax.swing.JDialog implements EditorCreato
 
         jPanel3.add(jPanel4, java.awt.BorderLayout.CENTER);
 
+        jPanel8.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel8.setForeground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.BorderLayout());
         jPanel3.add(jPanel8, java.awt.BorderLayout.SOUTH);
 

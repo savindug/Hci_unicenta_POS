@@ -358,11 +358,6 @@
           </Layout>
           <SubComponents>
             <Component class="com.openbravo.data.gui.JImageViewerProduct" name="jImageViewerProduct">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
             </Component>
           </SubComponents>
         </Container>

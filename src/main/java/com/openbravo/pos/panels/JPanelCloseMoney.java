@@ -496,7 +496,6 @@ public class JPanelCloseMoney extends JPanel implements JPanelView, BeanFactoryA
         jPanel1.add(m_jMaxDate, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 50, -1, -1));
 
         webCBCloseCash.setBackground(new java.awt.Color(55, 71, 79));
-        webCBCloseCash.setBorder(null);
         webCBCloseCash.setForeground(new java.awt.Color(255, 255, 255));
         webCBCloseCash.setToolTipText(AppLocal.getIntString("tooltip.closecashactions")); // NOI18N
         webCBCloseCash.setExpandIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/calculator.png")));
@@ -560,7 +559,7 @@ public class JPanelCloseMoney extends JPanel implements JPanelView, BeanFactoryA
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(355, 95, -1, -1));
         jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 347, 312, 10));
 
-        m_jScrollTableTicket.setBackground(new java.awt.Color(28, 35, 49));
+        m_jScrollTableTicket.setBackground(new java.awt.Color(55, 71, 79));
         m_jScrollTableTicket.setBorder(null);
         m_jScrollTableTicket.setForeground(new java.awt.Color(255, 255, 255));
         m_jScrollTableTicket.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);

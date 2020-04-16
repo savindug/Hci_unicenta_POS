@@ -219,7 +219,7 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jButton1.setBounds(30, 10, 130, 15);
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "*Receipt Title", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 13), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "*Receipt Title", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jPanel1.setLayout(null);
@@ -230,7 +230,7 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jPanel1.add(jTextField1);
         jTextField1.setBounds(20, 30, 260, 25);
 
-        jCheckBox1.setBackground(new java.awt.Color(55, 71, 79));
+        jCheckBox1.setBackground(new java.awt.Color(28, 35, 49));
         jCheckBox1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox1.setText("jCheckBox1");
@@ -245,7 +245,7 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jPanel1.add(jTextField2);
         jTextField2.setBounds(20, 60, 260, 25);
 
-        jCheckBox2.setBackground(new java.awt.Color(55, 71, 79));
+        jCheckBox2.setBackground(new java.awt.Color(28, 35, 49));
         jCheckBox2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox2.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox2.setText("jCheckBox2");
@@ -272,7 +272,7 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jPanel1.add(jTextField5);
         jTextField5.setBounds(20, 150, 260, 25);
 
-        jCheckBox3.setBackground(new java.awt.Color(55, 71, 79));
+        jCheckBox3.setBackground(new java.awt.Color(28, 35, 49));
         jCheckBox3.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox3.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox3.setText("jCheckBox3");
@@ -281,7 +281,7 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jPanel1.add(jCheckBox3);
         jCheckBox3.setBounds(290, 90, 110, 25);
 
-        jCheckBox4.setBackground(new java.awt.Color(55, 71, 79));
+        jCheckBox4.setBackground(new java.awt.Color(28, 35, 49));
         jCheckBox4.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox4.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox4.setText("jCheckBox4");
@@ -290,7 +290,7 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jPanel1.add(jCheckBox4);
         jCheckBox4.setBounds(290, 120, 110, 25);
 
-        jCheckBox5.setBackground(new java.awt.Color(55, 71, 79));
+        jCheckBox5.setBackground(new java.awt.Color(28, 35, 49));
         jCheckBox5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox5.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox5.setText("jCheckBox5");

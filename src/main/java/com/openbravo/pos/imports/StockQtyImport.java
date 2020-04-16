@@ -570,16 +570,25 @@ public class StockQtyImport extends JPanel implements JPanelView {
         jbtnReset = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(204, 204, 204));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setOpaque(false);
         setPreferredSize(new java.awt.Dimension(700, 350));
 
+        jFileChooserPanel.setBackground(new java.awt.Color(28, 35, 49));
+        jFileChooserPanel.setForeground(new java.awt.Color(204, 204, 204));
+
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.csvfile")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jFileName.setBackground(new java.awt.Color(55, 71, 79));
         jFileName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jFileName.setForeground(new java.awt.Color(181, 181, 181));
         jFileName.setPreferredSize(new java.awt.Dimension(300, 30));
         jFileName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -587,10 +596,14 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
+        jLabel18.setBackground(new java.awt.Color(28, 35, 49));
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(204, 204, 204));
         jLabel18.setText(bundle.getString("label.csvdelimit")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jbtnFileChoose.setBackground(new java.awt.Color(55, 71, 79));
+        jbtnFileChoose.setForeground(new java.awt.Color(255, 255, 255));
         jbtnFileChoose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
         jbtnFileChoose.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnFileChoose.setMinimumSize(new java.awt.Dimension(64, 32));
@@ -601,7 +614,9 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboSeparator.setBackground(new java.awt.Color(55, 71, 79));
         jComboSeparator.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jComboSeparator.setForeground(new java.awt.Color(204, 204, 204));
         jComboSeparator.setPreferredSize(new java.awt.Dimension(50, 30));
 
         javax.swing.GroupLayout jFileChooserPanelLayout = new javax.swing.GroupLayout(jFileChooserPanel);
@@ -636,8 +651,11 @@ public class StockQtyImport extends JPanel implements JPanelView {
                 .addContainerGap())
         );
 
+        jFileRead.setBackground(new java.awt.Color(55, 71, 79));
         jFileRead.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jFileRead.setForeground(new java.awt.Color(204, 204, 204));
         jFileRead.setText(bundle.getString("label.csvread")); // NOI18N
+        jFileRead.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jFileRead.setEnabled(false);
         jFileRead.setPreferredSize(new java.awt.Dimension(85, 45));
         jFileRead.addActionListener(new java.awt.event.ActionListener() {
@@ -646,26 +664,34 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true), bundle.getString("title.CSVImport"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14), new java.awt.Color(102, 102, 102))); // NOI18N
+        jPanel2.setForeground(new java.awt.Color(204, 204, 204));
 
+        jLabel9.setBackground(new java.awt.Color(28, 35, 49));
         jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(204, 204, 204));
         jLabel9.setText(bundle.getString("label.csvrecordsfound")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jTextUpdates.setBackground(new java.awt.Color(28, 35, 49));
         jTextUpdates.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jTextUpdates.setForeground(new java.awt.Color(204, 204, 204));
         jTextUpdates.setText(bundle.getString("label.csvchanged")); // NOI18N
         jTextUpdates.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jTextRecords.setBackground(new java.awt.Color(55, 71, 79));
         jTextRecords.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jTextRecords.setForeground(new java.awt.Color(102, 102, 102));
+        jTextRecords.setForeground(new java.awt.Color(204, 204, 204));
         jTextRecords.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jTextRecords.setBorder(null);
         jTextRecords.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jTextRecords.setEnabled(false);
         jTextRecords.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jTextUpdate.setBackground(new java.awt.Color(55, 71, 79));
         jTextUpdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jTextUpdate.setForeground(new java.awt.Color(102, 102, 102));
+        jTextUpdate.setForeground(new java.awt.Color(204, 204, 204));
         jTextUpdate.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jTextUpdate.setBorder(null);
         jTextUpdate.setDisabledTextColor(new java.awt.Color(0, 0, 0));
@@ -706,13 +732,18 @@ public class StockQtyImport extends JPanel implements JPanelView {
         webPBar.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         webPBar.setPreferredSize(new java.awt.Dimension(240, 30));
 
+        m_jLocation.setBackground(new java.awt.Color(28, 35, 49));
         m_jLocation.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLocation.setForeground(new java.awt.Color(204, 204, 204));
         m_jLocation.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         m_jLocation.setText(bundle.getString("label.location")); // NOI18N
         m_jLocation.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jImport.setBackground(new java.awt.Color(55, 71, 79));
         jImport.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jImport.setForeground(new java.awt.Color(204, 204, 204));
         jImport.setText(bundle.getString("label.csvimpostbtn")); // NOI18N
+        jImport.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jImport.setEnabled(false);
         jImport.setPreferredSize(new java.awt.Dimension(85, 45));
         jImport.addActionListener(new java.awt.event.ActionListener() {
@@ -721,8 +752,11 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
+        jbtnReset.setBackground(new java.awt.Color(55, 71, 79));
         jbtnReset.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnReset.setForeground(new java.awt.Color(204, 204, 204));
         jbtnReset.setText(bundle.getString("button.reset")); // NOI18N
+        jbtnReset.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbtnReset.setPreferredSize(new java.awt.Dimension(85, 45));
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -730,8 +764,9 @@ public class StockQtyImport extends JPanel implements JPanelView {
             }
         });
 
-        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(204, 204, 204));
         jLabel2.setText(bundle.getString("label.csvnotice")); // NOI18N
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153)));
@@ -747,20 +782,15 @@ public class StockQtyImport extends JPanel implements JPanelView {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jFileChooserPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                            .addComponent(jFileChooserPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(m_jLocation, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGap(0, 0, 0)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(m_jLocation, javax.swing.GroupLayout.PREFERRED_SIZE, 295, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jFileRead, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jImport, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jbtnReset, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
+                                .addComponent(jFileRead, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jImport, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jbtnReset, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(webPBar, javax.swing.GroupLayout.PREFERRED_SIZE, 284, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))

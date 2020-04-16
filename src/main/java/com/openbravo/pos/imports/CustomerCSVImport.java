@@ -728,16 +728,25 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
         jLabel9 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         setOpaque(false);
         setPreferredSize(new java.awt.Dimension(750, 500));
 
+        jFileChooserPanel.setBackground(new java.awt.Color(28, 35, 49));
+        jFileChooserPanel.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.csvfile")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jFileName.setBackground(new java.awt.Color(55, 71, 79));
         jFileName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jFileName.setForeground(new java.awt.Color(204, 204, 204));
         jFileName.setPreferredSize(new java.awt.Dimension(400, 30));
         jFileName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -745,7 +754,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jbtnFileChoose.setBackground(new java.awt.Color(55, 71, 79));
+        jbtnFileChoose.setForeground(new java.awt.Color(255, 255, 255));
         jbtnFileChoose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/fileopen.png"))); // NOI18N
+        jbtnFileChoose.setBorder(null);
         jbtnFileChoose.setMaximumSize(new java.awt.Dimension(64, 32));
         jbtnFileChoose.setMinimumSize(new java.awt.Dimension(64, 32));
         jbtnFileChoose.setPreferredSize(new java.awt.Dimension(80, 45));
@@ -777,12 +789,17 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             .addComponent(jbtnFileChoose, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
+        jLabel18.setBackground(new java.awt.Color(28, 35, 49));
         jLabel18.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText(bundle.getString("label.csvdelimit")); // NOI18N
         jLabel18.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jbtnRead.setBackground(new java.awt.Color(55, 71, 79));
         jbtnRead.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jbtnRead.setForeground(new java.awt.Color(255, 255, 255));
         jbtnRead.setText(bundle.getString("label.csvread")); // NOI18N
+        jbtnRead.setBorder(null);
         jbtnRead.setEnabled(false);
         jbtnRead.setPreferredSize(new java.awt.Dimension(110, 45));
         jbtnRead.addActionListener(new java.awt.event.ActionListener() {
@@ -791,78 +808,100 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(153, 153, 153), 1, true), bundle.getString("title.CSVImport"), javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14), new java.awt.Color(102, 102, 102))); // NOI18N
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
+        jlblRecords.setBackground(new java.awt.Color(28, 35, 49));
         jlblRecords.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblRecords.setForeground(new java.awt.Color(255, 255, 255));
         jlblRecords.setText(bundle.getString("label.csvrecordsfound")); // NOI18N
         jlblRecords.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jlblNew.setBackground(new java.awt.Color(28, 35, 49));
         jlblNew.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblNew.setForeground(new java.awt.Color(255, 255, 255));
         jlblNew.setText(bundle.getString("label.csvnewcustomers")); // NOI18N
         jlblNew.setMaximumSize(new java.awt.Dimension(77, 14));
         jlblNew.setMinimumSize(new java.awt.Dimension(77, 14));
         jlblNew.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jlblInvalid.setBackground(new java.awt.Color(28, 35, 49));
         jlblInvalid.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblInvalid.setForeground(new java.awt.Color(255, 255, 255));
         jlblInvalid.setText(bundle.getString("label.invalidcustomers")); // NOI18N
         jlblInvalid.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jlblUpdates.setBackground(new java.awt.Color(28, 35, 49));
         jlblUpdates.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblUpdates.setForeground(new java.awt.Color(255, 255, 255));
         jlblUpdates.setText(bundle.getString("label.customerupdated")); // NOI18N
         jlblUpdates.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jlblMissing.setBackground(new java.awt.Color(28, 35, 49));
         jlblMissing.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblMissing.setForeground(new java.awt.Color(255, 255, 255));
         jlblMissing.setText(bundle.getString("label.csvmissing")); // NOI18N
         jlblMissing.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jlblBad.setBackground(new java.awt.Color(28, 35, 49));
         jlblBad.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblBad.setForeground(new java.awt.Color(255, 255, 255));
         jlblBad.setText(bundle.getString("label.csvbad")); // NOI18N
         jlblBad.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jlblNotChanged.setBackground(new java.awt.Color(28, 35, 49));
         jlblNotChanged.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jlblNotChanged.setForeground(new java.awt.Color(255, 255, 255));
         jlblNotChanged.setText(bundle.getString("label.csvnotchanged")); // NOI18N
         jlblNotChanged.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtRecords.setBackground(new java.awt.Color(55, 71, 79));
         jtxtRecords.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jtxtRecords.setForeground(new java.awt.Color(102, 102, 102));
+        jtxtRecords.setForeground(new java.awt.Color(204, 204, 204));
         jtxtRecords.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtRecords.setBorder(null);
         jtxtRecords.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jtxtRecords.setEnabled(false);
         jtxtRecords.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jtxtNew.setBackground(new java.awt.Color(55, 71, 79));
         jtxtNew.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jtxtNew.setForeground(new java.awt.Color(102, 102, 102));
+        jtxtNew.setForeground(new java.awt.Color(204, 204, 204));
         jtxtNew.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtNew.setBorder(null);
         jtxtNew.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jtxtNew.setEnabled(false);
         jtxtNew.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jtxtInvalid.setBackground(new java.awt.Color(55, 71, 79));
         jtxtInvalid.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jtxtInvalid.setForeground(new java.awt.Color(102, 102, 102));
+        jtxtInvalid.setForeground(new java.awt.Color(204, 204, 204));
         jtxtInvalid.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtInvalid.setBorder(null);
         jtxtInvalid.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jtxtInvalid.setEnabled(false);
         jtxtInvalid.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jtxtUpdate.setBackground(new java.awt.Color(55, 71, 79));
         jtxtUpdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jtxtUpdate.setForeground(new java.awt.Color(102, 102, 102));
+        jtxtUpdate.setForeground(new java.awt.Color(204, 204, 204));
         jtxtUpdate.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtUpdate.setBorder(null);
         jtxtUpdate.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jtxtUpdate.setEnabled(false);
         jtxtUpdate.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jtxtMissing.setBackground(new java.awt.Color(55, 71, 79));
         jtxtMissing.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jtxtMissing.setForeground(new java.awt.Color(102, 102, 102));
+        jtxtMissing.setForeground(new java.awt.Color(204, 204, 204));
         jtxtMissing.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtMissing.setBorder(null);
         jtxtMissing.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jtxtMissing.setEnabled(false);
         jtxtMissing.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jtxtBad.setBackground(new java.awt.Color(55, 71, 79));
         jtxtBad.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jtxtBad.setForeground(new java.awt.Color(255, 0, 204));
         jtxtBad.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
@@ -871,8 +910,9 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
         jtxtBad.setEnabled(false);
         jtxtBad.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jtxtNoChange.setBackground(new java.awt.Color(55, 71, 79));
         jtxtNoChange.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jtxtNoChange.setForeground(new java.awt.Color(102, 102, 102));
+        jtxtNoChange.setForeground(new java.awt.Color(204, 204, 204));
         jtxtNoChange.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jtxtNoChange.setBorder(null);
         jtxtNoChange.setDisabledTextColor(new java.awt.Color(0, 0, 0));
@@ -942,19 +982,33 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
                 .addContainerGap())
         );
 
+        jComboSeparator.setBackground(new java.awt.Color(55, 71, 79));
         jComboSeparator.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jComboSeparator.setForeground(new java.awt.Color(204, 204, 204));
+        jComboSeparator.setBorder(null);
         jComboSeparator.setPreferredSize(new java.awt.Dimension(50, 30));
 
+        webPBar.setBackground(new java.awt.Color(55, 71, 79));
+        webPBar.setBorder(null);
+        webPBar.setForeground(new java.awt.Color(204, 204, 204));
         webPBar.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
         webPBar.setPreferredSize(new java.awt.Dimension(240, 30));
 
+        jScrollPane1.setBackground(new java.awt.Color(28, 35, 49));
+        jScrollPane1.setBorder(null);
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setAutoscrolls(true);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPanel1.setPreferredSize(new java.awt.Dimension(430, 650));
 
+        jComboSearchKey.setBackground(new java.awt.Color(55, 71, 79));
         jComboSearchKey.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboSearchKey.setForeground(new java.awt.Color(204, 204, 204));
+        jComboSearchKey.setBorder(null);
         jComboSearchKey.setEnabled(false);
         jComboSearchKey.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboSearchKey.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -969,7 +1023,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboName.setBackground(new java.awt.Color(55, 71, 79));
         jComboName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboName.setForeground(new java.awt.Color(204, 204, 204));
+        jComboName.setBorder(null);
         jComboName.setEnabled(false);
         jComboName.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboName.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -984,7 +1041,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboAccountID.setBackground(new java.awt.Color(55, 71, 79));
         jComboAccountID.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboAccountID.setForeground(new java.awt.Color(204, 204, 204));
+        jComboAccountID.setBorder(null);
         jComboAccountID.setEnabled(false);
         jComboAccountID.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboAccountID.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -999,9 +1059,12 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboAddress1.setBackground(new java.awt.Color(55, 71, 79));
         jComboAddress1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboAddress1.setForeground(new java.awt.Color(204, 204, 204));
         jComboAddress1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "" }));
         jComboAddress1.setSelectedIndex(-1);
+        jComboAddress1.setBorder(null);
         jComboAddress1.setEnabled(false);
         jComboAddress1.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboAddress1.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1016,7 +1079,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboAddress2.setBackground(new java.awt.Color(55, 71, 79));
         jComboAddress2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboAddress2.setForeground(new java.awt.Color(204, 204, 204));
+        jComboAddress2.setBorder(null);
         jComboAddress2.setEnabled(false);
         jComboAddress2.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboAddress2.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1031,7 +1097,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboCity.setBackground(new java.awt.Color(55, 71, 79));
         jComboCity.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboCity.setForeground(new java.awt.Color(204, 204, 204));
+        jComboCity.setBorder(null);
         jComboCity.setEnabled(false);
         jComboCity.setPreferredSize(new java.awt.Dimension(300, 30));
         jComboCity.addItemListener(new java.awt.event.ItemListener() {
@@ -1045,7 +1114,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboRegion.setBackground(new java.awt.Color(55, 71, 79));
         jComboRegion.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboRegion.setForeground(new java.awt.Color(204, 204, 204));
+        jComboRegion.setBorder(null);
         jComboRegion.setEnabled(false);
         jComboRegion.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboRegion.setName(""); // NOI18N
@@ -1061,7 +1133,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboPostal.setBackground(new java.awt.Color(55, 71, 79));
         jComboPostal.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboPostal.setForeground(new java.awt.Color(204, 204, 204));
+        jComboPostal.setBorder(null);
         jComboPostal.setEnabled(false);
         jComboPostal.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboPostal.setName(""); // NOI18N
@@ -1077,7 +1152,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboFirstName.setBackground(new java.awt.Color(55, 71, 79));
         jComboFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboFirstName.setForeground(new java.awt.Color(204, 204, 204));
+        jComboFirstName.setBorder(null);
         jComboFirstName.setEnabled(false);
         jComboFirstName.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboFirstName.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1092,7 +1170,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboLastName.setBackground(new java.awt.Color(55, 71, 79));
         jComboLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboLastName.setForeground(new java.awt.Color(204, 204, 204));
+        jComboLastName.setBorder(null);
         jComboLastName.setEnabled(false);
         jComboLastName.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboLastName.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1107,7 +1188,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboEmail.setBackground(new java.awt.Color(55, 71, 79));
         jComboEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboEmail.setForeground(new java.awt.Color(204, 204, 204));
+        jComboEmail.setBorder(null);
         jComboEmail.setEnabled(false);
         jComboEmail.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboEmail.setName(""); // NOI18N
@@ -1123,7 +1207,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboPhone.setBackground(new java.awt.Color(55, 71, 79));
         jComboPhone.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboPhone.setForeground(new java.awt.Color(204, 204, 204));
+        jComboPhone.setBorder(null);
         jComboPhone.setEnabled(false);
         jComboPhone.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboPhone.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1138,7 +1225,10 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jComboPhone2.setBackground(new java.awt.Color(55, 71, 79));
         jComboPhone2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jComboPhone2.setForeground(new java.awt.Color(204, 204, 204));
+        jComboPhone2.setBorder(null);
         jComboPhone2.setEnabled(false);
         jComboPhone2.setMinimumSize(new java.awt.Dimension(32, 25));
         jComboPhone2.setPreferredSize(new java.awt.Dimension(300, 30));
@@ -1153,12 +1243,16 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jCheckVisible.setBackground(new java.awt.Color(28, 35, 49));
         jCheckVisible.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jCheckVisible.setForeground(new java.awt.Color(255, 255, 255));
         jCheckVisible.setSelected(true);
         jCheckVisible.setEnabled(false);
         jCheckVisible.setPreferredSize(new java.awt.Dimension(30, 30));
 
+        jbtnReset.setBackground(new java.awt.Color(55, 71, 79));
         jbtnReset.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jbtnReset.setForeground(new java.awt.Color(204, 204, 204));
         jbtnReset.setText(bundle.getString("button.reset")); // NOI18N
         jbtnReset.setPreferredSize(new java.awt.Dimension(110, 45));
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
@@ -1167,7 +1261,9 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jbtnImport.setBackground(new java.awt.Color(55, 71, 79));
         jbtnImport.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jbtnImport.setForeground(new java.awt.Color(204, 204, 204));
         jbtnImport.setText(bundle.getString("label.csvimpostbtn")); // NOI18N
         jbtnImport.setEnabled(false);
         jbtnImport.setPreferredSize(new java.awt.Dimension(110, 45));
@@ -1177,60 +1273,88 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
             }
         });
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(204, 204, 204));
         jLabel3.setText(bundle.getString("label.taxid")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(204, 204, 204));
         jLabel4.setText(bundle.getString("label.searchkeym")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(204, 204, 204));
         jLabel5.setText(bundle.getString("label.namem")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel10.setBackground(new java.awt.Color(28, 35, 49));
         jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(204, 204, 204));
         jLabel10.setText(bundle.getString("label.address")); // NOI18N
         jLabel10.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel11.setBackground(new java.awt.Color(28, 35, 49));
         jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(204, 204, 204));
         jLabel11.setText(bundle.getString("label.region")); // NOI18N
         jLabel11.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel7.setBackground(new java.awt.Color(28, 35, 49));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(204, 204, 204));
         jLabel7.setText(bundle.getString("label.city")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel8.setBackground(new java.awt.Color(28, 35, 49));
         jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(204, 204, 204));
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel8.setText(bundle.getString("label.visible")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel20.setBackground(new java.awt.Color(28, 35, 49));
         jLabel20.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(204, 204, 204));
         jLabel20.setText(bundle.getString("label.address2")); // NOI18N
         jLabel20.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel6.setBackground(new java.awt.Color(28, 35, 49));
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(204, 204, 204));
         jLabel6.setText(bundle.getString("label.postal")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel21.setBackground(new java.awt.Color(28, 35, 49));
         jLabel21.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(204, 204, 204));
         jLabel21.setText(bundle.getString("label.email")); // NOI18N
         jLabel21.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel22.setBackground(new java.awt.Color(28, 35, 49));
         jLabel22.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(204, 204, 204));
         jLabel22.setText(bundle.getString("label.phone")); // NOI18N
         jLabel22.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel23.setBackground(new java.awt.Color(28, 35, 49));
         jLabel23.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(204, 204, 204));
         jLabel23.setText(bundle.getString("label.phone2")); // NOI18N
         jLabel23.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel9.setBackground(new java.awt.Color(28, 35, 49));
         jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(204, 204, 204));
         jLabel9.setText(bundle.getString("label.firstname")); // NOI18N
         jLabel9.setPreferredSize(new java.awt.Dimension(100, 30));
 
+        jLabel12.setBackground(new java.awt.Color(28, 35, 49));
         jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(204, 204, 204));
         jLabel12.setText(bundle.getString("label.lastname")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(100, 30));
 
@@ -1419,7 +1543,7 @@ public class CustomerCSVImport extends JPanel implements JPanelView {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 588, Short.MAX_VALUE)))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 387, Short.MAX_VALUE)))
         );
     }// </editor-fold>//GEN-END:initComponents
 

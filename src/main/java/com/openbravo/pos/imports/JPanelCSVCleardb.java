@@ -134,18 +134,29 @@ public class JPanelCSVCleardb extends JPanel implements JPanelView {
         jEnableButton = new javax.swing.JCheckBox();
         jBtnCleardb = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(204, 204, 204));
         setPreferredSize(new java.awt.Dimension(450, 240));
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 204, 204));
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         jLabel1.setText(bundle.getString("label.csvresetimport")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(250, 30));
 
+        jScrollPane1.setBackground(new java.awt.Color(28, 35, 49));
+        jScrollPane1.setForeground(new java.awt.Color(204, 204, 204));
+
         jMessageBox.setEditable(false);
+        jMessageBox.setBackground(new java.awt.Color(55, 71, 79));
         jMessageBox.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jMessageBox.setForeground(new java.awt.Color(204, 204, 204));
         jScrollPane1.setViewportView(jMessageBox);
 
+        jEnableButton.setBackground(new java.awt.Color(28, 35, 49));
         jEnableButton.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jEnableButton.setForeground(new java.awt.Color(204, 204, 204));
         jEnableButton.setText(bundle.getString("label.csvenableclear")); // NOI18N
         jEnableButton.setPreferredSize(new java.awt.Dimension(250, 30));
         jEnableButton.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -159,10 +170,13 @@ public class JPanelCSVCleardb extends JPanel implements JPanelView {
             }
         });
 
+        jBtnCleardb.setBackground(new java.awt.Color(55, 71, 79));
         jBtnCleardb.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jBtnCleardb.setForeground(new java.awt.Color(255, 255, 255));
         jBtnCleardb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/sale_delete.png"))); // NOI18N
         jBtnCleardb.setText(bundle.getString("label.clearimport")); // NOI18N
         jBtnCleardb.setActionCommand(AppLocal.getIntString("button.exit")); // NOI18N
+        jBtnCleardb.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jBtnCleardb.setEnabled(false);
         jBtnCleardb.setPreferredSize(new java.awt.Dimension(160, 45));
         jBtnCleardb.addActionListener(new java.awt.event.ActionListener() {

@@ -209,14 +209,14 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jButton1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("*X Report");
-        jButton1.setBorder(null);
+        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         add(jButton1);
-        jButton1.setBounds(30, 10, 130, 15);
+        jButton1.setBounds(30, 10, 130, 21);
 
         jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "*Receipt Title", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
@@ -303,14 +303,14 @@ public class DeviceFiscalPrinterJavaPOS extends javax.swing.JPanel implements De
         jButton2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("*Z Report");
-        jButton2.setBorder(null);
+        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton2);
-        jButton2.setBounds(20, 220, 130, 15);
+        jButton2.setBounds(20, 220, 130, 21);
 
         add(jPanel1);
         jPanel1.setBounds(10, 60, 470, 260);

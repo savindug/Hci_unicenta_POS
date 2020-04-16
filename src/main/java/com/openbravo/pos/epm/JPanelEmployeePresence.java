@@ -220,10 +220,15 @@ public class JPanelEmployeePresence extends javax.swing.JPanel implements JPanel
         jScrollPane1 = new javax.swing.JScrollPane();
         message = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(0, 45));
 
+        btnCheckIn.setBackground(new java.awt.Color(55, 71, 79));
         btnCheckIn.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnCheckIn.setForeground(new java.awt.Color(255, 255, 255));
         btnCheckIn.setText("Check In");
+        btnCheckIn.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCheckIn.setMaximumSize(new java.awt.Dimension(85, 23));
         btnCheckIn.setPreferredSize(new java.awt.Dimension(0, 45));
         btnCheckIn.addActionListener(new java.awt.event.ActionListener() {
@@ -232,8 +237,11 @@ public class JPanelEmployeePresence extends javax.swing.JPanel implements JPanel
             }
         });
 
+        btnCheckOut.setBackground(new java.awt.Color(55, 71, 79));
         btnCheckOut.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnCheckOut.setForeground(new java.awt.Color(255, 255, 255));
         btnCheckOut.setText("Check Out");
+        btnCheckOut.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         btnCheckOut.setPreferredSize(new java.awt.Dimension(0, 45));
         btnCheckOut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -241,12 +249,17 @@ public class JPanelEmployeePresence extends javax.swing.JPanel implements JPanel
             }
         });
 
+        jScrollPane1.setBackground(new java.awt.Color(55, 71, 79));
+        jScrollPane1.setBorder(null);
+        jScrollPane1.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jScrollPane1.setPreferredSize(new java.awt.Dimension(570, 120));
 
+        message.setBackground(new java.awt.Color(28, 35, 49));
         message.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        message.setForeground(new java.awt.Color(255, 255, 255));
         message.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         message.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createLineBorder(javax.swing.UIManager.getDefaults().getColor("Button.darkShadow")), javax.swing.BorderFactory.createEmptyBorder(1, 4, 1, 4)));
         message.setOpaque(true);
@@ -264,7 +277,7 @@ public class JPanelEmployeePresence extends javax.swing.JPanel implements JPanel
                         .addComponent(btnCheckIn, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnCheckOut, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addComponent(message, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -279,7 +292,7 @@ public class JPanelEmployeePresence extends javax.swing.JPanel implements JPanel
                     .addComponent(btnCheckOut, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(80, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

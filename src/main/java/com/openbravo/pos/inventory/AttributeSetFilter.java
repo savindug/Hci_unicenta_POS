@@ -130,13 +130,19 @@ public class AttributeSetFilter extends javax.swing.JPanel implements ReportEdit
         jLabel8 = new javax.swing.JLabel();
         jAttrSet = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(354, 61));
 
+        jLabel8.setBackground(new java.awt.Color(28, 35, 49));
         jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.attributeset")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jAttrSet.setBackground(new java.awt.Color(55, 71, 79));
         jAttrSet.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jAttrSet.setForeground(new java.awt.Color(204, 204, 204));
         jAttrSet.setPreferredSize(new java.awt.Dimension(220, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

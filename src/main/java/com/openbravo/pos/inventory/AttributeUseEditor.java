@@ -201,20 +201,32 @@ public class AttributeUseEditor extends javax.swing.JPanel implements EditorReco
         jLabel4 = new javax.swing.JLabel();
         jAttribute = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(204, 204, 204));
         jLabel3.setText(AppLocal.getIntString("label.order")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jLineno.setBackground(new java.awt.Color(55, 71, 79));
         jLineno.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLineno.setForeground(new java.awt.Color(204, 204, 204));
+        jLineno.setBorder(null);
         jLineno.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(204, 204, 204));
         jLabel4.setText(AppLocal.getIntString("label.attribute")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jAttribute.setBackground(new java.awt.Color(55, 71, 79));
         jAttribute.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jAttribute.setForeground(new java.awt.Color(204, 204, 204));
+        jAttribute.setBorder(null);
         jAttribute.setPreferredSize(new java.awt.Dimension(0, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -130,11 +130,19 @@ public class AttributeFilter extends javax.swing.JPanel implements ReportEditorC
         jLabel8 = new javax.swing.JLabel();
         jAttr = new javax.swing.JComboBox();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel8.setBackground(new java.awt.Color(28, 35, 49));
         jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText(AppLocal.getIntString("label.attribute")); // NOI18N
         jLabel8.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jAttr.setBackground(new java.awt.Color(55, 71, 79));
         jAttr.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jAttr.setForeground(new java.awt.Color(204, 204, 204));
+        jAttr.setBorder(null);
         jAttr.setPreferredSize(new java.awt.Dimension(220, 30));
         jAttr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

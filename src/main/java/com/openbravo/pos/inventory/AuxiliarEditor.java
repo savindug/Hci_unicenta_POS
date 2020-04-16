@@ -267,13 +267,19 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(700, 100));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.prodref")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        m_jReference.setBackground(new java.awt.Color(55, 71, 79));
         m_jReference.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jReference.setForeground(new java.awt.Color(204, 204, 204));
         m_jReference.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jReference.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -281,8 +287,11 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
+        m_jEnter1.setBackground(new java.awt.Color(55, 71, 79));
+        m_jEnter1.setForeground(new java.awt.Color(255, 255, 255));
         m_jEnter1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         m_jEnter1.setText(" ");
+        m_jEnter1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jEnter1.setPreferredSize(new java.awt.Dimension(80, 45));
         m_jEnter1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -290,8 +299,11 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
+        m_jEnter2.setBackground(new java.awt.Color(55, 71, 79));
+        m_jEnter2.setForeground(new java.awt.Color(255, 255, 255));
         m_jEnter2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/barcode.png"))); // NOI18N
         m_jEnter2.setText(" ");
+        m_jEnter2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jEnter2.setPreferredSize(new java.awt.Dimension(80, 45));
         m_jEnter2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -299,8 +311,11 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
+        m_jSearch.setBackground(new java.awt.Color(55, 71, 79));
+        m_jSearch.setForeground(new java.awt.Color(255, 255, 255));
         m_jSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/search24.png"))); // NOI18N
         m_jSearch.setText(" ");
+        m_jSearch.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         m_jSearch.setPreferredSize(new java.awt.Dimension(80, 45));
         m_jSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -309,7 +324,9 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
         });
 
         m_jProduct.setEditable(false);
+        m_jProduct.setBackground(new java.awt.Color(55, 71, 79));
         m_jProduct.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jProduct.setForeground(new java.awt.Color(204, 204, 204));
         m_jProduct.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -317,7 +334,9 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
+        m_jBarcode.setBackground(new java.awt.Color(55, 71, 79));
         m_jBarcode.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jBarcode.setForeground(new java.awt.Color(204, 204, 204));
         m_jBarcode.setPreferredSize(new java.awt.Dimension(150, 30));
         m_jBarcode.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -325,11 +344,15 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
             }
         });
 
+        jLabel4.setBackground(new java.awt.Color(28, 35, 49));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.prodbarcode")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jLabel5.setBackground(new java.awt.Color(28, 35, 49));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.prodname")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(110, 30));
 
@@ -349,15 +372,14 @@ public class AuxiliarEditor extends javax.swing.JPanel implements EditorRecord {
                         .addComponent(m_jProduct, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(m_jSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                            .addComponent(m_jBarcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(m_jEnter2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                            .addComponent(m_jReference, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(m_jEnter1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(m_jBarcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(m_jEnter2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(m_jReference, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(m_jEnter1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(

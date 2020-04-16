@@ -156,11 +156,18 @@ public class AttributeValuesEditor extends javax.swing.JPanel implements EditorR
         jLabel2 = new javax.swing.JLabel();
         jValue = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.value")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(110, 30));
 
+        jValue.setBackground(new java.awt.Color(55, 71, 79));
         jValue.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jValue.setForeground(new java.awt.Color(204, 204, 204));
         jValue.setPreferredSize(new java.awt.Dimension(220, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

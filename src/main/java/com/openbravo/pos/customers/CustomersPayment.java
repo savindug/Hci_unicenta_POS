@@ -297,12 +297,21 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         jLabel4 = new javax.swing.JLabel();
         txtNotes = new com.openbravo.editor.JEditorString();
 
+        setBackground(new java.awt.Color(28, 35, 49));
         setLayout(new java.awt.BorderLayout());
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.BorderLayout());
 
+        jPanel6.setBackground(new java.awt.Color(55, 71, 79));
+        jPanel6.setForeground(new java.awt.Color(255, 255, 255));
+
+        btnCustomer.setBackground(new java.awt.Color(55, 71, 79));
+        btnCustomer.setForeground(new java.awt.Color(255, 255, 255));
         btnCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_sml.png"))); // NOI18N
         btnCustomer.setToolTipText("Customer Account");
+        btnCustomer.setBorder(null);
         btnCustomer.setFocusPainted(false);
         btnCustomer.setFocusable(false);
         btnCustomer.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -315,8 +324,11 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         });
         jPanel6.add(btnCustomer);
 
+        btnSave.setBackground(new java.awt.Color(55, 71, 79));
+        btnSave.setForeground(new java.awt.Color(255, 255, 255));
         btnSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/filesave.png"))); // NOI18N
         btnSave.setToolTipText("Save");
+        btnSave.setBorder(null);
         btnSave.setFocusPainted(false);
         btnSave.setFocusable(false);
         btnSave.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -328,12 +340,17 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
             }
         });
         jPanel6.add(btnSave);
+
+        jSeparator1.setForeground(new java.awt.Color(28, 35, 49));
         jPanel6.add(jSeparator1);
 
+        btnPay.setBackground(new java.awt.Color(55, 71, 79));
         btnPay.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnPay.setForeground(new java.awt.Color(255, 255, 255));
         btnPay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/pay.png"))); // NOI18N
         btnPay.setText(AppLocal.getIntString("button.pay")); // NOI18N
         btnPay.setToolTipText("Pay Account");
+        btnPay.setBorder(null);
         btnPay.setFocusPainted(false);
         btnPay.setFocusable(false);
         btnPay.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -348,11 +365,14 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         });
         jPanel6.add(btnPay);
 
+        btnPrePay.setBackground(new java.awt.Color(55, 71, 79));
         btnPrePay.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnPrePay.setForeground(new java.awt.Color(255, 255, 255));
         btnPrePay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/customer_add_sml.png"))); // NOI18N
         btnPrePay.setText(AppLocal.getIntString("button.prepay")); // NOI18N
         java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("pos_messages"); // NOI18N
         btnPrePay.setToolTipText(bundle.getString("tooltip.prepay")); // NOI18N
+        btnPrePay.setBorder(null);
         btnPrePay.setFocusPainted(false);
         btnPrePay.setFocusable(false);
         btnPrePay.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -371,8 +391,12 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
 
         add(jPanel2, java.awt.BorderLayout.PAGE_START);
 
+        jPanel3.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
+        jPanel4.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel4.setForeground(new java.awt.Color(255, 255, 255));
         jPanel4.setLayout(new javax.swing.BoxLayout(jPanel4, javax.swing.BoxLayout.Y_AXIS));
 
         m_jKeys.addActionListener(new java.awt.event.ActionListener() {
@@ -382,14 +406,19 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         });
         jPanel4.add(m_jKeys);
 
+        jPanel5.setBackground(new java.awt.Color(28, 35, 49));
         jPanel5.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel5.setForeground(new java.awt.Color(255, 255, 255));
         jPanel5.setLayout(new java.awt.GridBagLayout());
 
         editorcard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         editorcard.setPreferredSize(new java.awt.Dimension(200, 30));
         jPanel5.add(editorcard, new java.awt.GridBagConstraints());
 
+        jButton1.setBackground(new java.awt.Color(55, 71, 79));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
+        jButton1.setBorder(null);
         jButton1.setFocusPainted(false);
         jButton1.setFocusable(false);
         jButton1.setMargin(new java.awt.Insets(8, 14, 8, 14));
@@ -415,61 +444,86 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
 
         add(jPanel3, java.awt.BorderLayout.LINE_END);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel3.setBackground(new java.awt.Color(55, 71, 79));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.name")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel12.setBackground(new java.awt.Color(55, 71, 79));
         jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText(AppLocal.getIntString("label.notes")); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel5.setBackground(new java.awt.Color(55, 71, 79));
         jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText(AppLocal.getIntString("label.card")); // NOI18N
         jLabel5.setPreferredSize(new java.awt.Dimension(150, 30));
 
         txtCard.setEditable(false);
+        txtCard.setBackground(new java.awt.Color(55, 71, 79));
         txtCard.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCard.setForeground(new java.awt.Color(255, 255, 255));
         txtCard.setFocusable(false);
         txtCard.setPreferredSize(new java.awt.Dimension(0, 30));
         txtCard.setRequestFocusEnabled(false);
 
+        jLabel1.setBackground(new java.awt.Color(55, 71, 79));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText(AppLocal.getIntString("label.maxdebt")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(120, 30));
 
+        jLabel2.setBackground(new java.awt.Color(55, 71, 79));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText(AppLocal.getIntString("label.curdebt")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(120, 30));
 
         txtCurdebt.setEditable(false);
+        txtCurdebt.setBackground(new java.awt.Color(55, 71, 79));
         txtCurdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCurdebt.setForeground(new java.awt.Color(255, 255, 255));
         txtCurdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtCurdebt.setFocusable(false);
         txtCurdebt.setPreferredSize(new java.awt.Dimension(120, 30));
         txtCurdebt.setRequestFocusEnabled(false);
 
         txtCurdate.setEditable(false);
+        txtCurdate.setBackground(new java.awt.Color(55, 71, 79));
         txtCurdate.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtCurdate.setForeground(new java.awt.Color(255, 255, 255));
         txtCurdate.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txtCurdate.setFocusable(false);
         txtCurdate.setPreferredSize(new java.awt.Dimension(120, 30));
         txtCurdate.setRequestFocusEnabled(false);
 
+        jLabel6.setBackground(new java.awt.Color(55, 71, 79));
         jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText(AppLocal.getIntString("label.curdate")); // NOI18N
         jLabel6.setPreferredSize(new java.awt.Dimension(120, 30));
 
         txtName.setEditable(false);
+        txtName.setBackground(new java.awt.Color(55, 71, 79));
         txtName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtName.setForeground(new java.awt.Color(255, 255, 255));
         txtName.setFocusable(false);
         txtName.setPreferredSize(new java.awt.Dimension(0, 30));
         txtName.setRequestFocusEnabled(false);
 
         txtMaxdebt.setEditable(false);
+        txtMaxdebt.setBackground(new java.awt.Color(55, 71, 79));
         txtMaxdebt.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtMaxdebt.setForeground(new java.awt.Color(255, 255, 255));
         txtMaxdebt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txtMaxdebt.setFocusable(false);
         txtMaxdebt.setPreferredSize(new java.awt.Dimension(120, 30));
@@ -481,16 +535,22 @@ public class CustomersPayment extends javax.swing.JPanel implements JPanelView, 
         txtPrePay.setPreferredSize(new java.awt.Dimension(200, 30));
 
         txtTaxId.setEditable(false);
+        txtTaxId.setBackground(new java.awt.Color(55, 71, 79));
         txtTaxId.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        txtTaxId.setForeground(new java.awt.Color(255, 255, 255));
         txtTaxId.setFocusable(false);
         txtTaxId.setPreferredSize(new java.awt.Dimension(150, 30));
         txtTaxId.setRequestFocusEnabled(false);
 
+        jLabel7.setBackground(new java.awt.Color(55, 71, 79));
         jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText(AppLocal.getIntString("label.taxid")); // NOI18N
         jLabel7.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jLabel4.setBackground(new java.awt.Color(55, 71, 79));
         jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText(AppLocal.getIntString("label.prepay")); // NOI18N
         jLabel4.setPreferredSize(new java.awt.Dimension(120, 30));
 

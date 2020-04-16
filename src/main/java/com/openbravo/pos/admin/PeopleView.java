@@ -287,7 +287,6 @@ public class PeopleView extends JPanel implements EditorRecord {
         jLabel4.setPreferredSize(new java.awt.Dimension(110, 30));
 
         m_jImage.setBackground(new java.awt.Color(55, 71, 79));
-        m_jImage.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         m_jImage.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jImage.setPreferredSize(new java.awt.Dimension(300, 250));
 

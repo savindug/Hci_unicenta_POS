@@ -209,6 +209,7 @@ public final class VoucherEditor extends javax.swing.JPanel implements EditorRec
         });
 
         webCBCustomer.setBackground(new java.awt.Color(75, 81, 93));
+        webCBCustomer.setBorder(null);
         webCBCustomer.setForeground(new java.awt.Color(255, 255, 255));
         webCBCustomer.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Find", "Create" }));
         webCBCustomer.setToolTipText(AppLocal.getIntString("tooltip.vouchercustomer")); // NOI18N

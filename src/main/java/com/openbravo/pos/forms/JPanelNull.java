@@ -87,16 +87,25 @@ public class JPanelNull extends JPanel implements JPanelView {
         jscrException = new javax.swing.JScrollPane();
         jtxtException = new javax.swing.JTextArea();
 
+        setBackground(new java.awt.Color(28, 35, 49));
+        setForeground(new java.awt.Color(255, 255, 255));
         setLayout(null);
 
+        m_jLabelError.setBackground(new java.awt.Color(28, 35, 49));
         m_jLabelError.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        m_jLabelError.setForeground(new java.awt.Color(255, 255, 255));
         m_jLabelError.setText(AppLocal.getIntString("label.LoadError")); // NOI18N
         m_jLabelError.setPreferredSize(new java.awt.Dimension(110, 30));
         add(m_jLabelError);
         m_jLabelError.setBounds(30, 30, 490, 30);
 
+        jscrException.setBackground(new java.awt.Color(55, 71, 79));
+        jscrException.setForeground(new java.awt.Color(255, 255, 255));
+
         jtxtException.setEditable(false);
+        jtxtException.setBackground(new java.awt.Color(55, 71, 79));
         jtxtException.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtException.setForeground(new java.awt.Color(255, 255, 255));
         jtxtException.setLineWrap(true);
         jtxtException.setWrapStyleWord(true);
         jscrException.setViewportView(jtxtException);

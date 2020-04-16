@@ -112,13 +112,19 @@ public class JDlgChangePassword extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle(AppLocal.getIntString("title.changepassword")); // NOI18N
+        setBackground(new java.awt.Color(28, 35, 49));
         setResizable(false);
 
+        jPanel2.setBackground(new java.awt.Color(28, 35, 49));
+        jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.RIGHT));
 
+        jcmdCancel.setBackground(new java.awt.Color(55, 71, 79));
         jcmdCancel.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdCancel.setForeground(new java.awt.Color(255, 255, 255));
         jcmdCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/cancel.png"))); // NOI18N
         jcmdCancel.setText(AppLocal.getIntString("button.cancel")); // NOI18N
+        jcmdCancel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jcmdCancel.setPreferredSize(new java.awt.Dimension(110, 45));
         jcmdCancel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,9 +133,12 @@ public class JDlgChangePassword extends javax.swing.JDialog {
         });
         jPanel2.add(jcmdCancel);
 
+        jcmdOK.setBackground(new java.awt.Color(55, 71, 79));
         jcmdOK.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jcmdOK.setForeground(new java.awt.Color(255, 255, 255));
         jcmdOK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/ok.png"))); // NOI18N
         jcmdOK.setText(AppLocal.getIntString("button.OK")); // NOI18N
+        jcmdOK.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jcmdOK.setPreferredSize(new java.awt.Dimension(110, 45));
         jcmdOK.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,27 +149,41 @@ public class JDlgChangePassword extends javax.swing.JDialog {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.SOUTH);
 
+        jPanel1.setBackground(new java.awt.Color(28, 35, 49));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
 
+        jLabel1.setBackground(new java.awt.Color(28, 35, 49));
         jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(AppLocal.getIntString("label.passwordold")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtPasswordOld.setBackground(new java.awt.Color(55, 71, 79));
         jtxtPasswordOld.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtPasswordOld.setForeground(new java.awt.Color(255, 255, 255));
         jtxtPasswordOld.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel2.setBackground(new java.awt.Color(28, 35, 49));
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText(AppLocal.getIntString("label.passwordnew")); // NOI18N
         jLabel2.setPreferredSize(new java.awt.Dimension(150, 30));
 
+        jtxtPasswordNew.setBackground(new java.awt.Color(55, 71, 79));
         jtxtPasswordNew.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jtxtPasswordNew.setForeground(new java.awt.Color(255, 255, 255));
         jtxtPasswordNew.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jtxtPasswordRepeat.setBackground(new java.awt.Color(55, 71, 79));
         jtxtPasswordRepeat.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jtxtPasswordRepeat.setForeground(new java.awt.Color(255, 255, 255));
         jtxtPasswordRepeat.setPreferredSize(new java.awt.Dimension(0, 30));
 
+        jLabel3.setBackground(new java.awt.Color(28, 35, 49));
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText(AppLocal.getIntString("label.passwordrepeat")); // NOI18N
         jLabel3.setPreferredSize(new java.awt.Dimension(150, 30));
 
